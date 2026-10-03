@@ -37,11 +37,16 @@ if MOTOR not in sys.path:
 
 # Onde está o código. A AGPL (§13) exige que quem usa o site por
 # rede possa chegar no fonte de graça — este é o caminho.
-LINK_CODIGO = "https://github.com/SEU-USUARIO/iastro"
+LINK_CODIGO = "https://github.com/iastropisco/iastro"
 
-LOGO_SVG = os.path.join(RAIZ, "mapas", "iastro-logo.svg")
-LOGO_CAB = os.path.join(RAIZ, "mapas", "logo-cabecalho.png")
-LOGO_ICO = os.path.join(RAIZ, "mapas", "logo-icone.png")
+# Caminhos baseados na localização deste script (funciona local e no Streamlit Cloud)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MAPAS_DIR = os.path.join(BASE_DIR, "mapas")
+
+LOGO_SVG = os.path.join(MAPAS_DIR, "iastro-logo.svg")
+LOGO_CAB = os.path.join(MAPAS_DIR, "logo-cabecalho.png")
+LOGO_ICO = os.path.join(MAPAS_DIR, "logo-icone.png")
+LOGO_PNG = os.path.join(MAPAS_DIR, "iastro-logo.png")
 
 def _b64(caminho):
     import base64
@@ -51,14 +56,14 @@ def _b64(caminho):
     except Exception:
         return ""
 
+# Carrega logo com fallback
+LOGO_B64 = _b64(LOGO_PNG) if os.path.exists(LOGO_PNG) else ""
+
 st.set_page_config(page_title="iastro — o mapa do seu céu",
                     page_icon=LOGO_ICO if os.path.exists(LOGO_ICO) else "🔭",
                     layout="centered")
 if os.path.exists(LOGO_CAB):
     st.logo(LOGO_CAB, icon_image=LOGO_ICO)
-
-# CSS do universo — fundo estrelado, tipografia, cartões
-LOGO_B64 = _b64(os.path.join(RAIZ, "mapas", "iastro-logo.png"))
 st.markdown(f"""
 <style>
 :root {{
@@ -371,14 +376,18 @@ def _pincel():
         return None, None
 
     # Canvas centralizado, sem controles extras
-    c_canvas = st_canvas(
-        height=220, width=600, background_color="#0a0f1e",
-        stroke_width=8, stroke_color="#ffe4a3",
-        fill_color="#ffe4a3",
-        drawing_mode="freedraw",
-        key="pincel_canvas",
-        display_toolbar=True,
-    )
+    try:
+        c_canvas = st_canvas(
+            height=220, width=600, background_color="#0a0f1e",
+            stroke_width=8, stroke_color="#ffe4a3",
+            fill_color="#ffe4a3",
+            drawing_mode="freedraw",
+            key="pincel_canvas",
+            display_toolbar=True,
+        )
+    except Exception as e:
+        st.caption(f"Pincel indisponível — o mapa sai sem selo. ({e})")
+        return None, None
     
     if c_canvas is None:
         return None, None
