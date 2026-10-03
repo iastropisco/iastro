@@ -13,7 +13,6 @@ __pycache__/
 .streamlit/secrets.toml
 
 # Dados sensíveis
-*.db
 *.jsonl
 *.sqlite
 *.sqlite3
