@@ -575,3 +575,4 @@ st.markdown(
     "[Código fonte]({link}) \u00b7 "
     "[Planetário Astrológico Reciclável](https://sites.google.com/view/mapadaspancs/planet%C3%A1rio-astrol%C3%B3gico)".format(link=LINK_CODIGO)
 )
+# Cache bust: sáb 03 out 2026 00:31:48 -03
