@@ -73,11 +73,20 @@ DATASET = os.path.join(MOTOR, "dataset_planetas.csv")
 
 # ── fora do projeto: dependências do sistema ───────────────────────────────
 # cada uma aceita variável de ambiente antes do caminho padrão
-EPISTEM = os.environ.get("IASTRO_EFEM", "/mnt/dados/swisseph-ephe")
-if not os.path.isdir(EPISTEM):
-    EPISTEM = "/usr/share/swisseph"
-if not os.path.isdir(EPISTEM):
-    EPISTEM = os.path.join(MOTOR, "swisseph-ephe")
+# Prioridade 1: variável de ambiente
+# Prioridade 2: pasta swisseph-ephe dentro do motor (para Streamlit Cloud / Docker)
+# Prioridade 3: /usr/share/swisseph (Linux padrão)
+# Prioridade 4: pasta antiga /mnt/dados/swisseph-ephe (compatibilidade)
+EPISTEM = os.environ.get("IASTRO_EFEM")
+if not EPISTEM:
+    # Tenta achar swisseph-ephe relativo ao motor (para Cloud)
+    cand = os.path.join(MOTOR, "swisseph-ephe")
+    if os.path.isdir(cand):
+        EPISTEM = cand
+    elif os.path.isdir("/usr/share/swisseph"):
+        EPISTEM = "/usr/share/swisseph"
+    else:
+        EPISTEM = "/mnt/dados/swisseph-ephe"
 
 STEL = os.environ.get("IASTRO_STEL", "/usr/share/stellarium/skycultures")
 HF = os.environ.get("HF_HOME", os.path.join(os.path.expanduser("~"), ".cache/huggingface"))

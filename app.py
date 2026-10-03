@@ -404,8 +404,9 @@ st.caption("Um mapa do céu do seu nascimento, lido por muitas culturas. "
 
 try:
     colagem, lb = _motor()
-except Exception as e:  # pragma: no cover
+except Exception as e:
     st.error(f"Não consegui carregar o motor: {e}")
+    st.info("Verifique se os arquivos de efemérides (swisseph-ephe) estão disponíveis.")
     st.stop()
 
 ufs = _ufs(lb)
