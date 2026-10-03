@@ -56,8 +56,23 @@ def _b64(caminho):
     except Exception:
         return ""
 
-# Carrega logo com fallback
-LOGO_B64 = _b64(LOGO_PNG) if os.path.exists(LOGO_PNG) else ""
+# Carrega logo com fallback robusto
+def _load_logo():
+    """Carrega logo com múltiplas tentativas de path."""
+    candidates = [
+        LOGO_PNG,
+        os.path.join(BASE_DIR, "mapas", "iastro-logo.png"),
+        os.path.join("/mount/src/iastro", "mapas", "iastro-logo.png"),
+        os.path.join("/mount/src", "mapas", "iastro-logo.png"),
+    ]
+    for path in candidates:
+        if os.path.exists(path):
+            b64 = _b64(path)
+            if b64:
+                return b64
+    return ""
+
+LOGO_B64 = _load_logo()
 
 st.set_page_config(page_title="iastro — o mapa do seu céu",
                     page_icon=LOGO_ICO if os.path.exists(LOGO_ICO) else "🔭",
@@ -356,11 +371,11 @@ ESTILOS_TINTA = ["Tinta", "Lápis", "Carvão", "Caligráfico", "Estrelas",
 
 
 def _pincel():
-    """Lousa de desenho simples — seu selo na obra (opcional)."""
-    with st.expander("🖌️ Desenho livre — seu selo na obra (opcional)", expanded=True):
-        st.caption("Desenhe seu selo: símbolo, assinatura, traço livre.")
+    """Lousa de desenho simples — apenas upload de imagem (opcional)."""
+    with st.expander("🖌️ Desenho livre — seu selo na obra (opcional)", expanded=False):
+        st.caption("Desenhe seu selo em outro programa e envie aqui, ou deixe em branco.")
         
-        uploaded = st.file_uploader("Ou envie imagem", type=["png", "jpg", "jpeg", "webp"], key="pincel_upload")
+        uploaded = st.file_uploader("Envie sua imagem (PNG/JPG)", type=["png", "jpg", "jpeg", "webp"], key="pincel_upload")
 
     if uploaded is not None:
         _fd, caminho = tempfile.mkstemp(suffix=".png", prefix="traco-")
@@ -369,45 +384,9 @@ def _pincel():
             _f.write(uploaded.getvalue())
         return caminho, "upload"
 
-    try:
-        from streamlit_drawable_canvas import st_canvas
-    except Exception:
-        st.caption("Pincel indisponível — o mapa sai sem selo.")
-        return None, None
-
-    # Canvas centralizado, sem controles extras
-    try:
-        c_canvas = st_canvas(
-            height=220, width=600, background_color="#0a0f1e",
-            stroke_width=8, stroke_color="#ffe4a3",
-            fill_color="#ffe4a3",
-            drawing_mode="freedraw",
-            key="pincel_canvas",
-            display_toolbar=True,
-        )
-    except Exception as e:
-        st.caption(f"Pincel indisponível — o mapa sai sem selo. ({e})")
-        return None, None
-    
-    if c_canvas is None:
-        return None, None
-    arr = None
-    if hasattr(c_canvas, "image_data"):
-        arr = getattr(c_canvas, "image_data", None)
-    elif isinstance(c_canvas, dict):
-        from PIL import Image
-        import base64
-        import io as _io
-        d = c_canvas.get("data")
-        if isinstance(d, str) and d.startswith("data:image"):
-            try:
-                arr = np.asarray(Image.open(_io.BytesIO(
-                    base64.b64decode(d.split(";base64,", 1)[1]))).convert("RGBA"))
-            except Exception:
-                arr = None
-    
-    caminho, _b64 = _tinta_do_desenho(arr)
-    return caminho, "freedraw"
+    # Canvas removido — não funciona no Streamlit Cloud
+    st.caption("💡 Dica: desenhe no Paint/Procreate/Krita e envie acima.")
+    return None, None
 
 
 # ── Cabeçalho com logo embutida ─────────────────────────────────────────
