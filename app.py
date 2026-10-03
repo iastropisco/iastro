@@ -568,6 +568,6 @@ st.markdown("---")
 st.markdown(
     "Iastro \u00a9 Iastro. Software livre sob **AGPL-3.0** \u2014 "
     "voc\u00ea pode rodar, estudar, mudar e redistribuir. "
-    "[Código fonte](%s) \u00b7 "
-    "[Planetário Astrológico Reciclável](https://sites.google.com/view/mapadaspancs/planet%C3%A1rio-astrol%C3%B3gico)" % LINK_CODIGO
+    "[Código fonte]({link}) \u00b7 "
+    "[Planetário Astrológico Reciclável](https://sites.google.com/view/mapadaspancs/planet%C3%A1rio-astrol%C3%B3gico)".format(link=LINK_CODIGO)
 )
