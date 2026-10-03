@@ -1,0 +1,35 @@
+{
+  "_tema": "História recente da astronomia cosmológica + imagens dos telescópios que subiram ao céu — camada educativa da colagem do planetário",
+  "_uso": "Cada corpo celeste astrológico ganha uma imagem REAL captada por instrumento espacial (Voyager, Hubble, JWST, Euclid, SDO, Cassini, MESSENGER, Rosetta). Uma linha do tempo de marcos conta 'do céu que os olhos veem ao céu que os telescópios medem'.",
+  "_imagens": "As imagens vivem em /mnt/dados/home-italivre/iastro-ia/mapas/imagens/ (veja manifest.json para créditos/licenças). Apenas o caminho relativo fica aqui.",
+  "_aviso": "Imagens NASA (e ESA/CSA quando via Commons) são de domínio público / CC-BY/CC BY-SA — sempre creditar autor+telescópio+ano no rodapé da obra. Nenhuma imagem aqui é inventada; é registro observacional real.",
+  "imagens_por_corpo": {
+    "sol":     {"arquivo": "sistema-solar/sol.png",       "telescopio": "SDO (NASA)",       "ano": "2010", "marco": "Atividade solar em ultravioleta"},
+    "lua":     {"arquivo": "sistema-solar/lua.png",       "telescopio": "foto (Gregory H. Revera)", "ano": "2010", "marco": "A Lua em luz visível"},
+    "mercurio":{"arquivo": "sistema-solar/mercurio.png",  "telescopio": "MESSENGER (NASA)", "ano": "2010", "marco": "Mercúrio em cor verdadeira"},
+    "venus":   {"arquivo": "sistema-solar/venus.png",     "telescopio": "Mariner 10/MESSENGER (NASA)", "ano": "1974-2010", "marco": "Vênus, sob o véu"},
+    "marte":   {"arquivo": "sistema-solar/marte.png",     "telescopio": "Rosetta (ESA)",    "ano": "2007", "marco": "Marte em cor aproximada"},
+    "jupiter": {"arquivo": "sistema-solar/jupiter.png",   "telescopio": "Hubble (NASA/ESA)", "ano": "2014", "marco": "Júpiter e a Grande Mancha Vermelha"},
+    "saturno": {"arquivo": "sistema-solar/saturno.png",   "telescopio": "Cassini (NASA/ESA)", "ano": "2004", "marco": "Saturno e seus anéis"},
+    "urano":   {"arquivo": "sistema-solar/urano.png",     "telescopio": "Voyager 2 (NASA)", "ano": "1986", "marco": "Urano, o planeta deitado"},
+    "netuno":  {"arquivo": "sistema-solar/netuno.png",    "telescopio": "Voyager 2 (NASA)", "ano": "1989", "marco": "Netuno, azul profundo"},
+    "cosmologico_carina": {"arquivo": "jwst/jwst-nebulosa.png", "telescopio": "JWST NIRCam/MIRI (NASA/ESA/CSA)", "ano": "2022", "marco": "Cosmic Cliffs (Nebulosa de Carina)"},
+    "cosmologico_profundo": {"arquivo": "jwst/jwst-campo.png", "telescopio": "JWST NIRCam (NASA/ESA/CSA)", "ano": "2022", "marco": "Primeiro campo profundo (SMACS 0723)"},
+    "cosmologico_perseu": {"arquivo": "euclid/euclid-perseus.jpg", "telescopio": "Euclid VIS (ESA)", "ano": "2023", "marco": "Aglomerado de Perseu — primeira luz"},
+    "cosmologico_n6744": {"arquivo": "euclid/euclid-n6744.jpg", "telescopio": "Euclid VIS/NISP (ESA)", "ano": "2025", "marco": "Espiral NGC 6744 — matéria escura"},
+    "exoplaneta_epsindi": {"arquivo": "jwst/jwst-epsindi.png", "telescopio": "JWST MIRI (NASA/ESA/CSA)", "ano": "2024", "marco": "Exoplaneta Epsilon Indi Ab"}
+  },
+
+  "linha_tempo": [
+    {"ano": "1957", "titulo": "Sputnik", "texto": "O primeiro satélite sobe ao céu: começa a era em que o céu passa a ser medido pelo alto, não só olhado de baixo."},
+    {"ano": "1961–1972", "titulo": "Yuri Gagarin → Apollo", "texto": "O humano saiu da órbita: Gagarin (1961) e depois as missões Apollo (1969) puseram o olhar e o instrumento fora da Terra."},
+    {"ano": "1977", "titulo": "Voyager 1 e 2", "texto": "Lançadas as duas sondas que mandariam as primeiras fotos de perto de Júpiter, Saturno, Urano e Netuno — os planetas ganharam rosto."},
+    {"ano": "1990", "titulo": "Hubble", "texto": "O telescópio espacial Hubble começa a operar; o céu profundo e o 'campo profundo' mudam nossa escala do universo (galáxias às centenas de milhões)."},
+    {"ano": "1998–2003", "titulo": "Energia escura", "texto": "Descobrimos que o universo expande acelerando; entra no mapa a energia escura (~68% do cosmos) — o próprio 'vazio' passou a ter peso."},
+    {"ano": "2004–2007", "titulo": "Cassini e Rosetta", "texto": "Cassini chega a Saturno e Rosetta aborda cometas — o Sistema Solar vira um lugar visitado e fotografado de perto."},
+    {"ano": "2010", "titulo": "SDO (sol em carne e osso)", "texto": "O Solar Dynamics Observatory acompanha o Sol em alta resolução contínua; o 'astro-rei' astrológico passa a ser vigiado diariamente."},
+    {"ano": "2022", "titulo": "James Webb (JWST)", "texto": "O JWST abre o céu em infravermelho: Cosmic Cliffs, primeiro campo profundo e a 'estação de estrelas'. O olhar que vê o início do universo."},
+    {"ano": "2023", "titulo": "Euclid", "texto": "A missão espacial Euclid (ESA) começa a mapear bilhões de galáxias para cartografar a matéria e a energia escura — o mapa do céu vira um mapa do cosmos."},
+    {"ano": "2024", "titulo": "Exoplanetas", "texto": "O JWST fotografa diretamente o exoplaneta Epsilon Indi Ab: planetas fora do nosso céu entram no catálogo do olhar."}
+  ]
+}

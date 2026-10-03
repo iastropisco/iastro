@@ -1,0 +1,55 @@
+{
+  "_cultura": "regional-carioca",
+  "_nome": "Folclore e arquétipos regional do Rio de Janeiro (carioca)",
+  "_descricao": "Arquétipos do imaginário carioca — lendas do território carioca e a ponte com os povos que habitavam a Guanabara (Tamoios/tupinambás). É o 'regionalismo' aplicado à astrologia de território, no mesmo método dos arquétipos capixaba. Correspondências com signos ocidentais são hipóteses do projeto.",
+  "arquetipos": [
+    {
+      "id": "carioca.gigante_adormecido",
+      "nome": "Gigante Adormecido da Guanabara",
+      "cultura": "regional-carioca",
+      "elemento": "terra",
+      "polaridade": "negativo",
+      "modo": null,
+      "tema": ["gigante de pedra", "montanhas da baía", "guardião do território", "sono", "rocha", "pedra da gávea", "pão de açúcar"],
+      "simbolo": "A cadeia de montanhas da Baía de Guanabara como o corpo de um gigante deitado dormindo",
+      "regiao": "rio de janeiro (baía de guanabara; maciço da tijuca)",
+      "regionalismo": "Visto do mar, o perfil do relevo carioca (da Pedra da Gávea, a cabeça, ao Pão de Açúcar, os pés) desenha a figura de um gigante adormecido de ~20 km abrangendo sete bairros; cada formação tem lendas próprias, formando uma 'mitologia carioca'.",
+      "historia": "A lenda do Gigante Adormecido (ou Gigante de Pedra) é um dos relatos de território mais conhecidos do Rio: ao entrar pela Baía de Guanabara, vê-se, no maciço da Tijuca, o contorno de um homem deitado — cabeça na Pedra da Gávea, tronco no Corcovado/Morro Dois Irmãos e pés no Pão de Açúcar. Contada por Theobaldo Miranda Santos, eternizada no poema 'O Gigante de Pedra' (Gonçalves Dias), e celebrada em comerciais ('O gigante não está mais adormecido', Johnnie Walker, 2011). Interpretações dizem que seria um gigante que, castigado, foi transformado em rocha por assassinar uma donzela; os pescadores contam que, no nevoeiro, ele levanta e passeia, voltando para repousar junto ao mar.",
+      "fonte": "Lenda de território carioca; THEOBALDO MIRANDA SANTOS, 'Lendas e Mitos do Brasil'; poemas 'O Gigante de Pedra' de GONÇALVES DIAS (1823-1864); divulgação turística/folclórica (Diário do Rio; Viajar Correndo; snsbrasil).",
+      "nota": "Correspondência hipotética: o gigante de pedra que guarda o território, lento e firme, ressoa com Capricórnio (rocha, guardião, tempo) e com Touro (a grande massa de terra) — vínculo a estudar.",
+      "corresponde_a": "capricornio"
+    },
+    {
+      "id": "carioca.boi_reis",
+      "nome": "Boi de Reis (folia de reis carioca)",
+      "cultura": "regional-carioca",
+      "elemento": "terra",
+      "polaridade": "positivo",
+      "modo": "fixo",
+      "tema": ["boi", "folia de reis", "terra", "abundância", "trabalho", "tradição popular", "janeiro"],
+      "simbolo": "O boi do cortejo de Folia de Reis, companheiro da terra arável",
+      "regiao": "rio de janeiro (baixada fluminense e interior)",
+      "regionalismo": "As Folias de Reis, com seus palhaços e o boi, são vivas na baixada e no interior fluminense; o boi é figura central das festas de janeiro.",
+      "historia": "A Folia de Reis (Cisma de Folia, Reisado) celebra a visita dos três reis ao Menino Jesus de 25 de dezembro a 6 de janeiro. No Rio de Janeiro, como em todo o corredor centro-sul (RJ, MG, ES), o cortejo canta, dança e traz o boi como figura que sustenta a terra e a fartura; é tradição popular de forte ligação com o campo e com a devoção.",
+      "fonte": "Folclore brasileiro (Folia de Reis), registro em CÂMARA CASCUDO, 'Dicionário do Folclore Brasileiro'; tradição viva na baixada fluminense e no interior do RJ.",
+      "nota": "Correspondência hipotética: o boi que arroja e sustenta a terra ressoa com Touro (o grande animal da terra) — vínculo análogo ao do Boi tupi-guarani indígena.",
+      "corresponde_a": "touro"
+    },
+    {
+      "id": "carioca.tamoios_guanabara",
+      "nome": "Tamoios e a memória da Guanabara (território carioca)",
+      "cultura": "regional-carioca",
+      "elemento": "água",
+      "polaridade": "negativo",
+      "modo": null,
+      "tema": ["tamoios", "tupinambás", "guana-bara", "carioca", "baía", "memória do território", "toponímia"],
+      "simbolo": "A baía e o nome de origem tupi que contam o território antes do nome 'Rio de Janeiro'",
+      "regiao": "rio de janeiro (baía de guanabara; rio carioca)",
+      "regionalismo": "Os povos que dominavam a Guanabara eram os Tamoios/tupinambás; o próprio nome 'carioca' (do rio que cortava o vale que virou a cidade) e 'Guanabara' preservam a memória indígena do território, como os topônimos capixaba.",
+      "historia": "Antes de virar 'Rio de Janeiro', a região da baía era território Tamoio (tupinambá), que se opôs aos portugueses e, depois, à colonização; seus nomes ficaram na toponímia: 'Guanabara' (em leitura corrente tupi, 'golfo/braço do mar'), 'Carioca' (o rio carioca; a etimologia do nome da cidade ainda é debatida — leitura clássica 'karai-oca', 'casa do branco/cristão', ou 'kari-óka' —, mantida em aberto como no caso Puri), 'Ipanema' ('água ruim/imprópria' conforme leitura tupi). O arquétipo aqui é o território-memória da baía: a água e os nomes como cosmograma.",
+      "fonte": "Etno-história Tamoio/tupinambá da Guanabara; toponímia tupi em curso de cátedra (Varnhagen; Macedo Soares; Houaiss — etimologia de 'carioca' disputada, sem escolha de corrente); registros históricos da confederação dos Tamoios.",
+      "nota": "Arquétipo-território em construção (honesto, sem inventar): assenta-se na etno-história e na toponímia documentadas; a associação com as águas da baía liga o arquétipo a Câncer (a memória das águas da terra natal) — vínculo a estudar.",
+      "corresponde_a": "cancer"
+    }
+  ]
+}

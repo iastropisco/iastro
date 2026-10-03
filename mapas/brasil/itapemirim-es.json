@@ -1,0 +1,1914 @@
+{
+  "nascimento/evento": {
+    "data": "1982-11-20",
+    "hora": "01:30",
+    "local": "itapemirim|es"
+  },
+  "mapa_tradicional": {
+    "data": "1982-11-20",
+    "hora": "01:30",
+    "local": "itapemirim|es",
+    "lat": -21.0095,
+    "lon": -40.8307,
+    "planetas": {
+      "Sol": {
+        "signo": "Escorpião",
+        "graus": "27°31'",
+        "retrogrado": false
+      },
+      "Lua": {
+        "signo": "Capricórnio",
+        "graus": "17°48'",
+        "retrogrado": false
+      },
+      "Mercúrio": {
+        "signo": "Escorpião",
+        "graus": "27°45'",
+        "retrogrado": false
+      },
+      "Vênus": {
+        "signo": "Sagitário",
+        "graus": "1°32'",
+        "retrogrado": false
+      },
+      "Marte": {
+        "signo": "Capricórnio",
+        "graus": "14°30'",
+        "retrogrado": false
+      },
+      "Júpiter": {
+        "signo": "Escorpião",
+        "graus": "22°19'",
+        "retrogrado": false
+      },
+      "Saturno": {
+        "signo": "Libra",
+        "graus": "28°59'",
+        "retrogrado": false
+      },
+      "Urano": {
+        "signo": "Sagitário",
+        "graus": "4°26'",
+        "retrogrado": false
+      },
+      "Netuno": {
+        "signo": "Sagitário",
+        "graus": "25°42'",
+        "retrogrado": false
+      },
+      "Plutão": {
+        "signo": "Libra",
+        "graus": "28°03'",
+        "retrogrado": false
+      }
+    },
+    "asc": "Virgem 24°10'00\"",
+    "casa1_lon": 174.1666
+  },
+  "plantas_regentes": {
+    "Sol": {
+      "signo": "Escorpião",
+      "orixa": "Omolu (Obaluaiê)",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Boldo (Tapete d'Oxalá)",
+          "cientifico": "Plectranthus barbatus / Peumus boldus",
+          "uso_medicinal": "fígado, rins, estômago, problemas hepáticos e biliares",
+          "elemento": "fogo",
+          "fonte_etno": "'Ervas dos Orixás' (Oxalá/Ewé Babá); SBPMed ES; Zuchi 2013 (Goiás)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Peumus boldus / Plectranthus; flora medicinal"
+        },
+        {
+          "nome": "Quebra-pedra",
+          "cientifico": "Phyllanthus niruri",
+          "uso_medicinal": "diurética, litotríptica (cálculos renais), urinária, hepatoprotetora",
+          "elemento": "terra",
+          "fonte_etno": "'Ervas dos Orixás' (Omolú); Wikipédia 'Folhas sagradas' (Euê bajutoná)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Phyllanthus niruri; matéria médica americana"
+        }
+      ]
+    },
+    "Lua": {
+      "signo": "Capricórnio",
+      "orixa": "Nanã",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Amor-perfeito",
+          "cientifico": "Viola tricolor",
+          "uso_medicinal": "suave calmante, pele (tradicional)",
+          "elemento": "água",
+          "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Matéria médica clássica (PD)"
+        },
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        },
+        {
+          "nome": "Erva-de-lama / Capim-dourado (barro)",
+          "cientifico": "—",
+          "uso_medicinal": "— (uso ritual)",
+          "elemento": "água",
+          "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+          "enciclopedia_pd": null
+        },
+        {
+          "nome": "Quaresmeira",
+          "cientifico": "Tibouchina granulosa",
+          "uso_medicinal": "adstringente suave, pele (casca, uso popular)",
+          "elemento": "água",
+          "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Tibouchina"
+        }
+      ]
+    },
+    "Mercúrio": {
+      "signo": "Escorpião",
+      "orixa": "Omolu (Obaluaiê)",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Boldo (Tapete d'Oxalá)",
+          "cientifico": "Plectranthus barbatus / Peumus boldus",
+          "uso_medicinal": "fígado, rins, estômago, problemas hepáticos e biliares",
+          "elemento": "fogo",
+          "fonte_etno": "'Ervas dos Orixás' (Oxalá/Ewé Babá); SBPMed ES; Zuchi 2013 (Goiás)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Peumus boldus / Plectranthus; flora medicinal"
+        },
+        {
+          "nome": "Quebra-pedra",
+          "cientifico": "Phyllanthus niruri",
+          "uso_medicinal": "diurética, litotríptica (cálculos renais), urinária, hepatoprotetora",
+          "elemento": "terra",
+          "fonte_etno": "'Ervas dos Orixás' (Omolú); Wikipédia 'Folhas sagradas' (Euê bajutoná)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Phyllanthus niruri; matéria médica americana"
+        }
+      ]
+    },
+    "Vênus": {
+      "signo": "Sagitário",
+      "orixa": "Oxóssi",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alecrim",
+          "cientifico": "Rosmarinus officinalis",
+          "uso_medicinal": "digestivo, gases, reumatismo, estimulante",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; trad. Umbanda (Cantinho de Oxalá); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Rosmarinus officinalis; Herbário de matéria médica (PD)"
+        },
+        {
+          "nome": "Avenca",
+          "cientifico": "Adiantum capillus-veneris",
+          "uso_medicinal": "expectorante suave, tosse, pele (tradicional)",
+          "elemento": "ar",
+          "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Adiantum"
+        },
+        {
+          "nome": "Jurema (Mimosa)",
+          "cientifico": "Mimosa hostilis",
+          "uso_medicinal": "relaxante suave, cicatrizante (casca) — uso ritual e popular",
+          "elemento": "terra",
+          "fonte_etno": "Tradição Afro-Brasileira e Indígena; 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): gênero Mimosa"
+        },
+        {
+          "nome": "Mangerona (Manjerona)",
+          "cientifico": "Origanum majorana",
+          "uso_medicinal": "digestiva, calmante leve, resfriados (tradicional)",
+          "elemento": "ar",
+          "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Matéria médica clássica (PD)"
+        }
+      ]
+    },
+    "Marte": {
+      "signo": "Capricórnio",
+      "orixa": "Nanã",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Amor-perfeito",
+          "cientifico": "Viola tricolor",
+          "uso_medicinal": "suave calmante, pele (tradicional)",
+          "elemento": "água",
+          "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Matéria médica clássica (PD)"
+        },
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        },
+        {
+          "nome": "Erva-de-lama / Capim-dourado (barro)",
+          "cientifico": "—",
+          "uso_medicinal": "— (uso ritual)",
+          "elemento": "água",
+          "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+          "enciclopedia_pd": null
+        },
+        {
+          "nome": "Quaresmeira",
+          "cientifico": "Tibouchina granulosa",
+          "uso_medicinal": "adstringente suave, pele (casca, uso popular)",
+          "elemento": "água",
+          "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Tibouchina"
+        }
+      ]
+    }
+  },
+  "ceu_das_culturas": {
+    "ceu_todas_culturas": {
+      "nossa:afro-brasileiro": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Omolu"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Osanyin (Ossaim)"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Nanã"
+        }
+      },
+      "nossa:capixaba-sul": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Jaguará de Apiacá (o espanto que guarda o sul)"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "— (a ampliar)"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Cruz de Muribeca (a raiz-fundadora do sul)"
+        }
+      },
+      "nossa:folclore-brasileiro": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Boitatá"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Curupira"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Cuca"
+        }
+      },
+      "nossa:indigena": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "A Flecha que guarda a região do Escorpião"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Iandutí (teia de aranha do céu)"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Homem Velho"
+        }
+      },
+      "nossa:mapuche": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Melipal (Quatro Azadões)"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Wetripantu (Ano Novo Mapuche)"
+        }
+      },
+      "nossa:regional-capixaba": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Mão Pelada"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Cruz de Muribeca (Itapemirim)"
+        }
+      },
+      "nossa:regional-carioca": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Gigante Adormecido da Guanabara"
+        }
+      },
+      "nossa:tukano": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Yai (Onça)? (reservado a estudar)"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Waikasa (Grelha de peixe — trama miúda)"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Sioyahpu (Cabo de enxada — rocha e trabalho)"
+        }
+      },
+      "nossa:tupi": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Yai (Onça-jaguar)?"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Eixu (Vespeiro)"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Tapi'i (Anta — passos sobre a pedra)"
+        }
+      },
+      "nossa:zodiaco": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Escorpião"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Virgem"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Capricórnio"
+        }
+      },
+      "anutan": {
+        "origen": "stellarium",
+        "asterismos": 11,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Te Kupenga"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Te Paka Poi Ika Tapu"
+        }
+      },
+      "arabic_al-sufi": {
+        "origen": "stellarium",
+        "asterismos": 51,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "الإكليل الشمالي"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "الباطية"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "اللورا"
+        }
+      },
+      "arabic_arabian_peninsula": {
+        "origen": "stellarium",
+        "asterismos": 45,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "الغفر"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "النعايم"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "النعائم"
+        }
+      },
+      "arabic_indigenous": {
+        "origen": "stellarium",
+        "asterismos": 118,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "قصعة المساكين"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "بنات نعش"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "النسر الواقع"
+        }
+      },
+      "aztec": {
+        "origen": "stellarium",
+        "asterismos": 5,
+        "por_pesquisar": true,
+        "ligacao": null,
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "babylonian_mulapin": {
+        "origen": "stellarium",
+        "asterismos": 58,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "𒁄𒌨𒀀"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": " 𒀀𒂔"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "𒍚"
+        }
+      },
+      "babylonian_seleucid": {
+        "origen": "stellarium",
+        "asterismos": 60,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "𒁄𒌨𒀀"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "𒀀𒂔"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": " "
+        }
+      },
+      "balinese": {
+        "origen": "stellarium",
+        "asterismos": 31,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "ᬳᬸᬮᬜ᭄ᬚᬃ"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "ᬦᬕ"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "ᬧ᭄ᬭᬳᬸᬧᭂᬕᬢ᭄"
+        }
+      },
+      "belarusian": {
+        "origen": "stellarium",
+        "asterismos": 20,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Karona"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Illyouo voz"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Niavesta"
+        }
+      },
+      "boorong": {
+        "origen": "stellarium",
+        "asterismos": 29,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Bunya"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Mindi"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Neilloan"
+        }
+      },
+      "chinese": {
+        "origen": "stellarium",
+        "asterismos": 312,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "氐宿"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "太微右垣"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "斗宿"
+        }
+      },
+      "chinese_chenzhuo": {
+        "origen": "stellarium",
+        "asterismos": 317,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "天市右垣"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "阴德"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "宗人"
+        }
+      },
+      "chinese_manchu": {
+        "origen": "stellarium",
+        "asterismos": 24,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "ᠪᠣᡵᠪᠣᡥᠣ ᡠᠰᡳᡥᠠ"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "ᠨᠠᡩᠠᠨ ᡠᠰᡳᡥᠠ"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "chinese_song_dynasty": {
+        "origen": "stellarium",
+        "asterismos": 339,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "天市垣西蕃"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "天乙"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "宗人"
+        }
+      },
+      "chinese_xianglin": {
+        "origen": "stellarium",
+        "asterismos": 317,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "天市垣西蕃"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "天乙"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "宗人"
+        }
+      },
+      "chinese_yuan_dynasty": {
+        "origen": "stellarium",
+        "asterismos": 187,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "七公"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "阴德"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "宗人"
+        }
+      },
+      "egyptian_dendera": {
+        "origen": "stellarium",
+        "asterismos": 36,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Beast"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Thigh of Bull"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Sagittarius"
+        }
+      },
+      "greek_almagest": {
+        "origen": "stellarium",
+        "asterismos": 49,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Στέφανος"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Κρατήρ"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Λύρα"
+        }
+      },
+      "greek_dante": {
+        "origen": "stellarium",
+        "asterismos": 30,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Libra"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Ursa Major"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Sagittarius"
+        }
+      },
+      "greek_farnese": {
+        "origen": "stellarium",
+        "asterismos": 51,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Στέφανος"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Κρατήρ"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Λύρα"
+        }
+      },
+      "greek_leidenAratea": {
+        "origen": "stellarium",
+        "asterismos": 50,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Corona Borealis, Στέφανος"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Crater, Κρατήρ"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Lyra, Λύρα"
+        }
+      },
+      "hawaiian_starlines": {
+        "origen": "stellarium",
+        "asterismos": 13,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Hanaiakamalama"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Na Hiku"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "indian": {
+        "origen": "stellarium",
+        "asterismos": 49,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "विशाखे"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "पूर्वफाल्गुनी"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "पूर्वाषाढा"
+        }
+      },
+      "indian_nakshatras": {
+        "origen": "stellarium",
+        "asterismos": 28,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "विशाखा"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "पूर्व फाल्गुनी"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "पूर्व आषाढा"
+        }
+      },
+      "inuit": {
+        "origen": "stellarium",
+        "asterismos": 14,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Tukturjuit"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Kingulliq"
+        }
+      },
+      "japanese": {
+        "origen": "stellarium",
+        "asterismos": 373,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "天市西藩(てんしせいばん)"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "天乙(てんいつ)"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "宗人(そうじん)"
+        }
+      },
+      "kamilaroi": {
+        "origen": "stellarium",
+        "asterismos": 13,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Birringoloo"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Old Wiringin"
+        }
+      },
+      "khoi-san": {
+        "origen": "stellarium",
+        "asterismos": 6,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Mura"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Vega"
+        }
+      },
+      "korean": {
+        "origen": "stellarium",
+        "asterismos": 312,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "천시(天市)"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "음덕(陰德)"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "종인(宗人)"
+        }
+      },
+      "lokono": {
+        "origen": "stellarium",
+        "asterismos": 11,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Hithikoya"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Awarhakoya"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Ifakoya"
+        }
+      },
+      "macedonian": {
+        "origen": "stellarium",
+        "asterismos": 19,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "софра"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "арамии"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "пирустија"
+        }
+      },
+      "maori": {
+        "origen": "stellarium",
+        "asterismos": 6,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Taki-o-Autahi"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "modern": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Libra"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Canes Venatici"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Scutum"
+        }
+      },
+      "modern_chinese": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Libra"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Canes Venatici"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Scutum"
+        }
+      },
+      "modern_hlad": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Libra"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Canes Venatici"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Sagittarius"
+        }
+      },
+      "modern_iau": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Centaurus"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Antlia"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Aquila"
+        }
+      },
+      "modern_journey_to_the_west": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "行李担"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "哮天犬"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "团牌"
+        }
+      },
+      "modern_rey": {
+        "origen": "stellarium",
+        "asterismos": 170,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "NORTHERN CROWN"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "head"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "LYRE"
+        }
+      },
+      "modern_st": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Centaurus"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Antlia"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Aquila"
+        }
+      },
+      "mongolian": {
+        "origen": "stellarium",
+        "asterismos": 4,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Doloon Burkhan"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "navajo": {
+        "origen": "stellarium",
+        "asterismos": 8,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Revolving Male"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "norse": {
+        "origen": "stellarium",
+        "asterismos": 6,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Aurvandil's Toe"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Man's Cart"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "norse_edda": {
+        "origen": "stellarium",
+        "asterismos": 19,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Aurvandils tá"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Þórs vagn"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Hræsvelgr"
+        }
+      },
+      "northern_andes": {
+        "origen": "stellarium",
+        "asterismos": 5,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Ana Jaramillo de Velastegui (El Sapo)"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Mercedes Cotacachi (El Mono)"
+        }
+      },
+      "romanian": {
+        "origen": "stellarium",
+        "asterismos": 39,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Hora"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Ciobanul cu oile"
+        }
+      },
+      "ruanui_sky_tahiti_and_society_islands": {
+        "origen": "stellarium",
+        "asterismos": 19,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Tau-hā"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Moana-'ohu-noa-'ei-ha'amoe-hara"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "russian_siberian": {
+        "origen": "stellarium",
+        "asterismos": 3,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Лось"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "sami": {
+        "origen": "stellarium",
+        "asterismos": 10,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Favdna's Bow and Arrow"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "The Runner"
+        }
+      },
+      "samoan": {
+        "origen": "stellarium",
+        "asterismos": 14,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Sumu"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "sardinian": {
+        "origen": "stellarium",
+        "asterismos": 12,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Su Ballu de sas Fiuda"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Sos Sette Frades"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "seri": {
+        "origen": "stellarium",
+        "asterismos": 15,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Caamoilcoj"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Hee"
+        }
+      },
+      "tibetan": {
+        "origen": "stellarium",
+        "asterismos": 18,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Libra"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "CON tibetan UMa"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "CON tibetan Lyr"
+        }
+      },
+      "tikuna": {
+        "origen": "stellarium",
+        "asterismos": 4,
+        "por_pesquisar": true,
+        "ligacao": null,
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "tongan": {
+        "origen": "stellarium",
+        "asterismos": 11,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Toloatonga"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Toloalahi"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "tukano": {
+        "origen": "stellarium",
+        "asterismos": 11,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Yurara"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "Yhé"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "Aña"
+        }
+      },
+      "tupi": {
+        "origen": "stellarium",
+        "asterismos": 7,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Veado"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "vanuatu_netwar": {
+        "origen": "stellarium",
+        "asterismos": 10,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "Suatu kywer"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "xhosa": {
+        "origen": "stellarium",
+        "asterismos": 5,
+        "por_pesquisar": true,
+        "ligacao": null,
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      },
+      "zulu": {
+        "origen": "stellarium",
+        "asterismos": 5,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Escorpião",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Virgem",
+          "asterismo": "isAndulela"
+        },
+        "Lua": {
+          "signo": "Capricórnio",
+          "asterismo": "—"
+        }
+      }
+    },
+    "arquetipos_por_signo": {
+      "Capricórnio": [
+        {
+          "chave": "capricornio",
+          "cultura": "zodiaco",
+          "nome": "Capricórnio",
+          "id_arquetipo": "signo.capricornio",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "capricornio",
+          "cultura": "indigena",
+          "nome": "Homem Velho",
+          "id_arquetipo": "indigena.homem_velho",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (o velho que guarda o tempo, Saturno)"
+        },
+        {
+          "chave": "capricornio",
+          "cultura": "afro-brasileiro",
+          "nome": "Nanã",
+          "id_arquetipo": "orixa.nana",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (a mais velha, o tempo, a origem e o limite — Saturno)"
+        },
+        {
+          "chave": "capricornio",
+          "cultura": "mapuche",
+          "nome": "Wetripantu (Ano Novo Mapuche)",
+          "id_arquetipo": "mapuche.wetripantu",
+          "certeza": "media",
+          "fonte": "Wenumapu, Pozo & Canio 2014: virada do ano no solstício de inverno austral; o próprio autor assinala 'eixo capricórnio/câncer'"
+        },
+        {
+          "chave": "capricornio",
+          "cultura": "folclore-brasileiro",
+          "nome": "Cuca",
+          "id_arquetipo": "folclore.cuca",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (o aviso que pesa)"
+        },
+        {
+          "chave": "capricornio",
+          "cultura": "regional-carioca",
+          "nome": "Gigante Adormecido da Guanabara",
+          "id_arquetipo": "carioca.gigante_adormecido",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (a rocha que guarda o território, lenta e firme)"
+        },
+        {
+          "chave": "capricornio",
+          "cultura": "regional-capixaba",
+          "nome": "Cruz de Muribeca (Itapemirim)",
+          "id_arquetipo": "capixaba-sul.cruz_muribeca",
+          "certeza": "baixa",
+          "fonte": "Lendas Capixabas (Novaes, AEL 1968): a cruz-fundadora e o tesouro oculto do território — Capricórnio (a raiz, a fundação)"
+        }
+      ],
+      "Escorpião": [
+        {
+          "chave": "escorpiao",
+          "cultura": "mapuche",
+          "nome": "Melipal (Quatro Azadões)",
+          "id_arquetipo": "mapuche.melipal",
+          "certeza": "alta",
+          "fonte": "Wenumapu, Pozo & Canio 2014, tabela de Coña: Melipal = α, β, δ e π de Escorpião (Antares = Kollüpal)"
+        },
+        {
+          "chave": "escorpiao",
+          "cultura": "zodiaco",
+          "nome": "Escorpião",
+          "id_arquetipo": "signo.escorpiao",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "escorpiao",
+          "cultura": "afro-brasileiro",
+          "nome": "Omolu",
+          "id_arquetipo": "orixa.omolu",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (transformação profunda, renascimento)"
+        },
+        {
+          "chave": "escorpiao",
+          "cultura": "folclore-brasileiro",
+          "nome": "Boitatá",
+          "id_arquetipo": "folclore.boitata",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (cobra de fogo, transformação)"
+        },
+        {
+          "chave": "escorpiao",
+          "cultura": "regional-capixaba",
+          "nome": "Mão Pelada",
+          "id_arquetipo": "capixaba.mao_pelada",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (assombro ancestral)"
+        },
+        {
+          "chave": "escorpiao",
+          "cultura": "indigena",
+          "nome": "A Flecha que guarda a região do Escorpião",
+          "id_arquetipo": "indigena.flecha_escorpiao",
+          "certeza": "baixa",
+          "fonte": "Etnoastronomia tupi-guarani (Antares/Escorpião como fogo-guardião); hipótese do projeto — o coração ardente que prova ressoa com Escorpião"
+        }
+      ],
+      "Libra": [
+        {
+          "chave": "libra",
+          "cultura": "zodiaco",
+          "nome": "Libra",
+          "id_arquetipo": "signo.libra",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "libra",
+          "cultura": "afro-brasileiro",
+          "nome": "Xangô",
+          "id_arquetipo": "orixa.xango",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (a balança da justiça)"
+        },
+        {
+          "chave": "libra",
+          "cultura": "mapuche",
+          "nome": "Wüñellfe (Lucero do Amanhecer)",
+          "id_arquetipo": "mapuche.wunelfe",
+          "certeza": "media",
+          "fonte": "Wenumapu, Pozo & Canio 2014: Wüñellfe = Vênus (Lucero), 'pai das estrelas', amor/viagem; correspondência por regência de Vênus na Libra"
+        },
+        {
+          "chave": "libra",
+          "cultura": "indigena",
+          "nome": "Veado",
+          "id_arquetipo": "indigena.veado",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (Estrela d'Alva/Vênus)"
+        },
+        {
+          "chave": "libra",
+          "cultura": "folclore-brasileiro",
+          "nome": "Comadre Fulozinha (a delicada que equilibra)",
+          "id_arquetipo": "folclore.comadre_fulozinha",
+          "certeza": "baixa",
+          "fonte": "Tradição oral do Nordeste (PE/PB); hipótese do projeto — a medida do justo e o equilíbrio entre doçura e firmeza ressoam com Libra"
+        }
+      ],
+      "Sagitário": [
+        {
+          "chave": "sagitario",
+          "cultura": "zodiaco",
+          "nome": "Sagitário",
+          "id_arquetipo": "signo.sagitario",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "sagitario",
+          "cultura": "afro-brasileiro",
+          "nome": "Oxóssi",
+          "id_arquetipo": "orixa.oxossi",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (o caçador arqueiro)"
+        },
+        {
+          "chave": "sagitario",
+          "cultura": "mapuche",
+          "nome": "Wenu Leufü (Rio do Céu)",
+          "id_arquetipo": "mapuche.wenuleufu",
+          "certeza": "media",
+          "fonte": "Etnoastronomia mapuche (Lehmann-Nitsche 1925; Pozo&Canio 2014): o grande rio-do-céu (Via Láctea), cujo coração denso está precisamente na direção de Sagitário — cruz por geografia celeste do eixo"
+        },
+        {
+          "chave": "sagitario",
+          "cultura": "indigena",
+          "nome": "Gavião",
+          "id_arquetipo": "indigena.gaviao",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (visão do alto, horizonte)"
+        },
+        {
+          "chave": "sagitario",
+          "cultura": "folclore-brasileiro",
+          "nome": "Caipora",
+          "id_arquetipo": "folclore.caipora",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (o arqueiro que caça)"
+        },
+        {
+          "chave": "sagitario",
+          "cultura": "regional-capixaba",
+          "nome": "Domingos José Martins",
+          "id_arquetipo": "capixaba-sul.domingos_martins",
+          "certeza": "baixa",
+          "fonte": "Cordel e registros históricos públicos do sul capixaba: o pionteiro que parte e arde pelo ideal — Sagitário (o fogo, a expansão, o ideal)"
+        }
+      ],
+      "Virgem": [
+        {
+          "chave": "virgem",
+          "cultura": "zodiaco",
+          "nome": "Virgem",
+          "id_arquetipo": "signo.virgem",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "virgem",
+          "cultura": "afro-brasileiro",
+          "nome": "Osanyin (Ossaim)",
+          "id_arquetipo": "orixa.osanyin",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (precisão do conhecimento das folhas e da cura)"
+        },
+        {
+          "chave": "virgem",
+          "cultura": "folclore-brasileiro",
+          "nome": "Curupira",
+          "id_arquetipo": "folclore.curupira",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (guardião que cuida/limpa a terra)"
+        },
+        {
+          "chave": "virgem",
+          "cultura": "indigena",
+          "nome": "Iandutí (teia de aranha do céu)",
+          "id_arquetipo": "indigena.ianduti",
+          "certeza": "baixa",
+          "fonte": "Etnoastronomia tupi-guarani (aranha-do-céu no polo austral); hipótese do projeto — o tecer miúdo e ordenado ressoa com Virgem"
+        }
+      ]
+    },
+    "plantas_por_saber": {
+      "Sol": {
+        "signo": "Escorpião",
+        "orixa": "Omolu (Obaluaiê)",
+        "certeza": "media",
+        "fonte": "Hipótese do projeto (transformação profunda, renascimento)",
+        "plantas": [
+          {
+            "nome": "Alfavaca (Manjericão)",
+            "cientifico": "Ocimum basilicum / O. americanum",
+            "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+            "elemento": "ar",
+            "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+          },
+          {
+            "nome": "Boldo (Tapete d'Oxalá)",
+            "cientifico": "Plectranthus barbatus / Peumus boldus",
+            "uso_medicinal": "fígado, rins, estômago, problemas hepáticos e biliares",
+            "elemento": "fogo",
+            "fonte_etno": "'Ervas dos Orixás' (Oxalá/Ewé Babá); SBPMed ES; Zuchi 2013 (Goiás)",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Peumus boldus / Plectranthus; flora medicinal"
+          },
+          {
+            "nome": "Quebra-pedra",
+            "cientifico": "Phyllanthus niruri",
+            "uso_medicinal": "diurética, litotríptica (cálculos renais), urinária, hepatoprotetora",
+            "elemento": "terra",
+            "fonte_etno": "'Ervas dos Orixás' (Omolú); Wikipédia 'Folhas sagradas' (Euê bajutoná)",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Phyllanthus niruri; matéria médica americana"
+          }
+        ]
+      },
+      "Lua": {
+        "signo": "Capricórnio",
+        "orixa": "Nanã",
+        "certeza": "media",
+        "fonte": "Hipótese do projeto (a mais velha, o tempo, a origem e o limite — Saturno)",
+        "plantas": [
+          {
+            "nome": "Amor-perfeito",
+            "cientifico": "Viola tricolor",
+            "uso_medicinal": "suave calmante, pele (tradicional)",
+            "elemento": "água",
+            "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Matéria médica clássica (PD)"
+          },
+          {
+            "nome": "Erva-cidreira (Melissa)",
+            "cientifico": "Melissa officinalis",
+            "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+            "elemento": "água",
+            "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+          },
+          {
+            "nome": "Erva-de-lama / Capim-dourado (barro)",
+            "cientifico": "—",
+            "uso_medicinal": "— (uso ritual)",
+            "elemento": "água",
+            "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+            "enciclopedia_pd": null
+          },
+          {
+            "nome": "Quaresmeira",
+            "cientifico": "Tibouchina granulosa",
+            "uso_medicinal": "adstringente suave, pele (casca, uso popular)",
+            "elemento": "água",
+            "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Tibouchina"
+          }
+        ]
+      },
+      "Mercúrio": {
+        "signo": "Escorpião",
+        "orixa": "Omolu (Obaluaiê)",
+        "certeza": "media",
+        "fonte": "Hipótese do projeto (transformação profunda, renascimento)",
+        "plantas": [
+          {
+            "nome": "Alfavaca (Manjericão)",
+            "cientifico": "Ocimum basilicum / O. americanum",
+            "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+            "elemento": "ar",
+            "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+          },
+          {
+            "nome": "Boldo (Tapete d'Oxalá)",
+            "cientifico": "Plectranthus barbatus / Peumus boldus",
+            "uso_medicinal": "fígado, rins, estômago, problemas hepáticos e biliares",
+            "elemento": "fogo",
+            "fonte_etno": "'Ervas dos Orixás' (Oxalá/Ewé Babá); SBPMed ES; Zuchi 2013 (Goiás)",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Peumus boldus / Plectranthus; flora medicinal"
+          },
+          {
+            "nome": "Quebra-pedra",
+            "cientifico": "Phyllanthus niruri",
+            "uso_medicinal": "diurética, litotríptica (cálculos renais), urinária, hepatoprotetora",
+            "elemento": "terra",
+            "fonte_etno": "'Ervas dos Orixás' (Omolú); Wikipédia 'Folhas sagradas' (Euê bajutoná)",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Phyllanthus niruri; matéria médica americana"
+          }
+        ]
+      },
+      "Vênus": {
+        "signo": "Sagitário",
+        "orixa": "Oxóssi",
+        "certeza": "media",
+        "fonte": "Hipótese do projeto (o caçador arqueiro)",
+        "plantas": [
+          {
+            "nome": "Alecrim",
+            "cientifico": "Rosmarinus officinalis",
+            "uso_medicinal": "digestivo, gases, reumatismo, estimulante",
+            "elemento": "ar",
+            "fonte_etno": "'Ervas dos Orixás e suas aplicações'; trad. Umbanda (Cantinho de Oxalá); PERINAZZO & BALDONI",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Rosmarinus officinalis; Herbário de matéria médica (PD)"
+          },
+          {
+            "nome": "Avenca",
+            "cientifico": "Adiantum capillus-veneris",
+            "uso_medicinal": "expectorante suave, tosse, pele (tradicional)",
+            "elemento": "ar",
+            "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Adiantum"
+          },
+          {
+            "nome": "Jurema (Mimosa)",
+            "cientifico": "Mimosa hostilis",
+            "uso_medicinal": "relaxante suave, cicatrizante (casca) — uso ritual e popular",
+            "elemento": "terra",
+            "fonte_etno": "Tradição Afro-Brasileira e Indígena; 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): gênero Mimosa"
+          },
+          {
+            "nome": "Mangerona (Manjerona)",
+            "cientifico": "Origanum majorana",
+            "uso_medicinal": "digestiva, calmante leve, resfriados (tradicional)",
+            "elemento": "ar",
+            "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Matéria médica clássica (PD)"
+          }
+        ]
+      },
+      "Marte": {
+        "signo": "Capricórnio",
+        "orixa": "Nanã",
+        "certeza": "media",
+        "fonte": "Hipótese do projeto (a mais velha, o tempo, a origem e o limite — Saturno)",
+        "plantas": [
+          {
+            "nome": "Amor-perfeito",
+            "cientifico": "Viola tricolor",
+            "uso_medicinal": "suave calmante, pele (tradicional)",
+            "elemento": "água",
+            "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Matéria médica clássica (PD)"
+          },
+          {
+            "nome": "Erva-cidreira (Melissa)",
+            "cientifico": "Melissa officinalis",
+            "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+            "elemento": "água",
+            "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+          },
+          {
+            "nome": "Erva-de-lama / Capim-dourado (barro)",
+            "cientifico": "—",
+            "uso_medicinal": "— (uso ritual)",
+            "elemento": "água",
+            "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+            "enciclopedia_pd": null
+          },
+          {
+            "nome": "Quaresmeira",
+            "cientifico": "Tibouchina granulosa",
+            "uso_medicinal": "adstringente suave, pele (casca, uso popular)",
+            "elemento": "água",
+            "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Tibouchina"
+          }
+        ]
+      }
+    }
+  },
+  "cultura_arquétipa": "capixaba",
+  "sol_signo": "Escorpião",
+  "asc_signo": "Virgem",
+  "arquivos": {
+    "png": "itapemirim-es.png",
+    "html": "itapemirim-es.html"
+  }
+}

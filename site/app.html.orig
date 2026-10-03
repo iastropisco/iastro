@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iastro — abrir o app</title>
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=APP_URL">
+<style>
+:root{--tinta:#1c1712;--papel:#f4ecd8;--ouro:#c9a227;--discreto:#9a8c78;
+      --serif:Georgia,'Times New Roman',serif}
+*{box-sizing:border-box}
+body{margin:0;min-height:100svh;display:flex;flex-direction:column;
+     align-items:center;justify-content:center;text-align:center;
+     background:var(--tinta);color:var(--papel);
+     font-family:var(--serif);padding:2rem}
+h1{font-weight:400;font-size:clamp(1.6rem,5vw,2.6rem);margin:0 0 .6rem}
+h1 em{color:var(--ouro);font-style:italic}
+p{opacity:.8;max-width:44ch;line-height:1.6;margin:.4rem 0}
+a.btn{display:inline-block;margin-top:1.4rem;padding:.85rem 1.8rem;
+      background:var(--ouro);color:#2a1f0c;text-decoration:none;
+      border-radius:2px;font-size:1.05rem}
+a.sec{color:var(--papel);opacity:.7;font-size:.92rem;margin-top:1.6rem}
+</style>
+</head>
+<body>
+  <h1>Levando você ao <em>Iastro</em></h1>
+  <p>Se esta página não mudar sozinha, é porque o endereço do app ainda não
+     foi definido. Ele fica em <code>APP_URL</code>, na primeira linha
+     abaixo.</p>
+  <a class="btn" href="APP_URL">Abrir o app</a>
+  <a class="sec" href="index.html">voltar ao início</a>
+  <script>location.replace("APP_URL");</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "_nota": "Catálogo de imagens LIVRES (domínio público / CC) por arquétipo, usado na colagem final do mapa artístico. Cada entrada grava: arquivo local, licença, autor e fonte (o mesmo padrão crédito do manifest das fotos de telescópio). LOTE PILOTO — validar antes de escalar. Fonte dos arquivos: Wikimedia Commons / NASA / artes eletrônicas de domínio público.",
+  "imagens": [
+    {
+      "id": "img.macabéa",
+      "arquivo": "images-livres/literatura-dominiopublico-adeus.jpg",
+      "titulo": "Capa em xilogravura 'Coração' (cordel)",
+      "tipo": "externo",
+      "tema": ["cordel", "xilogravura", "nordeste", "coração"],
+      "dominio_publico": true,
+      "licenca": "PD (domínio público)", 
+      "autor": "xilogravura de cordel anônima",
+      "criador_ref": null,
+      "fonte_url": "https://commons.wikimedia.org/",
+      "obra_origem": "Literatura de cordel — cantigas e folhetos de domínio público",
+      "nota": "Exemplo de arte popular (xilogravura de cordel). Verificar acervo exato na Commons antes de usar o arquivo."
+    },
+    {
+      "id": "img.luavoz",
+      "arquivo": "images-livres/camões-luisiadas-capa.jpg",
+      "titulo": "'Os Lusíadas', Luís de Camões (obra de domínio público)",
+      "tipo": "externo",
+      "tema": ["literatura universal", "camões", "épico", "maré"],
+      "dominio_publico": true,
+      "licenca": "PD (domínio público — obra original de 1572)",
+      "autor": "Luís Vaz de Camões",
+      "criador_ref": "Camões (m. 1580)", 
+      "fonte_url": "https://www.gutenberg.org/",
+      "obra_origem": "Canto IX e a viagem de Vasco da Gama — trechos em domínio público",
+      "nota": "Para vincular a arquétipos de mar e viagem; usar texto e ilustrações de domínio público, nunca edições comerciais."
+    },
+    {
+      "id": "img.estrela",
+      "arquivo": "images-livres/nebula-orion.jpg",
+      "titulo": "Nebulosa de Órion (domínio público NASA/ESA)",
+      "tipo": "externo",
+      "tema": ["nebulosa", "NASA", "estrela", "berçário"],
+      "dominio_publico": true,
+      "licenca": "PD (NASA)/CC-BY 4.0 (ESA/Hubble)",
+      "autor": "NASA/ESA/Hubble",
+      "criador_ref": null,
+      "fonte_url": "https://commons.wikimedia.org/",
+      "obra_origem": "Imagens públicas de nebulosas (Hubble/HST, domínio público)",
+      "nota": "Imagem real de telescópio — complementa as fotos já baixadas (hubble/jwst)."
+    }
+  ],
+  "_esquema_campos": [
+    "id", "arquivo", "titulo", "tipo (externo/gerado)", "tema", "dominio_publico",
+    "licenca", "autor", "criador_ref", "fonte_url", "obra_origem", "nota"
+  ]
+}

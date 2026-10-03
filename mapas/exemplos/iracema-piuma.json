@@ -1,0 +1,322 @@
+{
+  "nascimento/evento": {
+    "data": "1995-12-25",
+    "hora": "14:30",
+    "local": "piúma"
+  },
+  "mapa_tradicional": {
+    "data": "1995-12-25",
+    "hora": "14:30",
+    "local": "piúma",
+    "lat": -20.8333,
+    "lon": -40.7333,
+    "planetas": {
+      "Sol": {
+        "signo": "Capricórnio",
+        "graus": "3°26'",
+        "retrogrado": false
+      },
+      "Lua": {
+        "signo": "Aquário",
+        "graus": "24°27'",
+        "retrogrado": false
+      },
+      "Mercúrio": {
+        "signo": "Capricórnio",
+        "graus": "20°47'",
+        "retrogrado": false
+      },
+      "Vênus": {
+        "signo": "Aquário",
+        "graus": "4°53'",
+        "retrogrado": false
+      },
+      "Marte": {
+        "signo": "Capricórnio",
+        "graus": "19°17'",
+        "retrogrado": false
+      },
+      "Júpiter": {
+        "signo": "Sagitário",
+        "graus": "28°03'",
+        "retrogrado": false
+      },
+      "Saturno": {
+        "signo": "Peixes",
+        "graus": "19°00'",
+        "retrogrado": false
+      },
+      "Urano": {
+        "signo": "Capricórnio",
+        "graus": "29°00'",
+        "retrogrado": false
+      },
+      "Netuno": {
+        "signo": "Capricórnio",
+        "graus": "24°27'",
+        "retrogrado": false
+      },
+      "Plutão": {
+        "signo": "Sagitário",
+        "graus": "1°44'",
+        "retrogrado": false
+      }
+    },
+    "asc": "Touro 11°56'24\"",
+    "casa1_lon": 41.9399
+  },
+  "plantas_regentes": {
+    "Sol": {
+      "signo": "Capricórnio",
+      "orixa": "Nanã",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        }
+      ]
+    },
+    "Lua": {
+      "signo": "Aquário",
+      "orixa": "Oxalá",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alecrim",
+          "cientifico": "Rosmarinus officinalis",
+          "uso_medicinal": "digestivo, gases, reumatismo, estimulante",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; trad. Umbanda (Cantinho de Oxalá); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Rosmarinus officinalis; Herbário de matéria médica (PD)"
+        },
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Alfazema (Lavanda)",
+          "cientifico": "Lavandula angustifolia",
+          "uso_medicinal": "calmante, ansiedade, insônia, antisséptica, cicatrizante",
+          "elemento": "ar",
+          "fonte_etno": "Ita Balago (Oxalá); Studio Orion (Iemanjá)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Lavandula angustifolia; matéria médica (PD)"
+        },
+        {
+          "nome": "Boldo (Tapete d'Oxalá)",
+          "cientifico": "Plectranthus barbatus / Peumus boldus",
+          "uso_medicinal": "fígado, rins, estômago, problemas hepáticos e biliares",
+          "elemento": "fogo",
+          "fonte_etno": "'Ervas dos Orixás' (Oxalá/Ewé Babá); SBPMed ES; Zuchi 2013 (Goiás)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Peumus boldus / Plectranthus; flora medicinal"
+        },
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        },
+        {
+          "nome": "Erva-doce",
+          "cientifico": "Pimpinella anisum",
+          "uso_medicinal": "carminativo, digestivo, calmante, cólicas, antiespasmódico",
+          "elemento": "ar",
+          "fonte_etno": "Candomblé Desmistificado (Ibeji); trad. Umbanda (Oxalá)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Pimpinella anisum; matéria médica clássica"
+        },
+        {
+          "nome": "Folha-da-costa (Saião)",
+          "cientifico": "Kalanchoe brasiliensis / K. pinnata",
+          "uso_medicinal": "cicatrizante, anti-inflamatória, problemas estomacais, tosse",
+          "elemento": "ar",
+          "fonte_etno": "BARROS & NAPOLEÃO, Ewé Òrìsà; VERGER, Ewé; ocandomble.com (Òdúndún)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe brasiliensis; flora medicinal brasileira"
+        },
+        {
+          "nome": "Funcho",
+          "cientifico": "Foeniculum vulgare",
+          "uso_medicinal": "carminativo, digestivo, calmante, cólicas, lactação",
+          "elemento": "ar",
+          "fonte_etno": "Raízes Espirituais (Oxalá); Inventário Zona da Mata/MG",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Foeniculum vulgare; matéria médica (PD)"
+        },
+        {
+          "nome": "Hortelã",
+          "cientifico": "Mentha spp.",
+          "uso_medicinal": "digestiva, carminativa, antiespasmódica, calmante",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás' (Iansã/Oxalá); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Mentha; matéria médica clássica"
+        },
+        {
+          "nome": "Sálvia",
+          "cientifico": "Salvia officinalis",
+          "uso_medicinal": "digestiva, antisséptica, gripes/resfriados, febres, estômago",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás' (Oxalá); trad. Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Salvia officinalis; matéria médica (PD)"
+        }
+      ]
+    },
+    "Mercúrio": {
+      "signo": "Capricórnio",
+      "orixa": "Nanã",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        }
+      ]
+    },
+    "Vênus": {
+      "signo": "Aquário",
+      "orixa": "Oxalá",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alecrim",
+          "cientifico": "Rosmarinus officinalis",
+          "uso_medicinal": "digestivo, gases, reumatismo, estimulante",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; trad. Umbanda (Cantinho de Oxalá); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Rosmarinus officinalis; Herbário de matéria médica (PD)"
+        },
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Alfazema (Lavanda)",
+          "cientifico": "Lavandula angustifolia",
+          "uso_medicinal": "calmante, ansiedade, insônia, antisséptica, cicatrizante",
+          "elemento": "ar",
+          "fonte_etno": "Ita Balago (Oxalá); Studio Orion (Iemanjá)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Lavandula angustifolia; matéria médica (PD)"
+        },
+        {
+          "nome": "Boldo (Tapete d'Oxalá)",
+          "cientifico": "Plectranthus barbatus / Peumus boldus",
+          "uso_medicinal": "fígado, rins, estômago, problemas hepáticos e biliares",
+          "elemento": "fogo",
+          "fonte_etno": "'Ervas dos Orixás' (Oxalá/Ewé Babá); SBPMed ES; Zuchi 2013 (Goiás)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Peumus boldus / Plectranthus; flora medicinal"
+        },
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        },
+        {
+          "nome": "Erva-doce",
+          "cientifico": "Pimpinella anisum",
+          "uso_medicinal": "carminativo, digestivo, calmante, cólicas, antiespasmódico",
+          "elemento": "ar",
+          "fonte_etno": "Candomblé Desmistificado (Ibeji); trad. Umbanda (Oxalá)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Pimpinella anisum; matéria médica clássica"
+        },
+        {
+          "nome": "Folha-da-costa (Saião)",
+          "cientifico": "Kalanchoe brasiliensis / K. pinnata",
+          "uso_medicinal": "cicatrizante, anti-inflamatória, problemas estomacais, tosse",
+          "elemento": "ar",
+          "fonte_etno": "BARROS & NAPOLEÃO, Ewé Òrìsà; VERGER, Ewé; ocandomble.com (Òdúndún)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe brasiliensis; flora medicinal brasileira"
+        },
+        {
+          "nome": "Funcho",
+          "cientifico": "Foeniculum vulgare",
+          "uso_medicinal": "carminativo, digestivo, calmante, cólicas, lactação",
+          "elemento": "ar",
+          "fonte_etno": "Raízes Espirituais (Oxalá); Inventário Zona da Mata/MG",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Foeniculum vulgare; matéria médica (PD)"
+        },
+        {
+          "nome": "Hortelã",
+          "cientifico": "Mentha spp.",
+          "uso_medicinal": "digestiva, carminativa, antiespasmódica, calmante",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás' (Iansã/Oxalá); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Mentha; matéria médica clássica"
+        },
+        {
+          "nome": "Sálvia",
+          "cientifico": "Salvia officinalis",
+          "uso_medicinal": "digestiva, antisséptica, gripes/resfriados, febres, estômago",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás' (Oxalá); trad. Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Salvia officinalis; matéria médica (PD)"
+        }
+      ]
+    },
+    "Marte": {
+      "signo": "Capricórnio",
+      "orixa": "Nanã",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        }
+      ]
+    }
+  },
+  "ceu_das_culturas": {
+    "tupi": {
+      "Sol": "Capricórnio",
+      "Asc": "Touro",
+      "Lua": "Aquário",
+      "sol_asterismo": "Tapi'i (Anta — passos sobre a pedra)",
+      "asc_asterismo": "Tapi'i (Anta do Norte)",
+      "lua_asterismo": "Tuivae (Homem Velho — as águas do rio)"
+    },
+    "tukano": {
+      "Sol": "Capricórnio",
+      "Asc": "Touro",
+      "Lua": "Aquário",
+      "sol_asterismo": "Sioyahpu (Cabo de enxada — rocha e trabalho)",
+      "asc_asterismo": "Pamõ (Tatu)",
+      "lua_asterismo": "Sipé Phairó (Cobra — o grande curso)"
+    },
+    "capixaba-sul": {
+      "Sol": "Capricórnio",
+      "Asc": "Touro",
+      "Lua": "Aquário",
+      "sol_asterismo": "Cruz de Muribeca (a raiz-fundadora do sul)",
+      "asc_asterismo": "Frade e a Freira (as duas pedras firmes da BR-101)",
+      "lua_asterismo": "— (a ampliar)"
+    }
+  },
+  "cultura_arquétipa": "folclore-brasileiro",
+  "sol_signo": "Capricórnio",
+  "asc_signo": "Touro",
+  "arquivos": {
+    "png": "iracema-piuma.png",
+    "html": "iracema-piuma.html"
+  }
+}

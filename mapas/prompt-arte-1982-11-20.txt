@@ -1,0 +1,41 @@
+Ilustração artística de um MAPA ASTRAL brasileiro, estilo
+pintura aquarela + tinta nanquim tipo caligrafia popular (letreiro de
+mercado, cartaz de cordel). Momento: quadro emocionante, 'encantamento'.
+
+ESTRUTURA EXATA (não invente posições, obedeça a lista):
+- Mandala circular central com os 12 signos do zodíaco em seus setores
+  reais, cada signo pintado em sua cor característica (ex.: vermelho-sangue).
+- Ao redor da mandala, em formato de vitral/gravura, os 10 planetas nas
+  POSIÇÕES CORRETAS do mapa:
+- Sol: 27º30' de Escorpião
+- Lua: 17º48' de Capricórnio
+- Mercúrio: 27º48' de Escorpião
+- Vênus: 1º30' de Sagitário
+- Marte: 14º30' de Capricórnio
+- Júpiter: 22º18' de Escorpião
+- Saturno: 29º00' de Libra
+- Urano: 4º24' de Sagitário
+- Netuno: 25º42' de Sagitário
+- Plutão: 28º06' de Libra
+
+- Ascendente: 20º12' de Virgem (Virgem).
+- Meio do Céu: aproximadamente 20º12' de Gêmeos.
+- Arquétipos para ilustrar junto (personagens/animais):
+- Ascendente em Virgem: Iandutí
+- Sol em Escorpião: A Flecha que guarda a região do Escorpião
+
+DECORAÇÃO E CABEÇALHO:
+- {indigena}
+- Verso inspirador na base, em letra de pincel: "o mundo é o que a gente escolhe acreditar,"
+- Cores vermelho-sangue castanho-campo
+  com lampos do tema 'maré de estrelas'.
+
+TÉCNICA:
+- Aquarela com granulação de papel artesanal, respingos de tinta e bordas
+  molhadas; nada de bordas quadradas ou retângulos mecânicos.
+- Texto em português legível apenas no caso da estética pedir (letreiro
+  popular); o resto é imagem.
+- Publicação artística vertical (retrato), composição cheia e orgânica.
+
+NOTA DE USO: imagem gerada livremente para fins não comerciais/CC, sempre
+conferida contra o mapa real em obra-YY-MM-DD.png.

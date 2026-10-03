@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Licenças do acervo — Iastro</title>
+<meta name="description" content="Licenças do acervo de imagens e dados de
+cultura do céu usado no planetário Iastro.">
+
+:root{
+  --tinta:#1c1712; --papel:#f4ecd8; --papel-2:#e9dcc0;
+  --ouro:#c9a227; --tinta-2:#5c4a35; --discreto:#6f6355;
+  --serif: Georgia,'Iowan Old Style','Times New Roman',serif;
+  --sans: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--papel);color:var(--tinta);font-family:var(--sans);
+  line-height:1.72;-webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:#6f570c}
+.topo{
+  background:var(--tinta);color:var(--papel);padding:1.1rem clamp(1rem,5vw,4rem);
+  display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;
+}
+.topo img{width:38px;height:38px}
+.topo a{color:var(--papel);text-decoration:none;font-size:.9rem;margin-left:auto}
+main{max-width:760px;margin:0 auto;padding:clamp(2rem,6vw,3.6rem) clamp(1rem,5vw,2rem) 4rem}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(1.9rem,5.5vw,2.7rem);
+   line-height:1.16;margin-bottom:1.4rem}
+h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.3rem,3.4vw,1.7rem);
+   margin:2.6rem 0 .9rem;padding-bottom:.4rem;border-bottom:1px solid #d9cba9}
+h3{font-family:var(--serif);font-weight:400;font-size:1.16rem;margin:1.8rem 0 .5rem}
+p{margin-bottom:1.05rem}
+ul,ol{padding-left:1.5rem;margin-bottom:1.05rem}
+li{margin-bottom:.42rem}
+strong{font-weight:600}
+hr{border:0;border-top:1px solid #d9cba9;margin:2.4rem 0}
+code{
+  background:#e6dcc2;padding:.12em .42em;border-radius:2px;
+  font-size:.88em;word-break:break-word;
+}
+table{
+  width:100%;border-collapse:collapse;margin:1.3rem 0;font-size:.93rem;
+  border:1px solid #d9cba9;
+}
+th,td{padding:.62rem .8rem;text-align:left;border-bottom:1px solid #e2d6b6;vertical-align:top}
+th{background:#e9dfc6;font-weight:600;font-size:.85rem;
+   letter-spacing:.03em;text-transform:uppercase;color:#5c4a35}
+tr:last-child td{border-bottom:0}
+blockquote{
+  margin:1.4rem 0;padding:1rem 1.3rem;background:#efe6d2;
+  border-left:3px solid var(--ouro);border-radius:0 3px 3px 0;
+}
+blockquote p:last-child{margin-bottom:0}
+em{color:#6b5510}
+.aviso{
+  background:#e6dcc2;border-left:3px solid #8a6d15;
+  padding:1rem 1.2rem;border-radius:0 3px 3px 0;margin:1.4rem 0;
+}
+.aviso p:last-child{margin-bottom:0}
+.voltar{
+  display:inline-block;margin-top:2.6rem;padding:.72rem 1.5rem;
+  background:var(--tinta);color:var(--papel);text-decoration:none;
+  border-radius:2px;font-size:.93rem;
+}
+.voltar:hover{background:#2e2519}
+.rodape{
+  border-top:1px solid #d9cba9;padding:2rem clamp(1rem,5vw,4rem);
+  font-size:.85rem;color:var(--discreto);
+}
+.rodape div{max-width:760px;margin:0 auto}
+@media (max-width:560px){
+  table{font-size:.87rem}
+  th,td{padding:.5rem .55rem}
+}
+
+</head>
+<body>
+<div class="topo">
+  <img src="iastro-logo.svg" alt="">
+  <span>Licenças do acervo</span>
+  <a href="index.html">voltar ao início</a>
+</div>
+<main>
+<h1>Licenças do acervo — Iastro</h1>
+<p>Este arquivo existe porque <strong>o programa Stellarium e os dados das culturas do céu têm licenças diferentes</strong>, e só uma das duas se aplica a você.</p>
+<p>Gerado a partir dos <code>description.md</code> oficiais de cada cultura em <code>skycultures/</code> do repositório do Stellarium. As 69 culturas do banco (<code>cultura_ceu</code>, coluna <code>licenca</code>) foram classificadas em 2026-10-02.</p>
+<hr>
+<h2>A regra em uma frase</h2>
+<p>Stellarium é <strong>GPL v2</strong> e libera uso comercial. <strong>Os dados de cada cultura do céu são de autores diferentes</strong>, e 5 delas são <strong>não comerciais</strong> — essas não podem entrar em nada que você venda.</p>
+<hr>
+<h2>As três situações</h2>
+<h3>1. Livre para vender e adaptar — 42 culturas</h3>
+<p><code>GPL v2</code> · <code>CC BY</code> · <code>CC BY-SA</code> · <code>CC BY-SA 2.0/3.0</code></p>
+<p>Pode usar, adaptar, traduzir e vender. <strong>Obrigatório: creditar o autor</strong> e, nos <code>CC BY-SA</code>, manter a mesma licença no que for derivado.</p>
+<p>``<code> anutan               chinese             inuit              modern arabic_al-sufi*      chinese_chenzhuo    japanese           modern_chinese aztec                chinese_manchu      korean             modern_hlad babylonian_mulapin*  chinese_song_dyn    macedonian         modern_iau babylonian_seleucid* chinese_xianglin    maori              modern_rey balinese*            chinese_yuan_dyn    mongolian          modern_st belarusian           hawaiian_starlines  navajo             norse boorong              indian              norse_edda         northern_andes indian_nakshatras   romanian           russian_siberian sami                samoan             tibetan seri                tongan             tikuna tukano              vanuatu_netwar tupi </code>``</p>
+<h3>2. Uso comercial, mas SEM adaptar — 12 culturas</h3>
+<p><code>CC BY-ND 4.0</code> — "NoDerivatives"</p>
+<p>Pode vender, <strong>mas não pode modificar os dados</strong>. Se precisar traduzir, redesenhar ou editar, tem que pedir permissão por escrito ao autor. Usar como está, com crédito.</p>
+<p>``<code> egyptian_dendera  greek_leidenAratea  khoi-san  xhosa greek_almagest    greek_dante          zulu greek_farnese     babylonian_mulapin   balinese arabic_al-sufi       babylonian_seleucid </code>``</p>
+<h3>3. NÃO COMERCIAL — 5 culturas  ·  fora de qualquer produto pago</h3>
+<p><code>CC BY-NC-ND 4.0</code> — "NonCommercial, NoDerivatives"</p>
+<p><strong>Não podem entrar em nada que você venda.</strong> Podem constar na versão grátis, sempre com crédito.</p>
+<p>``<code> arabic_arabian_peninsula   lokono arabic_indigenous          modern_journey_to_the_west kamilaroi </code>``</p>
+<hr>
+<h2>O que isso significa na prática</h2>
+<table><thead><tr>
+<th>Cenário</th>
+<th>Culturas disponíveis</th>
+</tr></thead><tbody>
+<tr><td>Versão <strong>grátis</strong> (site, app, material impresso)</td><td>todas as 59</td></tr>
+<tr><td>Versão <strong>paga</strong>, sem adaptar nada</td><td>42 livres + 12 ND = <strong>54</strong></td></tr>
+<tr><td>Versão <strong>paga</strong>, com desenho próprio por cima</td><td><strong>42</strong></td></tr>
+</tbody></table>
+<p>As duas que mais importam para o Itapemirim estão livres:</p>
+<table><thead><tr>
+<th>Cultura</th>
+<th>Licença</th>
+<th>Autor</th>
+</tr></thead><tbody>
+<tr><td><strong>tupi</strong></td><td>GNU GPL v2.0</td><td>Paulo Marcelo Pontes</td></tr>
+<tr><td><strong>tukano</strong></td><td>CC BY-SA 4.0</td><td>—</td></tr>
+<tr><td>northern_andes</td><td>GNU GPL v2.0</td><td>—</td></tr>
+<tr><td>seri</td><td>CC BY-SA 4.0</td><td>—</td></tr>
+</tbody></table>
+<p><strong>khoi-san, xhosa e zulu são CC BY-ND</strong>: uso comercial liberado, mas sem adaptação. Se o seu mapa redesenha a linha das figuras, essas três precisam sair.</p>
+<hr>
+<h2>Alerta técnico: o código hoje não olha isso</h2>
+<p><code>/mnt/dados/ephemeris/ceu_catalogo.py</code> monta o mapa <strong>sem consultar a coluna <code>licenca</code></strong>. Ou seja, hoje ele pode montar um produto vendido com uma cultura NC dentro, sem avisar.</p>
+<p><strong>Pendência de código:</strong> antes de gerar qualquer mapa pago, o catálogo tem que filtrar por licença. É a item 2 da ordem de trabalho.</p>
+<hr>
+<h2>Licenças de terceiros que não são do Stellarium</h2>
+<table><thead><tr>
+<th>Recurso</th>
+<th>Licença</th>
+<th>Observação</th>
+</tr></thead><tbody>
+<tr><td>Medalhões zodiacais (<code>arquetipos/medalhoes/*.svg</code>)</td><td>CC0 / domínio público</td><td>Wikimedia Commons, sem atribuição obrigatória</td></tr>
+<tr><td>Swiss Ephemeris</td><td>AGPL v3</td><td><strong>atenção</strong>: o motor de efemérides tem licença copyleft própria</td></tr>
+<tr><td>astropisco (IA local)</td><td>Apache 2.0</td><td>derivada do qwen3</td></tr>
+<tr><td>qwen3, nomic-embed-text</td><td>Apache 2.0</td><td>modelos Ollama</td></tr>
+<tr><td>Imagens em <code>arquetipos/referencias/</code></td><td>variadas</td><td>ver <code>arquetipos/REFERENCIAS.md</code></td></tr>
+</tbody></table>
+<p><strong>O ponto delicado é o Swiss Ephemeris: ele é AGPL.</strong> Se o app virar software fechado e distribuído, há risco de copyleft. Como o projeto é livre por natureza e a ETAPA 6 já prevê F-Droid, isso se resolve — mas decida conscientemente, não por omissão.</p>
+<hr>
+<h2>Como creditar</h2>
+<p>Toda cultura exibida precisa mostrar: nome da cultura, autor, licença. O formato sugerido:</p>
+<p>``<code> Tupi — constelações do povo originário do Brasil Paulo Marcelo Pontes · GNU GPL v2.0 </code>``</p>
+<p>Texto em português, licença no formato original dela. Um exemplo completo está no rodapé de <code>ROTEIRO.md</code> e deve entrar no site.</p>
+<hr>
+<h2>Manutenção</h2>
+<p>Quando atualizar o Stellarium, estas licenças podem mudar. Reverificar:</p>
+<p>``<code>bash cd skycultures/ for d in */; do d=${d%/} [ -f "$d/description.md" ] &amp;&amp; \ printf "%-32s %s\n" "$d" \ "$(awk '/^## *Licen[sc]e/{f=1;next} f&amp;&amp;NF{print;exit}' $d/description.md)" done </code>``</p>
+<p>Reatualizar a coluna <code>licenca</code> de <code>cultura_ceu</code> e revisar este arquivo. Última verificação: <strong>2026-10-02</strong>.</p>
+</main>
+</body>
+</html>

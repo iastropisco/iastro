@@ -1,0 +1,25 @@
+{
+  "id": "iastro-mapuche",
+  "region": "South America",
+  "classification": [
+    "ethnographic"
+  ],
+  "fallback_to_international_names": false,
+  "constellations": [
+    {
+      "id": "IAT map 001",
+      "lines": [
+        [
+          60718,
+          61199,
+          57363,
+          52419,
+          51313
+        ]
+      ],
+      "common_name": {
+        "native": "Pünonchoike (estrela-guia)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "_descricao": "Mapa de vínculos: para cada signo/planeta ocidental (chave), a lista de arquétipos correspondentes em cada cultura. Estas correspondências são a NOVA LINGUAGEM do projeto — hipóteses de cruzamento cultural a estudar e refinar, não dogmas. Cada vínculo tem 'certeza' (alta/média/baixa) e 'fonte' quando houver.",
+  "correspondencias": {
+    "aries": [
+      { "cultura": "afro-brasileiro", "id": "orixa.ogum", "nome": "Ogum", "certeza": "media", "fonte": "Hipótese do projeto (guerreiro que abre caminhos, Marte)" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.curupira", "nome": "Curupira", "certeza": "baixa", "fonte": "Hipótese do projeto (iniciativa que abre a mata)" },
+      { "cultura": "indigena", "id": "indigena.caçador_das_plêiades", "nome": "O Caçador que mira as Plêiades", "certeza": "baixa", "fonte": "Etnoastronomia tupi-guarani (caçador de Órion voltado às Plêiades); hipótese do projeto — o impulso que parte ressoa com Áries" },
+      { "cultura": "zodiaco", "id": "signo.aries", "nome": "Áries", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "touro": [
+      { "cultura": "indigena", "id": "indigena.anta", "nome": "Anta", "certeza": "media", "fonte": "Hipótese do projeto (grande animal da terra)" },
+      { "cultura": "indigena", "id": "indigena.tatu", "nome": "Tatu", "certeza": "baixa", "fonte": "Hipótese do projeto (terra que se cava)" },
+      { "cultura": "afro-brasileiro", "id": "orixa.oxum", "nome": "Oxum", "certeza": "media", "fonte": "Hipótese do projeto (amor, beleza, fartura — regência de Vênus no Touro)" },
+      { "cultura": "regional-carioca", "id": "carioca.boi_reis", "nome": "Boi de Reis", "certeza": "baixa", "fonte": "Hipótese do projeto (o boi que arroja e sustenta a terra; Folia de Reis do RJ)" },
+      { "cultura": "mapuche", "id": "mapuche.trarinmansun", "nome": "Trarinmansun (os Bois Enjogados)", "certeza": "media", "fonte": "Etnoastronomia mapuche (Lehmann-Nitsche 1925; Pozo&Canio 2014): os 'bois enjogados' de Órion/Híades — o boi arando o céu, no mesmíssimo campo de Touro/Aldebaran; cruz por forma (o lar de Touro)" },
+      { "cultura": "regional-capixaba", "id": "capixaba-sul.frade_freira", "nome": "Frade e a Freira", "certeza": "baixa", "fonte": "Lendas Capixabas (Novaes, AEL 1968): o firme silêncio de pedra e o amor eternizado — Touro (a rocha, o fixo)" },
+      { "cultura": "zodiaco", "id": "signo.touro", "nome": "Touro", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "gemeos": [
+      { "cultura": "afro-brasileiro", "id": "orixa.exu", "nome": "Exu", "certeza": "media", "fonte": "Hipótese do projeto (mensageiro da encruzilhada, comunicação)" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.saci", "nome": "Saci", "certeza": "media", "fonte": "Hipótese do projeto (vento que revolve a informação)" },
+      { "cultura": "mapuche", "id": "mapuche.witran", "nome": "Witran (as que puxam, Órion)", "certeza": "media", "fonte": "Etnoastronomia mapuche (Pozo&Canio 2014): Witran/Weluwitraw, as Três Marias de Órion como 'as que puxam o arado' — cinturão que trava o par de gêmeos Arhtões; cruz pelo par/tração geminiana" },
+      { "cultura": "indigena", "id": "indigena.gêmeos_carregadores", "nome": "Os Dois Carregadores do Céu", "certeza": "baixa", "fonte": "Etnoastronomia tupi-guarani (pares de estrelas como irmãos-cargueiros); hipótese do projeto — o par que age junto ressoa com Gêmeos" },
+      { "cultura": "zodiaco", "id": "signo.gemeos", "nome": "Gêmeos", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "cancer": [
+      { "cultura": "afro-brasileiro", "id": "orixa.iemanja", "nome": "Iemanjá", "certeza": "media", "fonte": "Hipótese do projeto (grande mãe, mar, acolhimento)" },
+      { "cultura": "regional-capixaba", "id": "capixaba.rio_itapemirim", "nome": "Rio Itapemirim", "certeza": "baixa", "fonte": "Hipótese do projeto (águas da memória do território)" },
+      { "cultura": "regional-carioca", "id": "carioca.tamoios_guanabara", "nome": "Tamoios e a Guanabara", "certeza": "baixa", "fonte": "Hipótese do projeto (águas da baía e a memória do território)" },
+      { "cultura": "mapuche", "id": "mapuche.kuyen", "nome": "Küyen (Lua)", "certeza": "media", "fonte": "Wenumapu, Pozo & Canio 2014: Küyen, a Lua organizadora do cotidiano, maternidade/abundância; correspondência por regência do luminar (Lua) no Câncer" },
+      { "cultura": "regional-capixaba", "id": "capixaba-sul.isis_marataizes", "nome": "Índia Ísis (Marataízes)", "certeza": "baixa", "fonte": "Lendas Capixabas (Novaes, AEL 1968): a princesa-água sepultada na praia — memória das águas da terra natal" },
+      { "cultura": "regional-capixaba", "id": "capixaba-sul.mae_ba_guarapari", "nome": "Mãe-Bá (Lagoa)", "certeza": "baixa", "fonte": "Tradição oral de Guarapari: a mãe-curandeira que se oferece às águas" },
+      { "cultura": "indigena", "id": "indigena.jao", "nome": "Jaó / Inambu (tinamou)", "certeza": "baixa", "fonte": "Etnoastronomia tupi-guarani (Plêiades/Híades como ave das águas); hipótese do projeto — o ninho e a estação das águas ressoam com Câncer" },
+      { "cultura": "zodiaco", "id": "signo.cancer", "nome": "Câncer", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "leao": [
+      { "cultura": "indigena", "id": "indigena.ema", "nome": "Ema", "certeza": "media", "fonte": "Hipótese do projeto (grande ave ligada ao sol e à estação); etnoastronomia tupi-guarani" },
+      { "cultura": "afro-brasileiro", "id": "orixa.xango", "nome": "Xangô", "certeza": "baixa", "fonte": "Hipótese do projeto (realeza)" },
+      { "cultura": "mapuche", "id": "mapuche.antu", "nome": "Antü (Sol)", "certeza": "media", "fonte": "Wenumapu, Pozo & Canio 2014: Antü, o Sol-pai; correspondência por regência do luminar (Sol) no Leão" },
+      { "cultura": "mapuche", "id": "mapuche.punonchoike", "nome": "Pünonchoike (Rastro do Avestruz)", "certeza": "baixa", "fonte": "Wenumapu, Pozo & Canio 2014: Cruzeiro do Sul/α-β de Centauro, caçada celeste — ressona com o eixo leão/sagitário (ave de fogo)" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.onca_rei", "nome": "Onça-Rei (a soberana da mata)", "certeza": "baixa", "fonte": "Tradição oral brasileira; Câmara Cascudo, 'Geografia dos Mitos Brasileiros' — hipótese do projeto (a soberana que rege, o fogo, a liderança)" },
+      { "cultura": "zodiaco", "id": "signo.leao", "nome": "Leão", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "virgem": [
+      { "cultura": "folclore-brasileiro", "id": "folclore.curupira", "nome": "Curupira", "certeza": "baixa", "fonte": "Hipótese do projeto (guardião que cuida/limpa a terra)" },
+      { "cultura": "afro-brasileiro", "id": "orixa.osanyin", "nome": "Osanyin (Ossaim)", "certeza": "media", "fonte": "Hipótese do projeto (precisão do conhecimento das folhas e da cura)" },
+      { "cultura": "indigena", "id": "indigena.ianduti", "nome": "Iandutí (teia de aranha do céu)", "certeza": "baixa", "fonte": "Etnoastronomia tupi-guarani (aranha-do-céu no polo austral); hipótese do projeto — o tecer miúdo e ordenado ressoa com Virgem" },
+      { "cultura": "zodiaco", "id": "signo.virgem", "nome": "Virgem", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "libra": [
+      { "cultura": "afro-brasileiro", "id": "orixa.xango", "nome": "Xangô", "certeza": "media", "fonte": "Hipótese do projeto (a balança da justiça)" },
+      { "cultura": "indigena", "id": "indigena.veado", "nome": "Veado", "certeza": "baixa", "fonte": "Hipótese do projeto (Estrela d'Alva/Vênus)" },
+      { "cultura": "mapuche", "id": "mapuche.wunelfe", "nome": "Wüñellfe (Lucero do Amanhecer)", "certeza": "media", "fonte": "Wenumapu, Pozo & Canio 2014: Wüñellfe = Vênus (Lucero), 'pai das estrelas', amor/viagem; correspondência por regência de Vênus na Libra" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.comadre_fulozinha", "nome": "Comadre Fulozinha (a delicada que equilibra)", "certeza": "baixa", "fonte": "Tradição oral do Nordeste (PE/PB); hipótese do projeto — a medida do justo e o equilíbrio entre doçura e firmeza ressoam com Libra" },
+      { "cultura": "zodiaco", "id": "signo.libra", "nome": "Libra", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "escorpiao": [
+      { "cultura": "afro-brasileiro", "id": "orixa.omolu", "nome": "Omolu", "certeza": "media", "fonte": "Hipótese do projeto (transformação profunda, renascimento)" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.boitata", "nome": "Boitatá", "certeza": "media", "fonte": "Hipótese do projeto (cobra de fogo, transformação)" },
+      { "cultura": "mapuche", "id": "mapuche.melipal", "nome": "Melipal (Quatro Azadões)", "certeza": "alta", "fonte": "Wenumapu, Pozo & Canio 2014, tabela de Coña: Melipal = α, β, δ e π de Escorpião (Antares = Kollüpal)" },
+      { "cultura": "regional-capixaba", "id": "capixaba.mao_pelada", "nome": "Mão Pelada", "certeza": "baixa", "fonte": "Hipótese do projeto (assombro ancestral)" },
+      { "cultura": "regional-capixaba", "id": "capixaba.capeta_garrafa", "nome": "Capeta da Garrafa", "certeza": "baixa", "fonte": "Hipótese do projeto (fogo preso/encantado)" },
+      { "cultura": "regional-capixaba", "id": "capixaba-sul.jaguara_apiaca", "nome": "Jaguará de Apiacá", "certeza": "baixa", "fonte": "Tradição oral de Apiacá (sul do ES): o espanto que protege e o sombrio guardião — Escorpião" },
+      { "cultura": "indigena", "id": "indigena.flecha_escorpiao", "nome": "A Flecha que guarda a região do Escorpião", "certeza": "baixa", "fonte": "Etnoastronomia tupi-guarani (Antares/Escorpião como fogo-guardião); hipótese do projeto — o coração ardente que prova ressoa com Escorpião" },
+      { "cultura": "zodiaco", "id": "signo.escorpiao", "nome": "Escorpião", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "sagitario": [
+      { "cultura": "afro-brasileiro", "id": "orixa.oxossi", "nome": "Oxóssi", "certeza": "media", "fonte": "Hipótese do projeto (o caçador arqueiro)" },
+      { "cultura": "indigena", "id": "indigena.gaviao", "nome": "Gavião", "certeza": "baixa", "fonte": "Hipótese do projeto (visão do alto, horizonte)" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.caipora", "nome": "Caipora", "certeza": "baixa", "fonte": "Hipótese do projeto (o arqueiro que caça)" },
+      { "cultura": "mapuche", "id": "mapuche.wenuleufu", "nome": "Wenu Leufü (Rio do Céu)", "certeza": "media", "fonte": "Etnoastronomia mapuche (Lehmann-Nitsche 1925; Pozo&Canio 2014): o grande rio-do-céu (Via Láctea), cujo coração denso está precisamente na direção de Sagitário — cruz por geografia celeste do eixo" },
+      { "cultura": "regional-capixaba", "id": "capixaba-sul.domingos_martins", "nome": "Domingos José Martins", "certeza": "baixa", "fonte": "Cordel e registros históricos públicos do sul capixaba: o pionteiro que parte e arde pelo ideal — Sagitário (o fogo, a expansão, o ideal)" },
+      { "cultura": "zodiaco", "id": "signo.sagitario", "nome": "Sagitário", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "capricornio": [
+      { "cultura": "indigena", "id": "indigena.homem_velho", "nome": "Homem Velho", "certeza": "media", "fonte": "Hipótese do projeto (o velho que guarda o tempo, Saturno)" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.cuca", "nome": "Cuca", "certeza": "baixa", "fonte": "Hipótese do projeto (o aviso que pesa)" },
+      { "cultura": "afro-brasileiro", "id": "orixa.nana", "nome": "Nanã", "certeza": "media", "fonte": "Hipótese do projeto (a mais velha, o tempo, a origem e o limite — Saturno)" },
+      { "cultura": "regional-carioca", "id": "carioca.gigante_adormecido", "nome": "Gigante Adormecido da Guanabara", "certeza": "baixa", "fonte": "Hipótese do projeto (a rocha que guarda o território, lenta e firme)" },
+      { "cultura": "mapuche", "id": "mapuche.wetripantu", "nome": "Wetripantu (Ano Novo Mapuche)", "certeza": "media", "fonte": "Wenumapu, Pozo & Canio 2014: virada do ano no solstício de inverno austral; o próprio autor assinala 'eixo capricórnio/câncer'" },
+      { "cultura": "regional-capixaba", "id": "capixaba-sul.cruz_muribeca", "nome": "Cruz de Muribeca (Itapemirim)", "certeza": "baixa", "fonte": "Lendas Capixabas (Novaes, AEL 1968): a cruz-fundadora e o tesouro oculto do território — Capricórnio (a raiz, a fundação)" },
+      { "cultura": "zodiaco", "id": "signo.capricornio", "nome": "Capricórnio", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "aquario": [
+      { "cultura": "afro-brasileiro", "id": "orixa.oxala", "nome": "Oxalá", "certeza": "media", "fonte": "Hipótese do projeto (o portador da criação, sabedoria primeira)" },
+      { "cultura": "afro-brasileiro", "id": "orixa.iansa", "nome": "Iansã", "certeza": "baixa", "fonte": "Hipótese do projeto (o vento que muda o tempo)" },
+      { "cultura": "indigena", "id": "indigena.piracema_cem", "nome": "Rio-do-Céu e a piracema das estrelas", "certeza": "baixa", "fonte": "Etnoastronomia tupi-guarani (Via Láctea como rio-céu); hipótese do projeto — a água que carrega o coletivo ressoa com Aquário" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.jangadeiro_almada", "nome": "O Jangadeiro (o que carrega as águas e o povo)", "certeza": "baixa", "fonte": "Tradição oral do litoral nordestino (cultura da jangada); hipótese do projeto — o espírito do grupo que projeta o futuro comum ressoa com Aquário" },
+      { "cultura": "zodiaco", "id": "signo.aquario", "nome": "Aquário", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "peixes": [
+      { "cultura": "folclore-brasileiro", "id": "folclore.iara", "nome": "Iara", "certeza": "media", "fonte": "Hipótese do projeto (água, encanto, dissolução)" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.boto", "nome": "Boto", "certeza": "baixa", "fonte": "Hipótese do projeto (metamorfose, encanto)" },
+      { "cultura": "afro-brasileiro", "id": "orixa.oxumare", "nome": "Oxumarê", "certeza": "media", "fonte": "Hipótese do projeto (serpente-arco-íris, ciclo que se dissolve e retorna)" },
+      { "cultura": "indigena", "id": "indigena.grande_baleia", "nome": "Grande Baleia (aquele que volta)", "certeza": "baixa", "fonte": "Etnoastronomia tupi-guarani (grandes águas celestes / Cetus-Eridano); hipótese do projeto — o ciclo que se dissolve e retorna ressoa com Peixes" },
+      { "cultura": "zodiaco", "id": "signo.peixes", "nome": "Peixes", "certeza": "alta", "fonte": "Signo âncora" }
+    ],
+    "sol": [
+      { "cultura": "indigena", "id": "indigena.ema", "nome": "Ema", "certeza": "baixa", "fonte": "Hipótese do projeto (ave ligada ao sol)" },
+      { "cultura": "afro-brasileiro", "id": "orixa.oxala", "nome": "Oxalá", "certeza": "baixa", "fonte": "Hipótese do projeto (princípio da criação luminosa)" }
+    ],
+    "lua": [
+      { "cultura": "afro-brasileiro", "id": "orixa.iemanja", "nome": "Iemanjá", "certeza": "media", "fonte": "Hipótese do projeto (águas, memória, acolhimento)" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.iara", "nome": "Iara", "certeza": "baixa", "fonte": "Hipótese do projeto (águas)" }
+    ],
+    "mercurio": [
+      { "cultura": "afro-brasileiro", "id": "orixa.exu", "nome": "Exu", "certeza": "media", "fonte": "Hipótese do projeto (mensageiro, comunicação)" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.saci", "nome": "Saci", "certeza": "baixa", "fonte": "Hipótese do projeto (ventania que revolve a palavra)" }
+    ],
+    "venus": [
+      { "cultura": "indigena", "id": "indigena.veado", "nome": "Veado", "certeza": "baixa", "fonte": "Hipótese do projeto (Estrela d'Alva = Vênus)" },
+      { "cultura": "afro-brasileiro", "id": "orixa.iemanja", "nome": "Iemanjá", "certeza": "baixa", "fonte": "Hipótese do projeto (afeto/beleza das águas)" }
+    ],
+    "marte": [
+      { "cultura": "afro-brasileiro", "id": "orixa.ogum", "nome": "Ogum", "certeza": "media", "fonte": "Hipótese do projeto (ferro, combate, abertura)" },
+      { "cultura": "folclore-brasileiro", "id": "folclore.caipora", "nome": "Caipora", "certeza": "baixa", "fonte": "Hipótese do projeto (caça)" }
+    ],
+    "jupiter": [
+      { "cultura": "afro-brasileiro", "id": "orixa.oxossi", "nome": "Oxóssi", "certeza": "baixa", "fonte": "Hipótese do projeto (abundância/sustento)" }
+    ],
+    "saturno": [
+      { "cultura": "indigena", "id": "indigena.homem_velho", "nome": "Homem Velho", "certeza": "media", "fonte": "Hipótese do projeto (o velho, o tempo)" }
+    ]
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "nascimento/evento": {
+    "data": "1968-05-12",
+    "hora": "06:20",
+    "local": "vitória"
+  },
+  "mapa_tradicional": {
+    "data": "1968-05-12",
+    "hora": "06:20",
+    "local": "vitória",
+    "lat": -20.3194,
+    "lon": -40.3378,
+    "planetas": {
+      "Sol": {
+        "signo": "Touro",
+        "graus": "21°42'",
+        "retrogrado": false
+      },
+      "Lua": {
+        "signo": "Escorpião",
+        "graus": "19°28'",
+        "retrogrado": false
+      },
+      "Mercúrio": {
+        "signo": "Gêmeos",
+        "graus": "9°54'",
+        "retrogrado": false
+      },
+      "Vênus": {
+        "signo": "Touro",
+        "graus": "11°10'",
+        "retrogrado": false
+      },
+      "Marte": {
+        "signo": "Gêmeos",
+        "graus": "2°40'",
+        "retrogrado": false
+      },
+      "Júpiter": {
+        "signo": "Leão",
+        "graus": "26°27'",
+        "retrogrado": false
+      },
+      "Saturno": {
+        "signo": "Áries",
+        "graus": "19°54'",
+        "retrogrado": false
+      },
+      "Urano": {
+        "signo": "Virgem",
+        "graus": "25°15'",
+        "retrogrado": true
+      },
+      "Netuno": {
+        "signo": "Escorpião",
+        "graus": "25°15'",
+        "retrogrado": true
+      },
+      "Plutão": {
+        "signo": "Virgem",
+        "graus": "20°15'",
+        "retrogrado": true
+      }
+    },
+    "asc": "Touro 24°54'03\"",
+    "casa1_lon": 54.9007
+  },
+  "plantas_regentes": {
+    "Sol": {
+      "signo": "Touro",
+      "orixa": "Oxum",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Camomila",
+          "cientifico": "Matricaria chamomilla",
+          "uso_medicinal": "calmante, insônia, cólicas, dores de estômago, anti-inflamatória",
+          "elemento": "água",
+          "fonte_etno": "trad. Umbanda (Studio Orion, Raízes Espirituais); Zuchi 2013 (Goiás)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Matricaria chamomilla; matéria médica (PD)"
+        },
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        },
+        {
+          "nome": "Folha-da-fortuna",
+          "cientifico": "Kalanchoe pinnata",
+          "uso_medicinal": "cicatrizante, anti-inflamatória, gastrintestinais",
+          "elemento": "ar",
+          "fonte_etno": "ocandomble.com (cit. Barros & Napoleão); 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe pinnata; flora medicinal"
+        },
+        {
+          "nome": "Quebra-pedra",
+          "cientifico": "Phyllanthus niruri",
+          "uso_medicinal": "diurética, litotríptica (cálculos renais), urinária, hepatoprotetora",
+          "elemento": "terra",
+          "fonte_etno": "'Ervas dos Orixás' (Omolú); Wikipédia 'Folhas sagradas' (Euê bajutoná)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Phyllanthus niruri; matéria médica americana"
+        }
+      ]
+    },
+    "Lua": {
+      "signo": "Escorpião",
+      "orixa": "Omolu (Obaluaiê)",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Boldo (Tapete d'Oxalá)",
+          "cientifico": "Plectranthus barbatus / Peumus boldus",
+          "uso_medicinal": "fígado, rins, estômago, problemas hepáticos e biliares",
+          "elemento": "fogo",
+          "fonte_etno": "'Ervas dos Orixás' (Oxalá/Ewé Babá); SBPMed ES; Zuchi 2013 (Goiás)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Peumus boldus / Plectranthus; flora medicinal"
+        },
+        {
+          "nome": "Quebra-pedra",
+          "cientifico": "Phyllanthus niruri",
+          "uso_medicinal": "diurética, litotríptica (cálculos renais), urinária, hepatoprotetora",
+          "elemento": "terra",
+          "fonte_etno": "'Ervas dos Orixás' (Omolú); Wikipédia 'Folhas sagradas' (Euê bajutoná)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Phyllanthus niruri; matéria médica americana"
+        }
+      ]
+    },
+    "Mercúrio": {
+      "signo": "Gêmeos",
+      "orixa": "Exu",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Guiné (Guiné-pipi)",
+          "cientifico": "Petiveria alliacea",
+          "uso_medicinal": "limpeza/descarrego; anti-inflamatória e analgésica de uso externo",
+          "elemento": "fogo",
+          "fonte_etno": "TAQUES et al., 'Defuma com as ervas da jurema', Dialnet; Wikipédia 'Folhas sagradas' (Ojusaju)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Petiveria alliacea; flora medicinal tropical"
+        }
+      ]
+    },
+    "Vênus": {
+      "signo": "Touro",
+      "orixa": "Oxum",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Camomila",
+          "cientifico": "Matricaria chamomilla",
+          "uso_medicinal": "calmante, insônia, cólicas, dores de estômago, anti-inflamatória",
+          "elemento": "água",
+          "fonte_etno": "trad. Umbanda (Studio Orion, Raízes Espirituais); Zuchi 2013 (Goiás)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Matricaria chamomilla; matéria médica (PD)"
+        },
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        },
+        {
+          "nome": "Folha-da-fortuna",
+          "cientifico": "Kalanchoe pinnata",
+          "uso_medicinal": "cicatrizante, anti-inflamatória, gastrintestinais",
+          "elemento": "ar",
+          "fonte_etno": "ocandomble.com (cit. Barros & Napoleão); 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe pinnata; flora medicinal"
+        },
+        {
+          "nome": "Quebra-pedra",
+          "cientifico": "Phyllanthus niruri",
+          "uso_medicinal": "diurética, litotríptica (cálculos renais), urinária, hepatoprotetora",
+          "elemento": "terra",
+          "fonte_etno": "'Ervas dos Orixás' (Omolú); Wikipédia 'Folhas sagradas' (Euê bajutoná)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Phyllanthus niruri; matéria médica americana"
+        }
+      ]
+    },
+    "Marte": {
+      "signo": "Gêmeos",
+      "orixa": "Exu",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Guiné (Guiné-pipi)",
+          "cientifico": "Petiveria alliacea",
+          "uso_medicinal": "limpeza/descarrego; anti-inflamatória e analgésica de uso externo",
+          "elemento": "fogo",
+          "fonte_etno": "TAQUES et al., 'Defuma com as ervas da jurema', Dialnet; Wikipédia 'Folhas sagradas' (Ojusaju)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Petiveria alliacea; flora medicinal tropical"
+        }
+      ]
+    }
+  },
+  "ceu_das_culturas": {
+    "tupi": {
+      "Sol": "Touro",
+      "Asc": "Touro",
+      "Lua": "Escorpião",
+      "sol_asterismo": "Tapi'i (Anta do Norte)",
+      "asc_asterismo": "Tapi'i (Anta do Norte)",
+      "lua_asterismo": "Yai (Onça-jaguar)?"
+    },
+    "tukano": {
+      "Sol": "Touro",
+      "Asc": "Touro",
+      "Lua": "Escorpião",
+      "sol_asterismo": "Pamõ (Tatu)",
+      "asc_asterismo": "Pamõ (Tatu)",
+      "lua_asterismo": "Yai (Onça)? (reservado a estudar)"
+    },
+    "capixaba-sul": {
+      "Sol": "Touro",
+      "Asc": "Touro",
+      "Lua": "Escorpião",
+      "sol_asterismo": "Frade e a Freira (as duas pedras firmes da BR-101)",
+      "asc_asterismo": "Frade e a Freira (as duas pedras firmes da BR-101)",
+      "lua_asterismo": "Jaguará de Apiacá (o espanto que guarda o sul)"
+    }
+  },
+  "cultura_arquétipa": "capixaba",
+  "sol_signo": "Touro",
+  "asc_signo": "Touro",
+  "arquivos": {
+    "png": "mae-ba-guarapari.png",
+    "html": "mae-ba-guarapari.html"
+  }
+}

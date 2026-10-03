@@ -1,0 +1,114 @@
+{
+  "id": "iastro-capixaba-sul",
+  "region": "Brazil",
+  "classification": [
+    "ethnographic",
+    "permanent_setting",
+    "regional"
+  ],
+  "fallback_to_international_names": true,
+  "constellations": [
+    {
+      "id": "SULIt 001",
+      "lines": [
+        [
+          61084,
+          60718,
+          62434,
+          59747
+        ]
+      ],
+      "common_name": {
+        "english": "Cross of Muribeca",
+        "native": "Cruz de Muribeca (a raiz-fundadora do sul)",
+        "translators_comments": "Arquétipo sul-capixaba (Hipótese do projeto). Hip de referência do Cruzeiro do Sul (Acrux-Mimosa-Gacrux-Imai); verificar identidade no campo."
+      }
+    },
+    {
+      "id": "SULIt 002",
+      "lines": [
+        [
+          60718,
+          60260,
+          59747,
+          62434,
+          61084,
+          60718
+        ]
+      ],
+      "common_name": {
+        "english": "Isis - the Princess of Marataizes",
+        "native": "Ísis (princesa goitacá, Marataízes)",
+        "translators_comments": "Arquétipo sul-capixaba (Hipótese do projeto): a linha que costura as estrelas da costa, na região do Cruzeiro/Centauro conforme presente no céu de verão."
+      }
+    },
+    {
+      "id": "SULIt 003",
+      "lines": [
+        [
+          78820,
+          78401,
+          78265,
+          77634,
+          74824,
+          70264
+        ]
+      ],
+      "common_name": {
+        "english": "Frair and the Nun (the two firm stones)",
+        "native": "Frade e a Freira (as duas pedras firmes)",
+        "translators_comments": "Arquétipo sul-capixaba (Hipótese do projeto): par de estrelas firmes na região de Centauro, lidas como as duas pedras da BR-101."
+      }
+    },
+    {
+      "id": "SULIt 004",
+      "lines": [
+        [
+          62434,
+          61418,
+          62356,
+          61724,
+          62886,
+          63948
+        ]
+      ],
+      "common_name": {
+        "english": "Domingos Martins (the one who sets off burning)",
+        "native": "Domingos José Martins (o que parte e arde)",
+        "translators_comments": "Arquétipo sul-capixaba (Hipótese do projeto): linha em direção ao centro da Via Láctea do sul, o impulso que parte ao longe."
+      }
+    },
+    {
+      "id": "SULIt 005",
+      "lines": [
+        [
+          60718,
+          61199,
+          57363,
+          52419,
+          51313
+        ]
+      ],
+      "common_name": {
+        "english": "Jaguara of Apiaca (the guardian of the south)",
+        "native": "Jaguará de Apiacá (o espanto que guarda o sul)",
+        "translators_comments": "Arquétipo sul-capixaba (Hipótese do projeto): rastro sobre o Cruzeiro, o olhar que vigia o horizonte sul."
+      }
+    },
+    {
+      "id": "SULIt 006",
+      "lines": [
+        [
+          61084,
+          59747,
+          62434
+        ]
+      ],
+      "common_name": {
+        "english": "Mae-Ba of Guarapari (the mother of the lagoon)",
+        "native": "Mãe-Bá e a Lagoa (a mãe das águas)",
+        "translators_comments": "Arquétipo sul-capixaba (Hipótese do projeto): as águas do espelho celeste, próximo à Cruz do Sul."
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+streamlit>=1.30
+numpy>=1.24
+pillow>=10
+pyswisseph>=2.10
+streamlit-drawable-canvas>=0.9

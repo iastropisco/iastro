@@ -1,0 +1,274 @@
+{
+  "nascimento/evento": {
+    "data": "1987-09-03",
+    "hora": "11:45",
+    "local": "vitória"
+  },
+  "mapa_tradicional": {
+    "data": "1987-09-03",
+    "hora": "11:45",
+    "local": "vitória",
+    "lat": -20.3194,
+    "lon": -40.3378,
+    "planetas": {
+      "Sol": {
+        "signo": "Virgem",
+        "graus": "10°34'",
+        "retrogrado": false
+      },
+      "Lua": {
+        "signo": "Capricórnio",
+        "graus": "13°03'",
+        "retrogrado": false
+      },
+      "Mercúrio": {
+        "signo": "Virgem",
+        "graus": "23°23'",
+        "retrogrado": false
+      },
+      "Vênus": {
+        "signo": "Virgem",
+        "graus": "13°40'",
+        "retrogrado": false
+      },
+      "Marte": {
+        "signo": "Virgem",
+        "graus": "7°30'",
+        "retrogrado": false
+      },
+      "Júpiter": {
+        "signo": "Áries",
+        "graus": "29°22'",
+        "retrogrado": true
+      },
+      "Saturno": {
+        "signo": "Sagitário",
+        "graus": "14°43'",
+        "retrogrado": false
+      },
+      "Urano": {
+        "signo": "Sagitário",
+        "graus": "22°43'",
+        "retrogrado": false
+      },
+      "Netuno": {
+        "signo": "Capricórnio",
+        "graus": "5°16'",
+        "retrogrado": true
+      },
+      "Plutão": {
+        "signo": "Escorpião",
+        "graus": "7°46'",
+        "retrogrado": false
+      }
+    },
+    "asc": "Sagitário 22°54'09\"",
+    "casa1_lon": 262.9024
+  },
+  "plantas_regentes": {
+    "Sol": {
+      "signo": "Virgem",
+      "orixa": "Osanyin (Ossaim)",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Assa-peixe",
+          "cientifico": "Vernonia polyanthes",
+          "uso_medicinal": "expectorante, bronquite, tosse",
+          "elemento": "ar",
+          "fonte_etno": "Monografia MS + Revista Fitos (Telles)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Vernonia polyanthes; flora medicinal brasileira"
+        },
+        {
+          "nome": "Carqueja",
+          "cientifico": "Baccharis trimera",
+          "uso_medicinal": "hepática, digestiva",
+          "elemento": "fogo",
+          "fonte_etno": "SBPMed (ES); UnB (Pasa Cuiabá/Alto Paraíso)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Baccharis crispa; matéria médica brasileira"
+        },
+        {
+          "nome": "Erva-baleeira (Maria-milagrosa)",
+          "cientifico": "Varronia curassavica (sin. Cordia verbenacea)",
+          "uso_medicinal": "reumatismo, artrite, artrose, gota, dores musculares e da coluna, contusões, entorses, tendinites, feridas, úlceras, tosse e gripe (fortalece os pulmões), má digestão; uso tradicional anti-veneno de cobra",
+          "elemento": "fogo",
+          "fonte_etno": "Farmacopeia Brasileira/ANVISA 2022; Revista Fitos/Fiocruz; Albertasse, Thomaz & Andrade 2010 (Barra do Jucu-ES); Sertié et al. 1988/2005; Bristot et al. 2021 (SC); G1 Repórter Eco 2024",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cordia verbenacea; flora medicinal brasileira"
+        },
+        {
+          "nome": "Sete-sangrias",
+          "cientifico": "Cuphea carthagenensis",
+          "uso_medicinal": "hipotensora, diurética, emenagoga (popular)",
+          "elemento": "água",
+          "fonte_etno": "Inventário Zona da Mata/MG (rev. aba-agroecologia)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cuphea spp.; flora medicinal brasileira"
+        }
+      ]
+    },
+    "Lua": {
+      "signo": "Capricórnio",
+      "orixa": "Nanã",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        }
+      ]
+    },
+    "Mercúrio": {
+      "signo": "Virgem",
+      "orixa": "Osanyin (Ossaim)",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Assa-peixe",
+          "cientifico": "Vernonia polyanthes",
+          "uso_medicinal": "expectorante, bronquite, tosse",
+          "elemento": "ar",
+          "fonte_etno": "Monografia MS + Revista Fitos (Telles)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Vernonia polyanthes; flora medicinal brasileira"
+        },
+        {
+          "nome": "Carqueja",
+          "cientifico": "Baccharis trimera",
+          "uso_medicinal": "hepática, digestiva",
+          "elemento": "fogo",
+          "fonte_etno": "SBPMed (ES); UnB (Pasa Cuiabá/Alto Paraíso)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Baccharis crispa; matéria médica brasileira"
+        },
+        {
+          "nome": "Erva-baleeira (Maria-milagrosa)",
+          "cientifico": "Varronia curassavica (sin. Cordia verbenacea)",
+          "uso_medicinal": "reumatismo, artrite, artrose, gota, dores musculares e da coluna, contusões, entorses, tendinites, feridas, úlceras, tosse e gripe (fortalece os pulmões), má digestão; uso tradicional anti-veneno de cobra",
+          "elemento": "fogo",
+          "fonte_etno": "Farmacopeia Brasileira/ANVISA 2022; Revista Fitos/Fiocruz; Albertasse, Thomaz & Andrade 2010 (Barra do Jucu-ES); Sertié et al. 1988/2005; Bristot et al. 2021 (SC); G1 Repórter Eco 2024",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cordia verbenacea; flora medicinal brasileira"
+        },
+        {
+          "nome": "Sete-sangrias",
+          "cientifico": "Cuphea carthagenensis",
+          "uso_medicinal": "hipotensora, diurética, emenagoga (popular)",
+          "elemento": "água",
+          "fonte_etno": "Inventário Zona da Mata/MG (rev. aba-agroecologia)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cuphea spp.; flora medicinal brasileira"
+        }
+      ]
+    },
+    "Vênus": {
+      "signo": "Virgem",
+      "orixa": "Osanyin (Ossaim)",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Assa-peixe",
+          "cientifico": "Vernonia polyanthes",
+          "uso_medicinal": "expectorante, bronquite, tosse",
+          "elemento": "ar",
+          "fonte_etno": "Monografia MS + Revista Fitos (Telles)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Vernonia polyanthes; flora medicinal brasileira"
+        },
+        {
+          "nome": "Carqueja",
+          "cientifico": "Baccharis trimera",
+          "uso_medicinal": "hepática, digestiva",
+          "elemento": "fogo",
+          "fonte_etno": "SBPMed (ES); UnB (Pasa Cuiabá/Alto Paraíso)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Baccharis crispa; matéria médica brasileira"
+        },
+        {
+          "nome": "Erva-baleeira (Maria-milagrosa)",
+          "cientifico": "Varronia curassavica (sin. Cordia verbenacea)",
+          "uso_medicinal": "reumatismo, artrite, artrose, gota, dores musculares e da coluna, contusões, entorses, tendinites, feridas, úlceras, tosse e gripe (fortalece os pulmões), má digestão; uso tradicional anti-veneno de cobra",
+          "elemento": "fogo",
+          "fonte_etno": "Farmacopeia Brasileira/ANVISA 2022; Revista Fitos/Fiocruz; Albertasse, Thomaz & Andrade 2010 (Barra do Jucu-ES); Sertié et al. 1988/2005; Bristot et al. 2021 (SC); G1 Repórter Eco 2024",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cordia verbenacea; flora medicinal brasileira"
+        },
+        {
+          "nome": "Sete-sangrias",
+          "cientifico": "Cuphea carthagenensis",
+          "uso_medicinal": "hipotensora, diurética, emenagoga (popular)",
+          "elemento": "água",
+          "fonte_etno": "Inventário Zona da Mata/MG (rev. aba-agroecologia)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cuphea spp.; flora medicinal brasileira"
+        }
+      ]
+    },
+    "Marte": {
+      "signo": "Virgem",
+      "orixa": "Osanyin (Ossaim)",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Assa-peixe",
+          "cientifico": "Vernonia polyanthes",
+          "uso_medicinal": "expectorante, bronquite, tosse",
+          "elemento": "ar",
+          "fonte_etno": "Monografia MS + Revista Fitos (Telles)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Vernonia polyanthes; flora medicinal brasileira"
+        },
+        {
+          "nome": "Carqueja",
+          "cientifico": "Baccharis trimera",
+          "uso_medicinal": "hepática, digestiva",
+          "elemento": "fogo",
+          "fonte_etno": "SBPMed (ES); UnB (Pasa Cuiabá/Alto Paraíso)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Baccharis crispa; matéria médica brasileira"
+        },
+        {
+          "nome": "Erva-baleeira (Maria-milagrosa)",
+          "cientifico": "Varronia curassavica (sin. Cordia verbenacea)",
+          "uso_medicinal": "reumatismo, artrite, artrose, gota, dores musculares e da coluna, contusões, entorses, tendinites, feridas, úlceras, tosse e gripe (fortalece os pulmões), má digestão; uso tradicional anti-veneno de cobra",
+          "elemento": "fogo",
+          "fonte_etno": "Farmacopeia Brasileira/ANVISA 2022; Revista Fitos/Fiocruz; Albertasse, Thomaz & Andrade 2010 (Barra do Jucu-ES); Sertié et al. 1988/2005; Bristot et al. 2021 (SC); G1 Repórter Eco 2024",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cordia verbenacea; flora medicinal brasileira"
+        },
+        {
+          "nome": "Sete-sangrias",
+          "cientifico": "Cuphea carthagenensis",
+          "uso_medicinal": "hipotensora, diurética, emenagoga (popular)",
+          "elemento": "água",
+          "fonte_etno": "Inventário Zona da Mata/MG (rev. aba-agroecologia)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cuphea spp.; flora medicinal brasileira"
+        }
+      ]
+    }
+  },
+  "ceu_das_culturas": {
+    "tupi": {
+      "Sol": "Virgem",
+      "Asc": "Sagitário",
+      "Lua": "Capricórnio",
+      "sol_asterismo": "Eixu (Vespeiro)",
+      "asc_asterismo": "Guira-nhandu (Ema) — flecha no alto",
+      "lua_asterismo": "Tapi'i (Anta — passos sobre a pedra)"
+    },
+    "tukano": {
+      "Sol": "Virgem",
+      "Asc": "Sagitário",
+      "Lua": "Capricórnio",
+      "sol_asterismo": "Waikasa (Grelha de peixe — trama miúda)",
+      "asc_asterismo": "Yhé (Garça — lançada em voo)",
+      "lua_asterismo": "Sioyahpu (Cabo de enxada — rocha e trabalho)"
+    },
+    "capixaba-sul": {
+      "Sol": "Virgem",
+      "Asc": "Sagitário",
+      "Lua": "Capricórnio",
+      "sol_asterismo": "— (a ampliar)",
+      "asc_asterismo": "Domingos José Martins (o que parte e arde pelo ideal)",
+      "lua_asterismo": "Cruz de Muribeca (a raiz-fundadora do sul)"
+    }
+  },
+  "cultura_arquétipa": "indigena",
+  "sol_signo": "Virgem",
+  "asc_signo": "Sagitário",
+  "arquivos": {
+    "png": "tupi-vitoria.png",
+    "html": "tupi-vitoria.html"
+  }
+}

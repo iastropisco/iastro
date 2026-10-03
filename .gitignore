@@ -1,0 +1,48 @@
+# IAstro - Deploy para Streamlit Cloud
+# Pasta pronta para subir no GitHub
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.so
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Dados sensíveis
+*.db
+*.jsonl
+*.sqlite
+*.sqlite3
+
+# Arquivos gerados
+mapas/*.png
+mapas/*.html
+mapas/*.json
+mapas/*-teste*
+mapas/meu-mapa*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testes
+testar_pacote.py
+ESQUEMA-REDE.md
+LEIA-ME.md
+LICENCA-Iastro.md
+Dockerfile
+gerar_licencas.py
+gerar_privacidade.py

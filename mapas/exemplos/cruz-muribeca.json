@@ -1,0 +1,338 @@
+{
+  "nascimento/evento": {
+    "data": "1910-08-19",
+    "hora": "02:00",
+    "local": "itapemirim"
+  },
+  "mapa_tradicional": {
+    "data": "1910-08-19",
+    "hora": "02:00",
+    "local": "itapemirim",
+    "lat": -21.0083,
+    "lon": -40.847,
+    "planetas": {
+      "Sol": {
+        "signo": "Leão",
+        "graus": "25°19'",
+        "retrogrado": false
+      },
+      "Lua": {
+        "signo": "Aquário",
+        "graus": "5°13'",
+        "retrogrado": false
+      },
+      "Mercúrio": {
+        "signo": "Virgem",
+        "graus": "19°59'",
+        "retrogrado": false
+      },
+      "Vênus": {
+        "signo": "Câncer",
+        "graus": "29°57'",
+        "retrogrado": false
+      },
+      "Marte": {
+        "signo": "Virgem",
+        "graus": "8°20'",
+        "retrogrado": false
+      },
+      "Júpiter": {
+        "signo": "Libra",
+        "graus": "12°28'",
+        "retrogrado": false
+      },
+      "Saturno": {
+        "signo": "Touro",
+        "graus": "6°35'",
+        "retrogrado": false
+      },
+      "Urano": {
+        "signo": "Capricórnio",
+        "graus": "21°59'",
+        "retrogrado": true
+      },
+      "Netuno": {
+        "signo": "Câncer",
+        "graus": "20°23'",
+        "retrogrado": false
+      },
+      "Plutão": {
+        "signo": "Gêmeos",
+        "graus": "27°39'",
+        "retrogrado": false
+      }
+    },
+    "asc": "Gêmeos 22°02'52\"",
+    "casa1_lon": 82.0477
+  },
+  "plantas_regentes": {
+    "Sol": {
+      "signo": "Leão",
+      "orixa": "Xangô",
+      "certeza": "baixa",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Arruda",
+          "cientifico": "Ruta graveolens",
+          "uso_medicinal": "anti-parasitária, digestiva, anti-inflamatória, emenagoga (uso tradicional)",
+          "elemento": "fogo",
+          "fonte_etno": "SANTOS, J.R.C., DOI 10.63391/yvnx9g69 (Xangô); PERINAZZO & BALDONI, DOI 10.21674/2448-0479.82.108-120; Ethnobotany Research & Applications (benzedeiras SC)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ruta graveolens GPS; matéria médica clássica brasileira"
+        },
+        {
+          "nome": "Folha-da-costa (Saião)",
+          "cientifico": "Kalanchoe brasiliensis / K. pinnata",
+          "uso_medicinal": "cicatrizante, anti-inflamatória, problemas estomacais, tosse",
+          "elemento": "ar",
+          "fonte_etno": "BARROS & NAPOLEÃO, Ewé Òrìsà; VERGER, Ewé; ocandomble.com (Òdúndún)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe brasiliensis; flora medicinal brasileira"
+        },
+        {
+          "nome": "Folha-da-fortuna",
+          "cientifico": "Kalanchoe pinnata",
+          "uso_medicinal": "cicatrizante, anti-inflamatória, gastrintestinais",
+          "elemento": "ar",
+          "fonte_etno": "ocandomble.com (cit. Barros & Napoleão); 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe pinnata; flora medicinal"
+        }
+      ]
+    },
+    "Lua": {
+      "signo": "Aquário",
+      "orixa": "Oxalá",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alecrim",
+          "cientifico": "Rosmarinus officinalis",
+          "uso_medicinal": "digestivo, gases, reumatismo, estimulante",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; trad. Umbanda (Cantinho de Oxalá); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Rosmarinus officinalis; Herbário de matéria médica (PD)"
+        },
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Alfazema (Lavanda)",
+          "cientifico": "Lavandula angustifolia",
+          "uso_medicinal": "calmante, ansiedade, insônia, antisséptica, cicatrizante",
+          "elemento": "ar",
+          "fonte_etno": "Ita Balago (Oxalá); Studio Orion (Iemanjá)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Lavandula angustifolia; matéria médica (PD)"
+        },
+        {
+          "nome": "Boldo (Tapete d'Oxalá)",
+          "cientifico": "Plectranthus barbatus / Peumus boldus",
+          "uso_medicinal": "fígado, rins, estômago, problemas hepáticos e biliares",
+          "elemento": "fogo",
+          "fonte_etno": "'Ervas dos Orixás' (Oxalá/Ewé Babá); SBPMed ES; Zuchi 2013 (Goiás)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Peumus boldus / Plectranthus; flora medicinal"
+        },
+        {
+          "nome": "Erva-cidreira (Melissa)",
+          "cientifico": "Melissa officinalis",
+          "uso_medicinal": "calmante, sedativo leve, ansiedade, insônia, cólicas",
+          "elemento": "água",
+          "fonte_etno": "'Ervas dos Orixás'; SBPMed ES; banco de plantas da Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Melissa officinalis; flora medicinal do sul"
+        },
+        {
+          "nome": "Erva-doce",
+          "cientifico": "Pimpinella anisum",
+          "uso_medicinal": "carminativo, digestivo, calmante, cólicas, antiespasmódico",
+          "elemento": "ar",
+          "fonte_etno": "Candomblé Desmistificado (Ibeji); trad. Umbanda (Oxalá)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Pimpinella anisum; matéria médica clássica"
+        },
+        {
+          "nome": "Folha-da-costa (Saião)",
+          "cientifico": "Kalanchoe brasiliensis / K. pinnata",
+          "uso_medicinal": "cicatrizante, anti-inflamatória, problemas estomacais, tosse",
+          "elemento": "ar",
+          "fonte_etno": "BARROS & NAPOLEÃO, Ewé Òrìsà; VERGER, Ewé; ocandomble.com (Òdúndún)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe brasiliensis; flora medicinal brasileira"
+        },
+        {
+          "nome": "Funcho",
+          "cientifico": "Foeniculum vulgare",
+          "uso_medicinal": "carminativo, digestivo, calmante, cólicas, lactação",
+          "elemento": "ar",
+          "fonte_etno": "Raízes Espirituais (Oxalá); Inventário Zona da Mata/MG",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Foeniculum vulgare; matéria médica (PD)"
+        },
+        {
+          "nome": "Hortelã",
+          "cientifico": "Mentha spp.",
+          "uso_medicinal": "digestiva, carminativa, antiespasmódica, calmante",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás' (Iansã/Oxalá); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Mentha; matéria médica clássica"
+        },
+        {
+          "nome": "Sálvia",
+          "cientifico": "Salvia officinalis",
+          "uso_medicinal": "digestiva, antisséptica, gripes/resfriados, febres, estômago",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás' (Oxalá); trad. Umbanda",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Salvia officinalis; matéria médica (PD)"
+        }
+      ]
+    },
+    "Mercúrio": {
+      "signo": "Virgem",
+      "orixa": "Osanyin (Ossaim)",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Assa-peixe",
+          "cientifico": "Vernonia polyanthes",
+          "uso_medicinal": "expectorante, bronquite, tosse",
+          "elemento": "ar",
+          "fonte_etno": "Monografia MS + Revista Fitos (Telles)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Vernonia polyanthes; flora medicinal brasileira"
+        },
+        {
+          "nome": "Carqueja",
+          "cientifico": "Baccharis trimera",
+          "uso_medicinal": "hepática, digestiva",
+          "elemento": "fogo",
+          "fonte_etno": "SBPMed (ES); UnB (Pasa Cuiabá/Alto Paraíso)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Baccharis crispa; matéria médica brasileira"
+        },
+        {
+          "nome": "Erva-baleeira (Maria-milagrosa)",
+          "cientifico": "Varronia curassavica (sin. Cordia verbenacea)",
+          "uso_medicinal": "reumatismo, artrite, artrose, gota, dores musculares e da coluna, contusões, entorses, tendinites, feridas, úlceras, tosse e gripe (fortalece os pulmões), má digestão; uso tradicional anti-veneno de cobra",
+          "elemento": "fogo",
+          "fonte_etno": "Farmacopeia Brasileira/ANVISA 2022; Revista Fitos/Fiocruz; Albertasse, Thomaz & Andrade 2010 (Barra do Jucu-ES); Sertié et al. 1988/2005; Bristot et al. 2021 (SC); G1 Repórter Eco 2024",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cordia verbenacea; flora medicinal brasileira"
+        },
+        {
+          "nome": "Sete-sangrias",
+          "cientifico": "Cuphea carthagenensis",
+          "uso_medicinal": "hipotensora, diurética, emenagoga (popular)",
+          "elemento": "água",
+          "fonte_etno": "Inventário Zona da Mata/MG (rev. aba-agroecologia)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cuphea spp.; flora medicinal brasileira"
+        }
+      ]
+    },
+    "Vênus": {
+      "signo": "Câncer",
+      "orixa": "Iemanjá",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Alfazema (Lavanda)",
+          "cientifico": "Lavandula angustifolia",
+          "uso_medicinal": "calmante, ansiedade, insônia, antisséptica, cicatrizante",
+          "elemento": "ar",
+          "fonte_etno": "Ita Balago (Oxalá); Studio Orion (Iemanjá)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Lavandula angustifolia; matéria médica (PD)"
+        },
+        {
+          "nome": "Babosa (Aloés)",
+          "cientifico": "Aloe vera",
+          "uso_medicinal": "cicatrizante, laxante (látex), queimaduras, anti-inflamatória",
+          "elemento": "água",
+          "fonte_etno": "Studio Orion (Iemanjá); UFRB Reverso",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Aloe vera; matéria médica clássica"
+        }
+      ]
+    },
+    "Marte": {
+      "signo": "Virgem",
+      "orixa": "Osanyin (Ossaim)",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Assa-peixe",
+          "cientifico": "Vernonia polyanthes",
+          "uso_medicinal": "expectorante, bronquite, tosse",
+          "elemento": "ar",
+          "fonte_etno": "Monografia MS + Revista Fitos (Telles)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Vernonia polyanthes; flora medicinal brasileira"
+        },
+        {
+          "nome": "Carqueja",
+          "cientifico": "Baccharis trimera",
+          "uso_medicinal": "hepática, digestiva",
+          "elemento": "fogo",
+          "fonte_etno": "SBPMed (ES); UnB (Pasa Cuiabá/Alto Paraíso)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Baccharis crispa; matéria médica brasileira"
+        },
+        {
+          "nome": "Erva-baleeira (Maria-milagrosa)",
+          "cientifico": "Varronia curassavica (sin. Cordia verbenacea)",
+          "uso_medicinal": "reumatismo, artrite, artrose, gota, dores musculares e da coluna, contusões, entorses, tendinites, feridas, úlceras, tosse e gripe (fortalece os pulmões), má digestão; uso tradicional anti-veneno de cobra",
+          "elemento": "fogo",
+          "fonte_etno": "Farmacopeia Brasileira/ANVISA 2022; Revista Fitos/Fiocruz; Albertasse, Thomaz & Andrade 2010 (Barra do Jucu-ES); Sertié et al. 1988/2005; Bristot et al. 2021 (SC); G1 Repórter Eco 2024",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cordia verbenacea; flora medicinal brasileira"
+        },
+        {
+          "nome": "Sete-sangrias",
+          "cientifico": "Cuphea carthagenensis",
+          "uso_medicinal": "hipotensora, diurética, emenagoga (popular)",
+          "elemento": "água",
+          "fonte_etno": "Inventário Zona da Mata/MG (rev. aba-agroecologia)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Cuphea spp.; flora medicinal brasileira"
+        }
+      ]
+    }
+  },
+  "ceu_das_culturas": {
+    "tupi": {
+      "Sol": "Leão",
+      "Asc": "Gêmeos",
+      "Lua": "Aquário",
+      "sol_asterismo": "Yai? / Veado (riacho viril)",
+      "asc_asterismo": "Tuivae (Homem Velho)",
+      "lua_asterismo": "Tuivae (Homem Velho — as águas do rio)"
+    },
+    "tukano": {
+      "Sol": "Leão",
+      "Asc": "Gêmeos",
+      "Lua": "Aquário",
+      "sol_asterismo": "Yai (Onça-pintada)",
+      "asc_asterismo": "Aña (Cobra jararaca — par enroscado)",
+      "lua_asterismo": "Sipé Phairó (Cobra — o grande curso)"
+    },
+    "capixaba-sul": {
+      "Sol": "Leão",
+      "Asc": "Gêmeos",
+      "Lua": "Aquário",
+      "sol_asterismo": "— (a ampliar)",
+      "asc_asterismo": "— (a ampliar)",
+      "lua_asterismo": "— (a ampliar)"
+    }
+  },
+  "cultura_arquétipa": "capixaba",
+  "sol_signo": "Leão",
+  "asc_signo": "Gêmeos",
+  "arquivos": {
+    "png": "cruz-muribeca.png",
+    "html": "cruz-muribeca.html"
+  }
+}

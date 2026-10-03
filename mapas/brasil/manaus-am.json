@@ -1,0 +1,1966 @@
+{
+  "nascimento/evento": {
+    "data": "1998-07-07",
+    "hora": "21:20",
+    "local": "manaus|am"
+  },
+  "mapa_tradicional": {
+    "data": "1998-07-07",
+    "hora": "21:20",
+    "local": "manaus|am",
+    "lat": -3.11866,
+    "lon": -60.0212,
+    "planetas": {
+      "Sol": {
+        "signo": "Câncer",
+        "graus": "15°42'",
+        "retrogrado": false
+      },
+      "Lua": {
+        "signo": "Sagitário",
+        "graus": "26°10'",
+        "retrogrado": false
+      },
+      "Mercúrio": {
+        "signo": "Leão",
+        "graus": "10°30'",
+        "retrogrado": false
+      },
+      "Vênus": {
+        "signo": "Gêmeos",
+        "graus": "16°06'",
+        "retrogrado": false
+      },
+      "Marte": {
+        "signo": "Câncer",
+        "graus": "1°08'",
+        "retrogrado": false
+      },
+      "Júpiter": {
+        "signo": "Peixes",
+        "graus": "27°53'",
+        "retrogrado": false
+      },
+      "Saturno": {
+        "signo": "Touro",
+        "graus": "2°21'",
+        "retrogrado": false
+      },
+      "Urano": {
+        "signo": "Aquário",
+        "graus": "11°45'",
+        "retrogrado": true
+      },
+      "Netuno": {
+        "signo": "Aquário",
+        "graus": "1°11'",
+        "retrogrado": true
+      },
+      "Plutão": {
+        "signo": "Sagitário",
+        "graus": "5°41'",
+        "retrogrado": true
+      }
+    },
+    "asc": "Peixes 4°27'18\"",
+    "casa1_lon": 334.455
+  },
+  "plantas_regentes": {
+    "Sol": {
+      "signo": "Câncer",
+      "orixa": "Iemanjá",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Alfazema (Lavanda)",
+          "cientifico": "Lavandula angustifolia",
+          "uso_medicinal": "calmante, ansiedade, insônia, antisséptica, cicatrizante",
+          "elemento": "ar",
+          "fonte_etno": "Ita Balago (Oxalá); Studio Orion (Iemanjá)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Lavandula angustifolia; matéria médica (PD)"
+        },
+        {
+          "nome": "Babosa (Aloés)",
+          "cientifico": "Aloe vera",
+          "uso_medicinal": "cicatrizante, laxante (látex), queimaduras, anti-inflamatória",
+          "elemento": "água",
+          "fonte_etno": "Studio Orion (Iemanjá); UFRB Reverso",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Aloe vera; matéria médica clássica"
+        }
+      ]
+    },
+    "Lua": {
+      "signo": "Sagitário",
+      "orixa": "Oxóssi",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alecrim",
+          "cientifico": "Rosmarinus officinalis",
+          "uso_medicinal": "digestivo, gases, reumatismo, estimulante",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; trad. Umbanda (Cantinho de Oxalá); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Rosmarinus officinalis; Herbário de matéria médica (PD)"
+        },
+        {
+          "nome": "Avenca",
+          "cientifico": "Adiantum capillus-veneris",
+          "uso_medicinal": "expectorante suave, tosse, pele (tradicional)",
+          "elemento": "ar",
+          "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Adiantum"
+        },
+        {
+          "nome": "Jurema (Mimosa)",
+          "cientifico": "Mimosa hostilis",
+          "uso_medicinal": "relaxante suave, cicatrizante (casca) — uso ritual e popular",
+          "elemento": "terra",
+          "fonte_etno": "Tradição Afro-Brasileira e Indígena; 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): gênero Mimosa"
+        },
+        {
+          "nome": "Mangerona (Manjerona)",
+          "cientifico": "Origanum majorana",
+          "uso_medicinal": "digestiva, calmante leve, resfriados (tradicional)",
+          "elemento": "ar",
+          "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Matéria médica clássica (PD)"
+        }
+      ]
+    },
+    "Mercúrio": {
+      "signo": "Leão",
+      "orixa": "Xangô",
+      "certeza": "baixa",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Arruda",
+          "cientifico": "Ruta graveolens",
+          "uso_medicinal": "anti-parasitária, digestiva, anti-inflamatória, emenagoga (uso tradicional)",
+          "elemento": "fogo",
+          "fonte_etno": "SANTOS, J.R.C., DOI 10.63391/yvnx9g69 (Xangô); PERINAZZO & BALDONI, DOI 10.21674/2448-0479.82.108-120; Ethnobotany Research & Applications (benzedeiras SC)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ruta graveolens GPS; matéria médica clássica brasileira"
+        },
+        {
+          "nome": "Folha-da-costa (Saião)",
+          "cientifico": "Kalanchoe brasiliensis / K. pinnata",
+          "uso_medicinal": "cicatrizante, anti-inflamatória, problemas estomacais, tosse",
+          "elemento": "ar",
+          "fonte_etno": "BARROS & NAPOLEÃO, Ewé Òrìsà; VERGER, Ewé; ocandomble.com (Òdúndún)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe brasiliensis; flora medicinal brasileira"
+        },
+        {
+          "nome": "Folha-da-fortuna",
+          "cientifico": "Kalanchoe pinnata",
+          "uso_medicinal": "cicatrizante, anti-inflamatória, gastrintestinais",
+          "elemento": "ar",
+          "fonte_etno": "ocandomble.com (cit. Barros & Napoleão); 'Ervas dos Orixás'",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe pinnata; flora medicinal"
+        }
+      ]
+    },
+    "Vênus": {
+      "signo": "Gêmeos",
+      "orixa": "Exu",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Guiné (Guiné-pipi)",
+          "cientifico": "Petiveria alliacea",
+          "uso_medicinal": "limpeza/descarrego; anti-inflamatória e analgésica de uso externo",
+          "elemento": "fogo",
+          "fonte_etno": "TAQUES et al., 'Defuma com as ervas da jurema', Dialnet; Wikipédia 'Folhas sagradas' (Ojusaju)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Petiveria alliacea; flora medicinal tropical"
+        }
+      ]
+    },
+    "Marte": {
+      "signo": "Câncer",
+      "orixa": "Iemanjá",
+      "certeza": "media",
+      "plantas": [
+        {
+          "nome": "Alfavaca (Manjericão)",
+          "cientifico": "Ocimum basilicum / O. americanum",
+          "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+          "elemento": "ar",
+          "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+        },
+        {
+          "nome": "Alfazema (Lavanda)",
+          "cientifico": "Lavandula angustifolia",
+          "uso_medicinal": "calmante, ansiedade, insônia, antisséptica, cicatrizante",
+          "elemento": "ar",
+          "fonte_etno": "Ita Balago (Oxalá); Studio Orion (Iemanjá)",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Lavandula angustifolia; matéria médica (PD)"
+        },
+        {
+          "nome": "Babosa (Aloés)",
+          "cientifico": "Aloe vera",
+          "uso_medicinal": "cicatrizante, laxante (látex), queimaduras, anti-inflamatória",
+          "elemento": "água",
+          "fonte_etno": "Studio Orion (Iemanjá); UFRB Reverso",
+          "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Aloe vera; matéria médica clássica"
+        }
+      ]
+    }
+  },
+  "ceu_das_culturas": {
+    "ceu_todas_culturas": {
+      "nossa:afro-brasileiro": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Iemanjá"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Oxumarê"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Oxóssi"
+        }
+      },
+      "nossa:capixaba-sul": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Ísis de Marataízes · Mãe-Bá de Guarapari (as mães d'água)"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "— (a ampliar)"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Domingos José Martins (o que parte e arde pelo ideal)"
+        }
+      },
+      "nossa:folclore-brasileiro": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Iara"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Caipora"
+        }
+      },
+      "nossa:indigena": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Jaó / Inambu (tinamou)"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Grande Baleia (aquele que volta)"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Gavião"
+        }
+      },
+      "nossa:mapuche": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Küyen (Lua)"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Wenu Leufü (Rio do Céu)"
+        }
+      },
+      "nossa:regional-capixaba": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Rio Itapemirim"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Domingos José Martins"
+        }
+      },
+      "nossa:regional-carioca": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Tamoios e a Guanabara"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "nossa:tukano": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Dahsiaw (Camarão — águas rasas)"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Mhua (Peixe dos fundos)"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Yhé (Garça — lançada em voo)"
+        }
+      },
+      "nossa:tupi": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Joykexo"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Yal? (o peixe da água-de-céu)"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Guira-nhandu (Ema) — flecha no alto"
+        }
+      },
+      "nossa:zodiaco": {
+        "origen": "projeto",
+        "por_pesquisar": false,
+        "ligacao": "etnografica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Câncer"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Peixes"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Sagitário"
+        }
+      },
+      "anutan": {
+        "origen": "stellarium",
+        "asterismos": 11,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Manu"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Taki Mua"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Taro"
+        }
+      },
+      "arabic_al-sufi": {
+        "origen": "stellarium",
+        "asterismos": 51,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "الدب الأصغر"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "الفرس"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "التنين"
+        }
+      },
+      "arabic_arabian_peninsula": {
+        "origen": "stellarium",
+        "asterismos": 45,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "الذراع"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "المقدم"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "الإكليل"
+        }
+      },
+      "arabic_indigenous": {
+        "origen": "stellarium",
+        "asterismos": 118,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "فأس الرحى"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "الدلو"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "العوائذ"
+        }
+      },
+      "aztec": {
+        "origen": "stellarium",
+        "asterismos": 5,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Citlaltlachtli"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Colotl Ixayac"
+        }
+      },
+      "babylonian_mulapin": {
+        "origen": "stellarium",
+        "asterismos": 58,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "𒈦𒋰𒁀𒃲𒃲"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "𒄩"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "𒌨𒂠"
+        }
+      },
+      "babylonian_seleucid": {
+        "origen": "stellarium",
+        "asterismos": 60,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "𒈦𒈦"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "𒋆𒈤"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "𒈥𒁍𒁕𒀭𒈾"
+        }
+      },
+      "balinese": {
+        "origen": "stellarium",
+        "asterismos": 31,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "ᬳᬲᬸ"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "ᬓᬸᬫ᭄ᬩ"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "ᬓ᭄ᬮᬧᬲᬸᬦ᭄ᬤ"
+        }
+      },
+      "belarusian": {
+        "origen": "stellarium",
+        "asterismos": 20,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Poland and Lithuania"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Zmej"
+        }
+      },
+      "boorong": {
+        "origen": "stellarium",
+        "asterismos": 29,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Wanjel"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Yerredetkurrk"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Djuit"
+        }
+      },
+      "chinese": {
+        "origen": "stellarium",
+        "asterismos": 312,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "井宿"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "室宿"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "房宿"
+        }
+      },
+      "chinese_chenzhuo": {
+        "origen": "stellarium",
+        "asterismos": 317,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "四辅"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "天津"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "天棓"
+        }
+      },
+      "chinese_manchu": {
+        "origen": "stellarium",
+        "asterismos": 24,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "ᠮᠣᡵᡳᠨ ᡠᠰᡳᡥᠠ"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "ᠠᠰᡠ ᡠᠰᡳᡥᠠ"
+        }
+      },
+      "chinese_song_dynasty": {
+        "origen": "stellarium",
+        "asterismos": 339,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "四辅"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "天津"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "天棓"
+        }
+      },
+      "chinese_xianglin": {
+        "origen": "stellarium",
+        "asterismos": 317,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "四辅"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "天津"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "天棓"
+        }
+      },
+      "chinese_yuan_dynasty": {
+        "origen": "stellarium",
+        "asterismos": 187,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "女史"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "天津"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "天棓"
+        }
+      },
+      "egyptian_dendera": {
+        "origen": "stellarium",
+        "asterismos": 36,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Hathor Cow (Egypt.)"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Field (Sum.)"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": " ? "
+        }
+      },
+      "greek_almagest": {
+        "origen": "stellarium",
+        "asterismos": 49,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Μικρή ʾˊΑρκτος"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "ʿˊΙππος"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "ʾΕνγόνασιν"
+        }
+      },
+      "greek_dante": {
+        "origen": "stellarium",
+        "asterismos": 30,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Gemini"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Aquarius"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Scorpius"
+        }
+      },
+      "greek_farnese": {
+        "origen": "stellarium",
+        "asterismos": 51,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Μικρή ʾˊΑρκτος"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "ʿˊΙππος"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "ʾΕνγόνασιν"
+        }
+      },
+      "greek_leidenAratea": {
+        "origen": "stellarium",
+        "asterismos": 50,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Ursa Minor, Μικρή ʾˊΑρκτος"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Pegausus, ʿˊΙππος"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Hercules, ʾΕνγόνασιν"
+        }
+      },
+      "hawaiian_starlines": {
+        "origen": "stellarium",
+        "asterismos": 13,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Ke Ka o Makali`i"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Manaiakalani"
+        }
+      },
+      "indian": {
+        "origen": "stellarium",
+        "asterismos": 49,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "मृगव्याधः"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "पूर्वप्रोष्ठपदाः"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "अनुराधाः"
+        }
+      },
+      "indian_nakshatras": {
+        "origen": "stellarium",
+        "asterismos": 28,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "पुनर्वसु"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "पूर्व भाद्रपदा"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "अनुराधा"
+        }
+      },
+      "inuit": {
+        "origen": "stellarium",
+        "asterismos": 14,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Sikuliaqsiujuittuq"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "japanese": {
+        "origen": "stellarium",
+        "asterismos": 373,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "柱史(ちゅうし)"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "泣(きゅう)"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "天棓(てんぽう)"
+        }
+      },
+      "kamilaroi": {
+        "origen": "stellarium",
+        "asterismos": 13,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Wamba Wamba"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Bandaarr"
+        }
+      },
+      "khoi-san": {
+        "origen": "stellarium",
+        "asterismos": 6,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Canopus"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Milky Way"
+        }
+      },
+      "korean": {
+        "origen": "stellarium",
+        "asterismos": 312,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "사보(四輔)"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "사록(司祿)"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "천봉(天棓)"
+        }
+      },
+      "lokono": {
+        "origen": "stellarium",
+        "asterismos": 11,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Kasarhowakoya"
+        }
+      },
+      "macedonian": {
+        "origen": "stellarium",
+        "asterismos": 19,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "волци"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "maori": {
+        "origen": "stellarium",
+        "asterismos": 6,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Te-Waka-o-Tama-Rereti"
+        }
+      },
+      "modern": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Gemini"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Sculptor"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Ara"
+        }
+      },
+      "modern_chinese": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Gemini"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Sculptor"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Ara"
+        }
+      },
+      "modern_hlad": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Gemini"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Aquarius"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Scorpius"
+        }
+      },
+      "modern_iau": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Canis Major"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Aquarius"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Apus"
+        }
+      },
+      "modern_journey_to_the_west": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "金角大王、银角大王"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "通行宝印"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "火焰山"
+        }
+      },
+      "modern_rey": {
+        "origen": "stellarium",
+        "asterismos": 170,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "LITTLE DIPPER"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "wing"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "DRAGON"
+        }
+      },
+      "modern_st": {
+        "origen": "stellarium",
+        "asterismos": 88,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Canis Major"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Aquarius"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Apus"
+        }
+      },
+      "mongolian": {
+        "origen": "stellarium",
+        "asterismos": 4,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Gurvan Maral Od"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "navajo": {
+        "origen": "stellarium",
+        "asterismos": 8,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "First Big One"
+        }
+      },
+      "norse": {
+        "origen": "stellarium",
+        "asterismos": 6,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Woman's Cart"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "norse_edda": {
+        "origen": "stellarium",
+        "asterismos": 19,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Freyju vagn"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Bifrǫst"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "northern_andes": {
+        "origen": "stellarium",
+        "asterismos": 5,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Estelina Quinatoa (El Jaguar)"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "romanian": {
+        "origen": "stellarium",
+        "asterismos": 39,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Carul mic"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Varsatorul"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Balaurul"
+        }
+      },
+      "ruanui_sky_tahiti_and_society_islands": {
+        "origen": "stellarium",
+        "asterismos": 19,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Nā-'ainanu"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Atu-tahi"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Matau-a-maui"
+        }
+      },
+      "russian_siberian": {
+        "origen": "stellarium",
+        "asterismos": 3,
+        "por_pesquisar": true,
+        "ligacao": null,
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "sami": {
+        "origen": "stellarium",
+        "asterismos": 10,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Galla"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "samoan": {
+        "origen": "stellarium",
+        "asterismos": 14,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Tuigālama"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Sē"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Toloa"
+        }
+      },
+      "sardinian": {
+        "origen": "stellarium",
+        "asterismos": 12,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Sa Loba"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "seri": {
+        "origen": "stellarium",
+        "asterismos": 15,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Haapjc"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Hazoj Koii"
+        }
+      },
+      "tibetan": {
+        "origen": "stellarium",
+        "asterismos": 18,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Gemini"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Aquarius"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Scorpius"
+        }
+      },
+      "tikuna": {
+        "origen": "stellarium",
+        "asterismos": 4,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Tchatü-Ai"
+        }
+      },
+      "tongan": {
+        "origen": "stellarium",
+        "asterismos": 11,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "Lua tangata"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "tukano": {
+        "origen": "stellarium",
+        "asterismos": 11,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Dahsiaw"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "—"
+        }
+      },
+      "tupi": {
+        "origen": "stellarium",
+        "asterismos": 7,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "Tapi'i"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Guira-nhandu"
+        }
+      },
+      "vanuatu_netwar": {
+        "origen": "stellarium",
+        "asterismos": 10,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Kahaur rul"
+        }
+      },
+      "xhosa": {
+        "origen": "stellarium",
+        "asterismos": 5,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "iQhawe"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "umNyele"
+        }
+      },
+      "zulu": {
+        "origen": "stellarium",
+        "asterismos": 5,
+        "por_pesquisar": false,
+        "ligacao": "geometrica",
+        "Sol": {
+          "signo": "Câncer",
+          "asterismo": "—"
+        },
+        "Asc": {
+          "signo": "Peixes",
+          "asterismo": "—"
+        },
+        "Lua": {
+          "signo": "Sagitário",
+          "asterismo": "Umthala Wezinkanyezi"
+        }
+      }
+    },
+    "arquetipos_por_signo": {
+      "Aquário": [
+        {
+          "chave": "aquario",
+          "cultura": "zodiaco",
+          "nome": "Aquário",
+          "id_arquetipo": "signo.aquario",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "aquario",
+          "cultura": "afro-brasileiro",
+          "nome": "Oxalá",
+          "id_arquetipo": "orixa.oxala",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (o portador da criação, sabedoria primeira)"
+        },
+        {
+          "chave": "aquario",
+          "cultura": "indigena",
+          "nome": "Rio-do-Céu e a piracema das estrelas",
+          "id_arquetipo": "indigena.piracema_cem",
+          "certeza": "baixa",
+          "fonte": "Etnoastronomia tupi-guarani (Via Láctea como rio-céu); hipótese do projeto — a água que carrega o coletivo ressoa com Aquário"
+        },
+        {
+          "chave": "aquario",
+          "cultura": "folclore-brasileiro",
+          "nome": "O Jangadeiro (o que carrega as águas e o povo)",
+          "id_arquetipo": "folclore.jangadeiro_almada",
+          "certeza": "baixa",
+          "fonte": "Tradição oral do litoral nordestino (cultura da jangada); hipótese do projeto — o espírito do grupo que projeta o futuro comum ressoa com Aquário"
+        }
+      ],
+      "Câncer": [
+        {
+          "chave": "cancer",
+          "cultura": "zodiaco",
+          "nome": "Câncer",
+          "id_arquetipo": "signo.cancer",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "cancer",
+          "cultura": "afro-brasileiro",
+          "nome": "Iemanjá",
+          "id_arquetipo": "orixa.iemanja",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (grande mãe, mar, acolhimento)"
+        },
+        {
+          "chave": "cancer",
+          "cultura": "mapuche",
+          "nome": "Küyen (Lua)",
+          "id_arquetipo": "mapuche.kuyen",
+          "certeza": "media",
+          "fonte": "Wenumapu, Pozo & Canio 2014: Küyen, a Lua organizadora do cotidiano, maternidade/abundância; correspondência por regência do luminar (Lua) no Câncer"
+        },
+        {
+          "chave": "cancer",
+          "cultura": "regional-capixaba",
+          "nome": "Rio Itapemirim",
+          "id_arquetipo": "capixaba.rio_itapemirim",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (águas da memória do território)"
+        },
+        {
+          "chave": "cancer",
+          "cultura": "regional-carioca",
+          "nome": "Tamoios e a Guanabara",
+          "id_arquetipo": "carioca.tamoios_guanabara",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (águas da baía e a memória do território)"
+        },
+        {
+          "chave": "cancer",
+          "cultura": "indigena",
+          "nome": "Jaó / Inambu (tinamou)",
+          "id_arquetipo": "indigena.jao",
+          "certeza": "baixa",
+          "fonte": "Etnoastronomia tupi-guarani (Plêiades/Híades como ave das águas); hipótese do projeto — o ninho e a estação das águas ressoam com Câncer"
+        },
+        {
+          "chave": "cancer",
+          "cultura": "folclore-brasileiro",
+          "nome": "Lobisomem",
+          "id_arquetipo": "folclore.lobisomem",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (vínculo mitológico/etnoastronômico com o signo, ver arquétipo)"
+        }
+      ],
+      "Gêmeos": [
+        {
+          "chave": "gemeos",
+          "cultura": "zodiaco",
+          "nome": "Gêmeos",
+          "id_arquetipo": "signo.gemeos",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "gemeos",
+          "cultura": "afro-brasileiro",
+          "nome": "Exu",
+          "id_arquetipo": "orixa.exu",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (mensageiro da encruzilhada, comunicação)"
+        },
+        {
+          "chave": "gemeos",
+          "cultura": "folclore-brasileiro",
+          "nome": "Saci",
+          "id_arquetipo": "folclore.saci",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (vento que revolve a informação)"
+        },
+        {
+          "chave": "gemeos",
+          "cultura": "mapuche",
+          "nome": "Witran (as que puxam, Órion)",
+          "id_arquetipo": "mapuche.witran",
+          "certeza": "media",
+          "fonte": "Etnoastronomia mapuche (Pozo&Canio 2014): Witran/Weluwitraw, as Três Marias de Órion como 'as que puxam o arado' — cinturão que trava o par de gêmeos Arhtões; cruz pelo par/tração geminiana"
+        },
+        {
+          "chave": "gemeos",
+          "cultura": "indigena",
+          "nome": "Os Dois Carregadores do Céu",
+          "id_arquetipo": "indigena.gêmeos_carregadores",
+          "certeza": "baixa",
+          "fonte": "Etnoastronomia tupi-guarani (pares de estrelas como irmãos-cargueiros); hipótese do projeto — o par que age junto ressoa com Gêmeos"
+        }
+      ],
+      "Leão": [
+        {
+          "chave": "leao",
+          "cultura": "zodiaco",
+          "nome": "Leão",
+          "id_arquetipo": "signo.leao",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "leao",
+          "cultura": "indigena",
+          "nome": "Ema",
+          "id_arquetipo": "indigena.ema",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (grande ave ligada ao sol e à estação); etnoastronomia tupi-guarani"
+        },
+        {
+          "chave": "leao",
+          "cultura": "mapuche",
+          "nome": "Antü (Sol)",
+          "id_arquetipo": "mapuche.antu",
+          "certeza": "media",
+          "fonte": "Wenumapu, Pozo & Canio 2014: Antü, o Sol-pai; correspondência por regência do luminar (Sol) no Leão"
+        },
+        {
+          "chave": "leao",
+          "cultura": "afro-brasileiro",
+          "nome": "Xangô",
+          "id_arquetipo": "orixa.xango",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (realeza)"
+        },
+        {
+          "chave": "leao",
+          "cultura": "folclore-brasileiro",
+          "nome": "Onça-Rei (a soberana da mata)",
+          "id_arquetipo": "folclore.onca_rei",
+          "certeza": "baixa",
+          "fonte": "Tradição oral brasileira; Câmara Cascudo, 'Geografia dos Mitos Brasileiros' — hipótese do projeto (a soberana que rege, o fogo, a liderança)"
+        }
+      ],
+      "Peixes": [
+        {
+          "chave": "peixes",
+          "cultura": "zodiaco",
+          "nome": "Peixes",
+          "id_arquetipo": "signo.peixes",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "peixes",
+          "cultura": "folclore-brasileiro",
+          "nome": "Iara",
+          "id_arquetipo": "folclore.iara",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (água, encanto, dissolução)"
+        },
+        {
+          "chave": "peixes",
+          "cultura": "afro-brasileiro",
+          "nome": "Oxumarê",
+          "id_arquetipo": "orixa.oxumare",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (serpente-arco-íris, ciclo que se dissolve e retorna)"
+        },
+        {
+          "chave": "peixes",
+          "cultura": "indigena",
+          "nome": "Grande Baleia (aquele que volta)",
+          "id_arquetipo": "indigena.grande_baleia",
+          "certeza": "baixa",
+          "fonte": "Etnoastronomia tupi-guarani (grandes águas celestes / Cetus-Eridano); hipótese do projeto — o ciclo que se dissolve e retorna ressoa com Peixes"
+        }
+      ],
+      "Sagitário": [
+        {
+          "chave": "sagitario",
+          "cultura": "zodiaco",
+          "nome": "Sagitário",
+          "id_arquetipo": "signo.sagitario",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "sagitario",
+          "cultura": "afro-brasileiro",
+          "nome": "Oxóssi",
+          "id_arquetipo": "orixa.oxossi",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (o caçador arqueiro)"
+        },
+        {
+          "chave": "sagitario",
+          "cultura": "mapuche",
+          "nome": "Wenu Leufü (Rio do Céu)",
+          "id_arquetipo": "mapuche.wenuleufu",
+          "certeza": "media",
+          "fonte": "Etnoastronomia mapuche (Lehmann-Nitsche 1925; Pozo&Canio 2014): o grande rio-do-céu (Via Láctea), cujo coração denso está precisamente na direção de Sagitário — cruz por geografia celeste do eixo"
+        },
+        {
+          "chave": "sagitario",
+          "cultura": "indigena",
+          "nome": "Gavião",
+          "id_arquetipo": "indigena.gaviao",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (visão do alto, horizonte)"
+        },
+        {
+          "chave": "sagitario",
+          "cultura": "folclore-brasileiro",
+          "nome": "Caipora",
+          "id_arquetipo": "folclore.caipora",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (o arqueiro que caça)"
+        },
+        {
+          "chave": "sagitario",
+          "cultura": "regional-capixaba",
+          "nome": "Domingos José Martins",
+          "id_arquetipo": "capixaba-sul.domingos_martins",
+          "certeza": "baixa",
+          "fonte": "Cordel e registros históricos públicos do sul capixaba: o pionteiro que parte e arde pelo ideal — Sagitário (o fogo, a expansão, o ideal)"
+        }
+      ],
+      "Touro": [
+        {
+          "chave": "touro",
+          "cultura": "zodiaco",
+          "nome": "Touro",
+          "id_arquetipo": "signo.touro",
+          "certeza": "alta",
+          "fonte": "Signo âncora"
+        },
+        {
+          "chave": "touro",
+          "cultura": "indigena",
+          "nome": "Anta",
+          "id_arquetipo": "indigena.anta",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (grande animal da terra)"
+        },
+        {
+          "chave": "touro",
+          "cultura": "afro-brasileiro",
+          "nome": "Oxum",
+          "id_arquetipo": "orixa.oxum",
+          "certeza": "media",
+          "fonte": "Hipótese do projeto (amor, beleza, fartura — regência de Vênus no Touro)"
+        },
+        {
+          "chave": "touro",
+          "cultura": "mapuche",
+          "nome": "Trarinmansun (os Bois Enjogados)",
+          "id_arquetipo": "mapuche.trarinmansun",
+          "certeza": "media",
+          "fonte": "Etnoastronomia mapuche (Lehmann-Nitsche 1925; Pozo&Canio 2014): os 'bois enjogados' de Órion/Híades — o boi arando o céu, no mesmíssimo campo de Touro/Aldebaran; cruz por forma (o lar de Touro)"
+        },
+        {
+          "chave": "touro",
+          "cultura": "regional-carioca",
+          "nome": "Boi de Reis",
+          "id_arquetipo": "carioca.boi_reis",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (o boi que arroja e sustenta a terra; Folia de Reis do RJ)"
+        },
+        {
+          "chave": "touro",
+          "cultura": "regional-capixaba",
+          "nome": "Frade e a Freira",
+          "id_arquetipo": "capixaba-sul.frade_freira",
+          "certeza": "baixa",
+          "fonte": "Lendas Capixabas (Novaes, AEL 1968): o firme silêncio de pedra e o amor eternizado — Touro (a rocha, o fixo)"
+        },
+        {
+          "chave": "touro",
+          "cultura": "folclore-brasileiro",
+          "nome": "Frade e a Freira (capixaba)",
+          "id_arquetipo": "folclore.fradeefreira",
+          "certeza": "baixa",
+          "fonte": "Hipótese do projeto (vínculo mitológico/etnoastronômico com o signo, ver arquétipo)"
+        }
+      ]
+    },
+    "plantas_por_saber": {
+      "Sol": {
+        "signo": "Câncer",
+        "orixa": "Iemanjá",
+        "certeza": "media",
+        "fonte": "Hipótese do projeto (grande mãe, mar, acolhimento)",
+        "plantas": [
+          {
+            "nome": "Alfavaca (Manjericão)",
+            "cientifico": "Ocimum basilicum / O. americanum",
+            "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+            "elemento": "ar",
+            "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+          },
+          {
+            "nome": "Alfazema (Lavanda)",
+            "cientifico": "Lavandula angustifolia",
+            "uso_medicinal": "calmante, ansiedade, insônia, antisséptica, cicatrizante",
+            "elemento": "ar",
+            "fonte_etno": "Ita Balago (Oxalá); Studio Orion (Iemanjá)",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Lavandula angustifolia; matéria médica (PD)"
+          },
+          {
+            "nome": "Babosa (Aloés)",
+            "cientifico": "Aloe vera",
+            "uso_medicinal": "cicatrizante, laxante (látex), queimaduras, anti-inflamatória",
+            "elemento": "água",
+            "fonte_etno": "Studio Orion (Iemanjá); UFRB Reverso",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Aloe vera; matéria médica clássica"
+          }
+        ]
+      },
+      "Lua": {
+        "signo": "Sagitário",
+        "orixa": "Oxóssi",
+        "certeza": "media",
+        "fonte": "Hipótese do projeto (o caçador arqueiro)",
+        "plantas": [
+          {
+            "nome": "Alecrim",
+            "cientifico": "Rosmarinus officinalis",
+            "uso_medicinal": "digestivo, gases, reumatismo, estimulante",
+            "elemento": "ar",
+            "fonte_etno": "'Ervas dos Orixás e suas aplicações'; trad. Umbanda (Cantinho de Oxalá); PERINAZZO & BALDONI",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Rosmarinus officinalis; Herbário de matéria médica (PD)"
+          },
+          {
+            "nome": "Avenca",
+            "cientifico": "Adiantum capillus-veneris",
+            "uso_medicinal": "expectorante suave, tosse, pele (tradicional)",
+            "elemento": "ar",
+            "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Adiantum"
+          },
+          {
+            "nome": "Jurema (Mimosa)",
+            "cientifico": "Mimosa hostilis",
+            "uso_medicinal": "relaxante suave, cicatrizante (casca) — uso ritual e popular",
+            "elemento": "terra",
+            "fonte_etno": "Tradição Afro-Brasileira e Indígena; 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): gênero Mimosa"
+          },
+          {
+            "nome": "Mangerona (Manjerona)",
+            "cientifico": "Origanum majorana",
+            "uso_medicinal": "digestiva, calmante leve, resfriados (tradicional)",
+            "elemento": "ar",
+            "fonte_etno": "Tradição Afro-Brasileira; 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Matéria médica clássica (PD)"
+          }
+        ]
+      },
+      "Mercúrio": {
+        "signo": "Leão",
+        "orixa": "Xangô",
+        "certeza": "baixa",
+        "fonte": "Hipótese do projeto (realeza)",
+        "plantas": [
+          {
+            "nome": "Alfavaca (Manjericão)",
+            "cientifico": "Ocimum basilicum / O. americanum",
+            "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+            "elemento": "ar",
+            "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+          },
+          {
+            "nome": "Arruda",
+            "cientifico": "Ruta graveolens",
+            "uso_medicinal": "anti-parasitária, digestiva, anti-inflamatória, emenagoga (uso tradicional)",
+            "elemento": "fogo",
+            "fonte_etno": "SANTOS, J.R.C., DOI 10.63391/yvnx9g69 (Xangô); PERINAZZO & BALDONI, DOI 10.21674/2448-0479.82.108-120; Ethnobotany Research & Applications (benzedeiras SC)",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ruta graveolens GPS; matéria médica clássica brasileira"
+          },
+          {
+            "nome": "Folha-da-costa (Saião)",
+            "cientifico": "Kalanchoe brasiliensis / K. pinnata",
+            "uso_medicinal": "cicatrizante, anti-inflamatória, problemas estomacais, tosse",
+            "elemento": "ar",
+            "fonte_etno": "BARROS & NAPOLEÃO, Ewé Òrìsà; VERGER, Ewé; ocandomble.com (Òdúndún)",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe brasiliensis; flora medicinal brasileira"
+          },
+          {
+            "nome": "Folha-da-fortuna",
+            "cientifico": "Kalanchoe pinnata",
+            "uso_medicinal": "cicatrizante, anti-inflamatória, gastrintestinais",
+            "elemento": "ar",
+            "fonte_etno": "ocandomble.com (cit. Barros & Napoleão); 'Ervas dos Orixás'",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Kalanchoe pinnata; flora medicinal"
+          }
+        ]
+      },
+      "Vênus": {
+        "signo": "Gêmeos",
+        "orixa": "Exu",
+        "certeza": "media",
+        "fonte": "Hipótese do projeto (mensageiro da encruzilhada, comunicação)",
+        "plantas": [
+          {
+            "nome": "Alfavaca (Manjericão)",
+            "cientifico": "Ocimum basilicum / O. americanum",
+            "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+            "elemento": "ar",
+            "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+          },
+          {
+            "nome": "Guiné (Guiné-pipi)",
+            "cientifico": "Petiveria alliacea",
+            "uso_medicinal": "limpeza/descarrego; anti-inflamatória e analgésica de uso externo",
+            "elemento": "fogo",
+            "fonte_etno": "TAQUES et al., 'Defuma com as ervas da jurema', Dialnet; Wikipédia 'Folhas sagradas' (Ojusaju)",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Petiveria alliacea; flora medicinal tropical"
+          }
+        ]
+      },
+      "Marte": {
+        "signo": "Câncer",
+        "orixa": "Iemanjá",
+        "certeza": "media",
+        "fonte": "Hipótese do projeto (grande mãe, mar, acolhimento)",
+        "plantas": [
+          {
+            "nome": "Alfavaca (Manjericão)",
+            "cientifico": "Ocimum basilicum / O. americanum",
+            "uso_medicinal": "gases, cólicas intestinais, antisséptico, calmante, vias respiratórias",
+            "elemento": "ar",
+            "fonte_etno": "'Ervas dos Orixás e suas aplicações'; Wikipédia 'Folhas sagradas' (Efirin); PERINAZZO & BALDONI",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Ocimum basilicum; matéria médica clássica"
+          },
+          {
+            "nome": "Alfazema (Lavanda)",
+            "cientifico": "Lavandula angustifolia",
+            "uso_medicinal": "calmante, ansiedade, insônia, antisséptica, cicatrizante",
+            "elemento": "ar",
+            "fonte_etno": "Ita Balago (Oxalá); Studio Orion (Iemanjá)",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Lavandula angustifolia; matéria médica (PD)"
+          },
+          {
+            "nome": "Babosa (Aloés)",
+            "cientifico": "Aloe vera",
+            "uso_medicinal": "cicatrizante, laxante (látex), queimaduras, anti-inflamatória",
+            "elemento": "água",
+            "fonte_etno": "Studio Orion (Iemanjá); UFRB Reverso",
+            "enciclopedia_pd": "Flora Brasiliensis, Martius (PD): Aloe vera; matéria médica clássica"
+          }
+        ]
+      }
+    }
+  },
+  "cultura_arquétipa": "indigena",
+  "sol_signo": "Câncer",
+  "asc_signo": "Peixes",
+  "arquivos": {
+    "png": "manaus-am.png",
+    "html": "manaus-am.html"
+  }
+}

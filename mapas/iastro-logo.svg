@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-label="logo iastro">
+  <title>iastro — mapa astral de várias culturas</title>
+  <defs>
+    <radialGradient id="ceu" cx="50%" cy="50%" r="70%">
+      <stop offset="0%"   stop-color="#1b2547"/>
+      <stop offset="55%"  stop-color="#0d1226"/>
+      <stop offset="100%" stop-color="#060814"/>
+    </radialGradient>
+    <linearGradient id="fio" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#ffe4a3"/>
+      <stop offset="50%"  stop-color="#ffd27a"/>
+      <stop offset="100%" stop-color="#ffb64d"/>
+    </linearGradient>
+    <filter id="brilho">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="640" height="640" fill="url(#ceu)"/>
+
+  <!-- estrelas de fundo (campo OBSERVADO, livre) -->
+  <g fill="#ffe9b0" opacity="0.7">
+    <circle cx="78" cy="90"  r="1.4"/><circle cx="200" cy="58" r="1"/>
+    <circle cx="520" cy="70" r="1.3"/><circle cx="580" cy="200" r="1"/>
+    <circle cx="90" cy="430" r="1.2"/><circle cx="170" cy="520" r="1"/>
+    <circle cx="520" cy="470" r="1.5"/><circle cx="570" cy="520" r="1"/>
+    <circle cx="300" cy="80" r="1"/><circle cx="420" cy="560" r="1.2"/>
+  </g>
+
+  <!-- roda das culturas: muitos asterismos reunidos (mandala) -->
+  <circle cx="320" cy="320" r="250" fill="none" stroke="#2f3b6b" stroke-width="2" opacity="0.5"/>
+  <circle cx="320" cy="320" r="210" fill="none" stroke="#3b4a80" stroke-width="1.4" stroke-dasharray="3 7"/>
+  <circle cx="320" cy="320" r="170" fill="none" stroke="#2f3b6b" stroke-width="1.4" stroke-dasharray="1 5"/>
+
+  <!-- eixo cardinal -->
+  <g stroke="#7f93c9" stroke-width="1.3" opacity="0.6">
+    <line x1="320" y1="70"  x2="320" y2="570"/>
+    <line x1="70"  y1="320" x2="570" y2="320"/>
+  </g>
+
+  <!-- os dois luminários (Sol+Lua) -->
+  <circle cx="320" cy="300" r="46" fill="none" stroke="url(#fio)" stroke-width="3"/>
+  <circle cx="320" cy="340" r="40" fill="none" stroke="#cfd8ec" stroke-width="2.4" opacity="0.9"/>
+  <circle cx="320" cy="320" r="8"  fill="#ffe4a3" filter="url(#brilho)"/>
+
+  <!-- ponteiros-tableiro: asterismos das culturas entrelaçados -->
+  <g stroke="url(#fio)" stroke-width="2.4" filter="url(#brilho)">
+    <line x1="320" y1="320" x2="320" y2="110"/>
+    <line x1="320" y1="320" x2="130" y2="480"/>
+    <line x1="320" y1="320" x2="510" y2="480"/>
+    <line x1="320" y1="320" x2="205" y2="170"/>
+    <line x1="320" y1="320" x2="435" y2="170"/>
+    <line x1="320" y1="320" x2="525" y2="320"/>
+    <line x1="320" y1="320" x2="115" y2="320"/>
+  </g>
+
+  <!-- marcas das doze direções (signos/dias) -->
+  <g fill="#ffd27a">
+    <circle cx="320" cy="70"  r="3"/>
+    <circle cx="320" cy="570" r="3"/>
+    <circle cx="70"  cy="320" r="3"/>
+    <circle cx="570" cy="320" r="3"/>
+  </g>
+
+  <!-- tambem o traço 'à mão' (espontaneidade, pincel inteligente) -->
+  <path d="M120 560 C 190 480, 250 640, 320 520 S 470 600 530 480"
+        fill="none" stroke="#8fa3d8" stroke-width="2" opacity="0.55"/>
+
+  <!-- assinatura -->
+  <text x="320" y="612" text-anchor="middle" font-family="DejaVu Sans, sans-serif"
+        font-size="26" fill="#ffe4a3" letter-spacing="8">iastro</text>
+  <text x="320" y="634" text-anchor="middle" font-family="DejaVu Sans, sans-serif"
+        font-size="11" fill="#7f93c9" letter-spacing="3">um céu, muitas culturas</text>
+</svg>

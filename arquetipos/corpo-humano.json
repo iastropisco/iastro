@@ -1,0 +1,26 @@
+{
+  "_tema": "Corpo humano e signos (melotesia astrológica)",
+  "_uso": "Associar cada signo do zodíaco ocidental a uma parte do corpo, da cabeça (Áries) aos pés (Peixes).",
+  "_aviso": "Melotesia é a tradição clássica do 'Homem do Zodíaco' (Homo Signorum), descrita por Manílio no Astronomica (séc. I d.C.) e difundida nos tratados médicos medievais com base em Ptolomeu. Todo o corpo, de cima a baixo, é dividido entre os 12 signos.",
+  "_fonte_central": [
+    "MANÍLIO, Astronomica II.453–465 (melotesia clássica)",
+    "Wikipedia, 'Zodiac Man' (Homo Signorum): https://en.wikipedia.org/wiki/Zodiac_Man",
+    "Astrodienst Astrowiki, 'Zodiac man': https://www.astro.com/astrowiki/en/Zodiac_man",
+    "The Old Farmer's Almanac, 'The Man of the Signs': https://www.almanac.com/man-signs-zodiac-man",
+    "CLARK, C. M. A. The Zodiac Man in Medieval Medical Astrology. BYU ScholarsArchive, 1982."
+  ],
+  "corpos": [
+    { "signo": "aries", "parte": "Cabeça", "detalhe": "face, olhos", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "touro", "parte": "Pescoço / garganta", "detalhe": "nuca, garganta, colar cervical", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "gemeos", "parte": "Braços / peito", "detalhe": "ombros, mãos, pulmões", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "cancer", "parte": "Peito / estômago", "detalhe": "tórax, seios, parte alta do abdômen", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "leao", "parte": "Coração / costas", "detalhe": "coluna, região dorsal, coração", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "virgem", "parte": "Abdômen / intestinos", "detalhe": "ventre, sistema digestivo", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "libra", "parte": "Rins / lombos", "detalhe": "umbo, região lombar, rins", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "escorpiao", "parte": "Órgãos genitais", "detalhe": "região pélvica, bexiga, reto, órgãos sexuais", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "sagitario", "parte": "Quadris / coxas", "detalhe": "coxas, fígado", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "capricornio", "parte": "Joelhos", "detalhe": "ossos, pele, articulações", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "aquario", "parte": "Panturrilhas / tornozelos", "detalhe": "pernas, canelas", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" },
+    { "signo": "peixes", "parte": "Pés", "detalhe": "dedos, plantas, calcanhares", "fonte": "Astronomica; Zodiac Man (Wiki); Astrowiki" }
+  ]
+}

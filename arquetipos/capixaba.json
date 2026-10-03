@@ -1,0 +1,55 @@
+{
+  "_cultura": "regional-capixaba",
+  "_nome": "Folclore e arquétipos regional do Espírito Santo (capixaba)",
+  "_descricao": "Arquétipos do imaginário capixaba — folclore local e a ponte com o território do rio Itapemirim (ES). É o 'regionalismo' aplicado à astrologia de território. Correspondências com signos ocidentais são hipóteses do projeto.",
+  "arquetipos": [
+    {
+      "id": "capixaba.mao_pelada",
+      "nome": "Mão Pelada",
+      "cultura": "regional-capixaba",
+      "elemento": "terra",
+      "polaridade": "negativo",
+      "modo": null,
+      "tema": ["folclore capixaba", "mão sem pele", "assombro", "memória do lugar", "encantado"],
+      "simbolo": "Figura do folclore capixaba",
+      "regiao": "espírito santo",
+      "regionalismo": "Duas faces no ES: (1) a figura lendária nacional 'Mão Pelada', um monstro noturno de pata pelada; (2) o animal real 'mão-pelada' (Procyon cancrivorus), o único guaxinim sul-americano, que habita mangues e restingas do ES e é objeto de estudos científicos locais (dieta na área costeira do ES).",
+      "historia": "A lenda do Mão-Pelada — um monstro noturno, misto de lobo e bezerro, de pêlos avermelhados e uma pata pelada, que ataca viajantes — está documentada em várias regiões do Brasil (Vale do São Francisco, Minas, Goiás...); é bastante difundida no Nordeste e Sudeste, onde se diz que sugar o sangue do animal curava reumatismo e hanseníase. A real presença do animal 'mão-pelada' (Procyon cancrivorus) no ES é cientificamente confirmada (mangues e restingas; dieta estudada na rodovia ES-060 e no mangue/restinga do ES). Atenção (honestidade de fonte): apesar disso, NÃO há fonte clássica/acadêmica que fixe a *lenda* como folclore próprio do Espírito Santo; a atribuição capixaba da lenda é hipótese deste projeto e fica mantida *a verificar* — diferenciando claramente a criatura lendária do animal real.",
+      "fonte": "Folclore capixaba (blog astropisco.blogspot.com); lenda geral em MUCCI, Alfredo, Lendas e assombrações ilustradas, 1961; Wikipédia 'Mão Pelada'/'Mão-pelada'; Martinelli & Volpi (2010), Natureza Online 8(3); Gatti et al. (2006), J. Trop. Ecol. 22.",
+      "nota": "Correspondência hipotética: a figura que assombra e marca o lugar ressoa com o lado ancestral/sombrio de Escorpião ou de Plutão — vínculo a estudar. A presença real do guaxinim no ES é fato científico; a lenda capixaba fica 'a verificar'.",
+      "corresponde_a": "escorpiao"
+    },
+    {
+      "id": "capixaba.capeta_garrafa",
+      "nome": "Capeta da Garrafa",
+      "cultura": "regional-capixaba",
+      "elemento": "fogo",
+      "polaridade": "negativo",
+      "modo": null,
+      "tema": ["folclore capixaba", "garrafa", "encantado", "fogo preso", "travessura"],
+      "simbolo": "Entidade ligada à garrafa no folclore capixaba",
+      "regiao": "espírito santo",
+      "regionalismo": "Figura do imaginário capixaba presente nos contos e no blog.",
+      "historia": "O Capeta da Garrafa (também Diabinho da Garrafa, Cramulhão ou Famaliá) é a lenda do pacto com o diabo: um demônio/espírito nasce de um ovo fecundado na Quaresma e é preso numa garrafa; enriquece quem o possui, cobrando a alma ao fim da vida. No Espírito Santo, a lenda é associada a lugares como a Pedra de Inhanguetá (Vitória) e a Pedra das Caveiras (Atílio Vivácqua), conforme fonte capixaba.",
+      "fonte": "Folclore capixaba; LODI, Vinícius, 'pacto com cramulhão marca lendas macabras no ES', A Gazeta — Capixapédia.",
+      "nota": "Correspondência hipotética: o fogo preso/encantado ressoa com Escorpião ou com o eixo fogo — vínculo a estudar.",
+      "corresponde_a": "escorpiao"
+    },
+    {
+      "id": "capixaba.rio_itapemirim",
+      "nome": "Rio Itapemirim (território)",
+      "cultura": "regional-capixaba",
+      "elemento": "água",
+      "polaridade": "negativo",
+      "modo": null,
+      "tema": ["rio", "território", "ancestralidade", "Puris e Goytacá", "ponte céu-terra"],
+      "simbolo": "O rio que nomeia a região de Itapemirim-ES",
+      "regiao": "espírito santo (itapemirim)",
+      "regionalismo": "Eixo do projeto AstroLeitura: o rio liga o céu ao território dos povos Puris e Goytacá.",
+      "historia": "O rio Itapemirim é o eixo territorial do projeto AstroLeitura. Os povos indígenas Puris e Goytacá habitaram a região do baixo Itapemirim (ES) e, por oralidade, deixaram modos próprios de perceber o cosmos. O batismo do rio com nome tupi ('rio das pedras/água das pedras', conforme interpretação corrente) liga a água que desce ao chão à paisagem celeste — a ponte céu-terra do iastro.",
+      "fonte": "Projeto AstroLeitura (sites.google.com/view/mapadaspancs/astroleitura)",
+      "nota": "Arquétipo-território: a água do rio como ponte entre o simbolismo dos signos (ex.: câncer/peixes) e a memória local.",
+      "corresponde_a": "cancer"
+    }
+  ]
+}

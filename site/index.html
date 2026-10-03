@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iastro — seu mapa do céu, lido por muitas culturas</title>
+<meta name="description" content="Um mapa do céu do seu nascimento, lido pelas tradições afro-brasileira, do folclore e dos povos originários. Gratuito, sem cadastro e sem guardar seus dados.">
+<style>
+:root{
+  --tinta:#1c1712; --papel:#f4ecd8; --papel-2:#e9dcc0;
+  --ouro:#c9a227; --tinta-2:#5c4a35;
+  --afro:#8c2f39; --folclore:#b06a1e; --indigena:#2f6b4f;
+  --discreto:#9a8c78;
+  --serif: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--tinta); color:var(--papel);
+  font-family:var(--sans); line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:var(--ouro)}
+
+/* ── capa ───────────────────────────────────────────── */
+.capa{
+  min-height:100svh; display:flex; flex-direction:column;
+  background:
+    url('banner.jpg') center 12%/cover no-repeat,
+    radial-gradient(ellipse at 50% 8%, #2e2519 0%, #1c1712 58%, #14100c 100%);
+  background-blend-mode:soft-light;
+  position:relative; overflow:hidden;
+}
+/* quem não suporta blend ainda vê o gradiente; o banner some com a opacidade */
+@supports (background-blend-mode:soft-light){
+  .capa::before{
+    content:'';position:absolute;inset:0;pointer-events:none;
+    background:radial-gradient(ellipse at 50% 0%,rgba(28,23,18,.55) 0%,rgba(20,16,12,.88) 78%);
+  }
+}
+.estrelas{position:absolute;inset:0;pointer-events:none;opacity:.5}
+.capa>*{position:relative;z-index:1}
+.cabecalho{
+  display:flex; align-items:center; justify-content:space-between;
+  padding:1.4rem clamp(1rem,5vw,4rem); flex-wrap:wrap; gap:1rem;
+}
+.marca{display:flex;align-items:center;gap:.7rem}
+.marca img{width:44px;height:44px}
+.marca span{
+  font-family:var(--serif); font-size:1.05rem;
+  letter-spacing:.14em; text-transform:uppercase;
+}
+.nav{display:flex;gap:1.4rem;flex-wrap:wrap;font-size:.9rem}
+.nav a{color:var(--papel);opacity:.75;text-decoration:none}
+.nav a:hover{opacity:1;color:var(--ouro)}
+
+.hero{
+  flex:1; display:flex; flex-direction:column; align-items:center;
+  justify-content:center; text-align:center;
+  padding:2rem clamp(1rem,5vw,4rem) 4rem;
+}
+.hero h1{
+  font-family:var(--serif); font-weight:400;
+  font-size:clamp(2.2rem,7vw,4.6rem); line-height:1.12;
+  margin-bottom:1.4rem; max-width:18ch;
+}
+.hero h1 em{color:var(--ouro);font-style:italic}
+.hero p{
+  font-size:clamp(1rem,2.2vw,1.2rem); color:var(--papel-2);
+  max-width:56ch; margin-bottom:2rem;
+}
+.botoes{display:flex;gap:1rem;flex-wrap:wrap;justify-content:center}
+.btn{
+  display:inline-block;padding:.9rem 1.9rem;border-radius:2px;
+  font-size:1rem;text-decoration:none;transition:.18s;border:1px solid transparent;
+}
+.btn-primario{background:var(--ouro);color:var(--tinta);font-weight:600}
+.btn-primario:hover{background:#e0b93a;transform:translateY(-2px)}
+.btn-secundario{border-color:var(--ouro);color:var(--ouro)}
+.btn-secundario:hover{background:rgba(201,162,39,.12)}
+.selo{
+  margin-top:2.6rem;font-size:.82rem;color:var(--discreto);
+  display:flex;gap:1.4rem;flex-wrap:wrap;justify-content:center;
+}
+
+/* ── seções ─────────────────────────────────────────── */
+.secao{padding:clamp(3.5rem,9vw,7rem) clamp(1rem,5vw,4rem);max-width:1140px;margin:0 auto}
+.secao h2{
+  font-family:var(--serif);font-weight:400;
+  font-size:clamp(1.7rem,4.2vw,2.6rem);line-height:1.2;margin-bottom:1.2rem;
+}
+.secao h2 em{color:var(--ouro);font-style:italic}
+.intro{color:var(--papel-2);max-width:64ch;margin-bottom:2.6rem;font-size:1.03rem}
+.salto{margin-top:2.6rem}
+
+/* ── grade de exemplos ──────────────────────────────── */
+.grade{
+  display:grid;gap:1.4rem;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+}
+.cartao{
+  background:#241d16;border:1px solid #3a2f24;border-radius:3px;
+  overflow:hidden;transition:.2s;
+}
+.cartao:hover{border-color:var(--ouro);transform:translateY(-3px)}
+.cartao figure{margin:0;background:#efe6d2}
+.cartao img{width:100%;height:auto}
+.cartao figcaption{
+  padding:.85rem 1rem;font-size:.85rem;color:var(--discreto);
+  border-top:1px solid #3a2f24;
+}
+.cartao figcaption b{color:var(--papel);font-weight:500;display:block}
+
+/* ── culturas ────────────────────────────────────────── */
+.culturas{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.cultura{
+  padding:1.5rem;border-radius:3px;border:1px solid #3a2f24;
+  background:#241d16;border-top-width:3px;
+}
+.cultura:nth-child(1){border-top-color:var(--afro)}
+.cultura:nth-child(2){border-top-color:var(--folclore)}
+.cultura:nth-child(3){border-top-color:var(--indigena)}
+.cultura h3{font-family:var(--serif);font-size:1.3rem;margin-bottom:.5rem;font-weight:400}
+.cultura p{font-size:.94rem;color:var(--papel-2)}
+.cultura .tag{
+  display:inline-block;margin-top:.8rem;font-size:.72rem;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--ouro);
+}
+
+/* ── tabelaAMPLE / completo ──────────────────────────── */
+.planos{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.plano{padding:1.7rem;border:1px solid #3a2f24;border-radius:3px;background:#241d16}
+.plano.destaque{border-color:var(--ouro);background:#292117}
+.plano h3{font-family:var(--serif);font-size:1.35rem;margin-bottom:.3rem;font-weight:400}
+.plano .preco{font-family:var(--serif);font-size:2rem;color:var(--ouro);margin-bottom:1rem}
+.plano ul{list-style:none;display:flex;flex-direction:column;gap:.6rem;font-size:.94rem}
+.plano li{display:flex;gap:.65rem;align-items:flex-start}
+.plano li::before{content:'—';color:var(--ouro);flex-shrink:0}
+.plano li.off{opacity:.4}
+.plano li.off::before{content:'×';color:#8a7a63}
+.plano li b{font-weight:600}
+
+/* ── privacidade (destaque) ─────────────────────────── */
+.privacidade{
+  background:#efe6d2;color:var(--tinta);border-radius:4px;
+  padding:clamp(1.6rem,4vw,2.8rem);
+}
+.privacidade h3{font-family:var(--serif);font-size:1.5rem;margin-bottom:1rem;font-weight:400}
+.privacidade .pontos{display:flex;flex-direction:column;gap:1.1rem;margin-top:1.3rem}
+.privacidade .ponto{display:flex;gap:.9rem;align-items:flex-start;font-size:.96rem}
+.privacidade .num{
+  flex-shrink:0;width:26px;height:26px;border-radius:50%;
+  background:var(--tinta);color:var(--papel);
+  display:flex;align-items:center;justify-content:center;
+  font-size:.8rem;font-weight:600;
+}
+.privacidade .ponto b{display:block;margin-bottom:.15rem}
+.privacidade .ponto span{color:#5c4a35}
+.aviso{
+  margin-top:1.6rem;padding:1rem 1.2rem;background:#e2d5b8;
+  border-left:3px solid var(--ouro);border-radius:2px;font-size:.9rem;
+}
+
+/* ──cta final ───────────────────────────────────────── */
+.cta{text-align:center;padding:clamp(3rem,8vw,5rem) clamp(1rem,5vw,4rem)}
+.cta h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.8rem,5vw,3rem);margin-bottom:1rem}
+.cta p{color:var(--papel-2);max-width:52ch;margin:0 auto 2rem}
+
+/* ── rodapé ─────────────────────────────────────────── */
+.rodape{
+  border-top:1px solid #3a2f24;padding:2.5rem clamp(1rem,5vw,4rem);
+  font-size:.87rem;color:var(--discreto);
+}
+.rodape-interno{max-width:1140px;margin:0 auto;display:flex;
+  justify-content:space-between;gap:1.6rem;flex-wrap:wrap}
+.rodape a{color:var(--papel-2)}
+.fonte{font-size:.78rem;opacity:.7;margin-top:.8rem;line-height:1.5}
+
+@media (max-width:620px){
+  .nav{font-size:.82rem;gap:.9rem}
+  .hero h1{max-width:100%}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+
+/* selo de software livre, no rodapé */
+.fonte-codigo{display:inline-block;margin-top:1.4rem;padding:.45rem 1rem;
+  border:1px solid rgba(154,140,120,.45);border-radius:2px;
+  color:inherit;opacity:.7;text-decoration:none;font-size:.86rem;
+  letter-spacing:.04em}
+.fonte-codigo:hover{opacity:1;border-color:var(--ouro,#c9a227)}
+</style>
+</head>
+<body>
+
+<section class="capa">
+  <svg class="estrelas" viewBox="0 0 1200 800" preserveAspectRatio="none" aria-hidden="true">
+    <g fill="#f4ecd8">
+      <circle cx="120" cy="90" r="1.4" opacity=".5"/><circle cx="340" cy="50" r="1" opacity=".35"/>
+      <circle cx="560" cy="130" r="1.7" opacity=".6"/><circle cx="780" cy="70" r="1.1" opacity=".4"/>
+      <circle cx="1020" cy="140" r="1.5" opacity=".5"/><circle cx="200" cy="260" r="1.2" opacity=".4"/>
+      <circle cx="460" cy="310" r="1" opacity=".3"/><circle cx="700" cy="240" r="1.6" opacity=".5"/>
+      <circle cx="940" cy="330" r="1.2" opacity=".35"/><circle cx="90" cy="450" r="1.5" opacity=".45"/>
+      <circle cx="390" cy="520" r="1.1" opacity=".35"/><circle cx="620" cy="470" r="1.8" opacity=".55"/>
+      <circle cx="880" cy="540" r="1" opacity=".3"/><circle cx="1120" cy="470" r="1.4" opacity=".45"/>
+      <circle cx="260" cy="660" r="1.3" opacity=".4"/><circle cx="540" cy="700" r="1" opacity=".3"/>
+      <circle cx="800" cy="650" r="1.5" opacity=".45"/><circle cx="1060" cy="710" r="1.1" opacity=".35"/>
+    </g>
+  </svg>
+
+  <header class="cabecalho">
+    <div class="marca">
+      <img src="iastro-logo.svg" alt="">
+      <span>Iastro</span>
+    </div>
+    <nav class="nav">
+      <a href="#exemplos">Exemplos</a>
+      <a href="#culturas">Culturas</a>
+      <a href="#gratuito">Gratuito</a>
+      <a href="app.html">Abrir o app</a>
+      <a href="#privacidade">Privacidade</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>O céu do seu nascimento, lido por <em>muitas</em> culturas</h1>
+    <p>
+      Um mapa astrológico desenhado a partir de efemérides reais — Swiss Ephemeris —
+      e lido pelas tradições afro-brasileira, do folclore e dos povos originários.
+      Cada cultura dá nome diferente às mesmas estrelas.
+    </p>
+    <div class="botoes">
+      <a class="btn btn-primario" href="app.html">Gerar o meu mapa</a>
+      <a class="btn btn-secundario" href="#gratuito">O que vem junto</a>
+    </div>
+    <div class="selo">
+      <span>✓ Sem cadastro</span>
+      <span>✓ Grátis</span>
+      <span>✓ Não guardamos seus dados</span>
+      <span>✓ Swiss Ephemeris</span>
+    </div>
+  </div>
+</section>
+
+<section class="secao" id="exemplos">
+  <h2>Veja como fica</h2>
+  <p class="intro">
+    Seis mapas gerados em cidades brasileiras, com posições calculadas para o
+    instante exato de cada nascimento — o planetário completo, o mesmo que
+    você recebe ao usar o app.
+  </p>
+  <div class="grade">
+    <article class="cartao">
+      <figure>
+        <img src="exemplos/guarapari-es.jpg" alt="Mapa astrológico gerado para Guarapari, Espírito Santo" loading="lazy" width="900" height="933">
+        <figcaption><b>Guarapari, ES</b>costa, maresia e Mata Atlântica</figcaption>
+      </figure>
+    </article>
+    <article class="cartao">
+      <figure>
+        <img src="exemplos/itapemirim-es.jpg" alt="Mapa astrológico gerado para Itapemirim, Espírito Santo" loading="lazy" width="900" height="933">
+        <figcaption><b>Itapemirim, ES</b>casa do Planetário Reciclável</figcaption>
+      </figure>
+    </article>
+    <article class="cartao">
+      <figure>
+        <img src="exemplos/vitória-es.jpg" alt="Mapa astrológico gerado para Vitória, Espírito Santo" loading="lazy" width="900" height="933">
+        <figcaption><b>Vitória, ES</b>cidade de morro e mar</figcaption>
+      </figure>
+    </article>
+    <article class="cartao">
+      <figure>
+        <img src="exemplos/rio-de-janeiro-rj.jpg" alt="Mapa astrológico gerado para Rio de Janeiro" loading="lazy" width="900" height="933">
+        <figcaption><b>Rio de Janeiro, RJ</b>cerros contra o mar</figcaption>
+      </figure>
+    </article>
+    <article class="cartao">
+      <figure>
+        <img src="exemplos/são-paulo-sp.jpg" alt="Mapa astrológico gerado para São Paulo" loading="lazy" width="900" height="933">
+        <figcaption><b>São Paulo, SP</b>a cidade que nunca dorme</figcaption>
+      </figure>
+    </article>
+    <article class="cartao">
+      <figure>
+        <img src="exemplos/manaus-am.jpg" alt="Mapa astrológico gerado para Manaus, Amazonas" loading="lazy" width="900" height="933">
+        <figcaption><b>Manaus, AM</b>onde o rio encontra o equador</figcaption>
+      </figure>
+    </article>
+  </div>
+  <p class="fonte">
+    Todos os mapas desta página foram gerados com posições astronômicas reais.
+    As correspondências entre signos e arquétipos são leituras do projeto, marcadas
+    como hipótese — não são equivalências tradicional\-mente estabelecidas.
+  </p>
+</section>
+
+<section class="secao" id="culturas">
+  <h2>Três leituras do mesmo céu</h2>
+  <p class="intro">
+    O hemisfério sul tem constelações que o norte não tem, e os povos que
+    vivem aqui deram a elas outros nomes. O Iastro trabalha com essas camadas
+    lado a lado, sem eleger uma como a verdadeira.
+  </p>
+  <div class="culturas">
+    <div class="cultura">
+      <h3>Afro-brasileira</h3>
+      <p>
+        Os orixás ganham lugar no mapa. Oxalá à cabeceira, Iemanjá no mar,
+        Oxóssi no mato. Cada um com história e fonte — de Prandi a Verger.
+      </p>
+      <span class="tag">107 arquétipos catalogados</span>
+    </div>
+    <div class="cultura">
+      <h3>Folclore brasileiro</h3>
+      <p>
+        A Mestra Oraide, o Curupira, a Moça que engole as sete Marias.
+        O folclore do interior lido como cartografia do céu.
+      </p>
+      <span class="tag">contos e lendas</span>
+    </div>
+    <div class="cultura">
+      <h3>Povos originários</h3>
+      <p>
+        Tupiniquins, Tukano, Krahô, Pataxó e Xavante. As constelações do hemisfério
+        sul lidas a partir de onde a palavra foi formada.
+      </p>
+      <span class="tag">em construção</span>
+    </div>
+  </div>
+  <p class="fonte">
+    O app também oferece as camadas regionais — capixaba, carioca, mapuche e
+    nordestina. Escolha o seu foco ao gerar o mapa, ou deixe "todas as
+    culturas" para ver tudo lado a lado.
+  </p>
+</section>
+
+<section class="secao" id="gratuito">
+  <h2>Tudo o que vem, de graça</h2>
+  <p class="intro">
+    Não existe versão curta nem versão paga. O app entrega o planetário
+    inteiro, em alta resolução, pronto para impressão. Um botão só.
+  </p>
+  <div class="planos">
+    <div class="plano destaque">
+      <h3>O mapa completo</h3>
+      <div class="preco">Grátis</div>
+      <ul>
+        <li>Alta resolução, pronto para impressão</li>
+        <li><b>Todas as camadas culturais</b> — choose o seu foco</li>
+        <li>Campos dos planetas externos e asteroides</li>
+        <li>Saber popular das plantas, com fonte</li>
+        <li>Céus das tradições, ao lado dos arquétipos</li>
+        <li>Figuras gravadas em 12 desenhos diferentes cada</li>
+        <li>Sem cadastro, sem conta</li>
+        <li>Nada é gravado</li>
+      </ul>
+      <a class="btn btn-primario" href="app.html" style="margin-top:1.4rem;display:inline-block">Gerar o meu mapa</a>
+    </div>
+  </div>
+</section>
+
+<section class="secao" id="privacidade">
+  <h2>Seus dados são seus</h2>
+  <p class="intro">
+    O Iastro foi desenhado com a Lei Geral de Proteção de Dados
+    (Lei nº 13.709/2018) em mente. Isto não é rodapé de letra miúda:
+  </p>
+  <div class="privacidade">
+    <h3>As decisões — separadas, como a lei exige</h3>
+    <div class="pontos">
+      <div class="ponto">
+        <div class="num">1</div>
+        <div>
+          <b>Grátis não é pegadinha</b>
+          <span>Não existe versão curta nem versão paga. Quem entra com data, hora e local recebe o planetário inteiro, em alta resolução. Nada é retido para cobrar depois.</span>
+        </div>
+      </div>
+      <div class="ponto">
+        <div class="num">2</div>
+        <div>
+          <b>Você escolhe se entra na pesquisa</b>
+          <span>Um interruptor decide se o registro entra no banco de pesquisa do projeto. <b>Desligado é o padrão</b>. Desligado, seu mapa é entregue e apagado — o serviço funciona igual.</span>
+        </div>
+      </div>
+      <div class="ponto">
+        <div class="num">3</div>
+        <div>
+          <b>Você pode apagar quando quiser</b>
+          <span>Por e-mail, sem custo e sem formulário. Resposta em até 15 dias; para confirmação simples, imediata. Isto é o art. 18º da LGPD.</span>
+        </div>
+      </div>
+    </div>
+    <div class="aviso">
+      <b>O que nunca é publicado:</b> nome, e-mail, endereço, ou a imagem do mapa
+      de alguém. A tabulação só usa números agregados e anonimizados — data
+      reduzida ao mês, hora reduzida à faixa do dia, cidade arredondada. Dado
+      anonimizado
+      não volta a ser identificável.
+    </div>
+  </div>
+  <p class="salto">
+    <a class="btn btn-secundario" href="privacidade.html" style="color:var(--ouro)">Ler a política completa</a>
+  </p>
+</section>
+
+<section class="cta">
+  <h2>O céu já está desenhado.<br>Falta o seu instante.</h2>
+  <p>
+    Mapa por encomenda, feito à mão pelo Planetário Astrológico Reciclável,
+    em Itapemirim, Espírito Santo.
+  </p>
+  <a class="btn btn-primario" href="app.html">Quero o meu mapa</a>
+</section>
+
+<footer class="rodape">
+  <div class="rodape-interno">
+    <div>
+      <b style="color:var(--papel)">Iastro</b><br>
+      Planetário Astrológico Reciclável<br>
+      Bela Vista, Itapemirim — Espírito Santo<br>
+      <a href="mailto:astropisco@gmail.com">astropisco@gmail.com</a> · (28) 99978-6338
+    </div>
+    <div>
+      <a href="privacidade.html">Política de privacidade</a><br>
+      <a href="https://sites.google.com/view/mapadaspancs/">Site do Planetário</a><br>
+      <a href="LICENCAS.html">Licenças do acervo</a>
+    </div>
+  </div>
+  <p class="fonte" style="max-width:1140px;margin:1.4rem auto 0">
+    Posições astronômicas: Swiss Ephemeris (AGPL v3). Culturas do céu:
+    Stellarium e contribuições próprias. Medalhões zodiacais: domínio público (CC0).
+    As camadas culturais em produção são leituras do projeto, com fonte citada em
+    cada entrada, e não afirmações de tradição.
+  </p>
+</footer>
+
+
+<!-- A AGPL (§13) exige que quem usa o site chegue no código fonte.
+     Troque pelo endereço real do repositório antes de publicar. -->
+<a class="fonte-codigo" href="https://github.com/SEU-USUARIO/iastro"
+   rel="license noopener">Código fonte (AGPL-3.0)</a>
+</body>
+</html>

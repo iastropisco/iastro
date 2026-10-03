@@ -1,0 +1,146 @@
+{
+  "sistema-solar/sol.png": {
+    "telescópio": "SDO (NASA)",
+    "ano": "2010",
+    "marco": "Atividade solar em ultravioleta (Solar Dynamics Observatory)",
+    "licença": "Public domain",
+    "autor": "NASA/SDO (AIA)",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "sistema-solar/lua.png": {
+    "telescópio": "foto lunar",
+    "ano": "2010",
+    "marco": "A Lua em luz visível, superfície próxima",
+    "licença": "CC BY-SA 3.0",
+    "autor": "Gregory H. Revera",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "sistema-solar/mercurio.png": {
+    "telescópio": "MESSENGER (NASA)",
+    "ano": "2010",
+    "marco": "Mercúrio em cor verdadeira",
+    "licença": "Public domain",
+    "autor": "NASA/Johns Hopkins University Applied Physics Laboratory/Arizona State University/Carnegie Institution of Washington",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "sistema-solar/venus.png": {
+    "telescópio": "Mariner 10/Messenger (NASA)",
+    "ano": "1974-2010",
+    "marco": "Vênus, véu encoberto",
+    "licença": "Public domain",
+    "autor": "NASA or Ricardo Nunes",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "sistema-solar/marte.png": {
+    "telescópio": "Rosetta (ESA)",
+    "ano": "2007",
+    "marco": "Marte em cor aproximada",
+    "licença": "CC BY-SA 3.0 igo",
+    "autor": "ESA &amp; MPS for OSIRIS Team MPS/UPD/LAM/IAA/RSSD/INTA/UPM/DASP/IDA, <a rel=\"nofollow\" class=\"external text\" href=\"http://www.esa.int/spaceinvideos/Terms_and_Conditions\">CC BY-SA 3.0 IGO</a>",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "sistema-solar/jupiter.png": {
+    "telescópio": "Hubble (NASA/ESA)",
+    "ano": "2014",
+    "marco": "Júpiter e a Grande Mancha Vermelha",
+    "licença": "Public domain",
+    "autor": "NASA, ESA, and A. Simon (Goddard Space Flight Center)",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "sistema-solar/saturno.png": {
+    "telescópio": "Cassini (NASA/ESA)",
+    "ano": "2004",
+    "marco": "Saturno em luz visível, Cartes",
+    "licença": "Public domain",
+    "autor": "NASA/JPL/Space Science Institute",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Saturn_from_Cassini_Orbiter_%282004-10-06%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "sistema-solar/urano.png": {
+    "telescópio": "Voyager 2 (NASA)",
+    "ano": "1986",
+    "marco": "Urano, o planeta deitado",
+    "licença": "Public domain",
+    "autor": "NASA/JPL-Caltech",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "sistema-solar/netuno.png": {
+    "telescópio": "Voyager 2 (NASA)",
+    "ano": "1989",
+    "marco": "Netuno, azul profundo",
+    "licença": "Public domain",
+    "autor": "NASA",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "jwst/jwst-saturno.png": {
+    "telescópio": "JWST NIRCam (NASA/ESA/CSA)",
+    "ano": "2022",
+    "marco": "Saturno em infravermelho — anéis brilhantes e detalhes atmosféricos",
+    "licença": "Public domain",
+    "autor": "Image",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/3/34/Saturn_%28NIRCam%29_%2801H3X9BMPCX165ZK9RA49J2416%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "jwst/jwst-jupiter.png": {
+    "telescópio": "JWST NIRCam (NASA/ESA/CSA)",
+    "ano": "2022",
+    "marco": "Júpiter em infravermelho — auroras e Grande Mancha Vermelha",
+    "licença": "Public domain",
+    "autor": "JWST (NASA, ESA, CSA, Jupiter ERS Team). Image processing by Judy Schmidt and Ricardo Hueso (UPV/EHU).",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Jupiter_Showcases_Auroras%2C_Hazes_%28NIRCam_Widefield_View%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "jwst/jwst-nebulosa.png": {
+    "telescópio": "JWST NIRCam/MIRI (NASA/ESA/CSA)",
+    "ano": "2022",
+    "marco": "Cosmic Cliffs (Nebulosa de Carina) — berçário de estrelas",
+    "licença": "Public domain",
+    "autor": "<p>Image: \n</p>\n<ul><li><a href=\"https://en.wikipedia.org/wiki/NASA\" class=\"extiw\" title=\"w:NASA\">National Aeronautics and Space Administration</a>  (a <a href=\"https://en.wikipedia.org/wiki/U.S._federal_government\" class=\"extiw\" title=\"w:U.S. federal government\">U.S. federal government</a> agency; <a rel=\"nofollow\" class=\"external free\" href=\"https://www.nasa.gov/\">https://www.nasa.gov/</a>)</li>\n<li><a href=\"https://en.wikipedia.org/wiki/ESA\" class=\"extiw\" title=\"w:ESA\">European space agency</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.esa.int/\">https://www.esa.int/</a>), <a href=\"https://en.wikipedia.org/wiki/Canadian_Space_Agency\" class=\"extiw\" title=\"w:Canadian Space Agency\">Canadian Space Agency</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.asc-csa.gc.ca/eng/\">https://www.asc-csa.gc.ca/eng/</a>)</li>\n<li><a href=\"https://en.wikipedia.org/wiki/STScI\" class=\"extiw\" title=\"w:STScI\">Space Telescope Science Institute</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.stsci.edu/\">https://www.stsci.edu/</a>, science operations center for the <a href=\"https://en.wikipedia.org/wiki/Hubble_Space_Telescope\" class=\"extiw\" title=\"w:Hubble Space Telescope\">Hubble Space Telescope</a>)</li></ul>",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/2/2d/%E2%80%9CCosmic_Cliffs%E2%80%9D_in_the_Carina_Nebula_%28NIRCam_and_MIRI_Composite_Image%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "jwst/jwst-campo.png": {
+    "telescópio": "JWST NIRCam (NASA/ESA/CSA)",
+    "ano": "2022",
+    "marco": "Primeiro campo profundo do JWST (aglomerado SMACS 0723)",
+    "licença": "Public domain",
+    "autor": "NASA, ESA, CSA, and STScI",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Webb%27s_First_Deep_Field.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "jwst/jwst-epsindi.png": {
+    "telescópio": "JWST MIRI (NASA/ESA/CSA)",
+    "ano": "2024",
+    "marco": "Exoplaneta Epsilon Indi Ab diretamente fotografado",
+    "licença": "Public domain",
+    "autor": "NASA, ESA, CSA, STScI, Elisabeth Matthews (MPIA)",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/5/52/Epsilon_Indi_Ab_%28MIRI_Image%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "hubble/hubble-urano.png": {
+    "telescópio": "Hubble (NASA/ESA)",
+    "ano": "2023",
+    "marco": "Urano em 2014 e 2022 — anéis e calota polar",
+    "licença": "?",
+    "autor": "?",
+    "fonte": "?"
+  },
+  "hubble/hubble-saturno2.png": {
+    "telescópio": "Hubble (NASA/ESA)",
+    "ano": "2023",
+    "marco": "Saturno em luz visível — bandas suaves e anéis",
+    "licença": "CC BY 2.0",
+    "autor": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/192271236@N03/\">Andrea Luck</a>",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/2/22/Saturn_-_NASA_ESA_Hubble_Space_Telescope_%2853419613950%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "euclid/euclid-perseus.jpg": {
+    "telescópio": "Euclid VIS (ESA)",
+    "ano": "2023",
+    "marco": "Aglomerado de galáxias de Perseu — primeira luz",
+    "licença": "CC BY-SA 3.0 igo",
+    "autor": "ESA/Euclid/Euclid Consortium/NASA image processing by J.-C. Cuillandre (CEA Paris-Saclay) G. Anselmi",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Euclid%E2%80%99s_view_of_the_Perseus_cluster_of_galaxies_ESA25170535.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "euclid/euclid-n6744.jpg": {
+    "telescópio": "Euclid VIS/NISP (ESA)",
+    "ano": "2025",
+    "marco": "Galáxia espiral NGC 6744 — mapeando matéria escura",
+    "licença": "CC BY-SA 3.0 igo",
+    "autor": "European Space Agency",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Euclid%E2%80%99s_new_image_of_spiral_galaxy_NGC_6744_ESA497254.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  }
+}

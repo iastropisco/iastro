@@ -1,0 +1,85 @@
+{
+  "_tema": "Toponímia e etno-história do território capixaba (ES) — povos Puri, Monte Agah, Itaipava e Itaoca",
+  "_uso": "Mapear os nomes e as histórias do território do vale do Itapemirim e do sul do ES, ligando céu, terra e memória dos povos originários (especialmente Puri). Alimenta o mapa astral de território (AstroLeitura/iastro) e a futura camada de astrologia mundana local.",
+  "_aviso": "As etimologias de nomes tupi apresentam HIPÓTESES concorrentes registradas com suas fontes — não escolhemos uma como verdade. A classificação linguística do Puri (Macro-Jê?) não é consensual: registramos as duas correntes. Evitamos inventar fatos: itens sem fonte confiável ficam marcados 'a verificar'.",
+  "toponimos": [
+    {
+      "id": "top.tupi.puri",
+      "nome": "Povo Puri",
+      "tipo": "povo",
+      "territorio": "Vale do Paraíba do Sul, bacia do rio Doce e sul do Espírito Santo (viável: vale do Itapemirim e rio Castelo)",
+      "lingua": "língua puri — família puri; TRONCO MACRO-JÊ (visão clássica: Loukotka 1937; Rodrigues 1999; Silva Neto 2007) OU língua isolada (Nikulin 2020; Ramirez/Vegini/França 2015 excluem do Macro-Jê)",
+      "historia": "Povo indígena do Sudeste (EG, RJ, litoral sul do ES), historicamente próximos de Coroados e Coropós. Na cosmovisão registrada, 'povo silencioso das matas do leste', em harmonia com os ciclos da natureza, hábeis no trançado e na caça. A denominação própria atual é Kwaytikindo (retomada linguística contemporânea por Txâma Xambé Puri e outros).",
+      "regiao": "espírito santo / rio itapemirim / vale do paraíba",
+      "fonte": "Vocabulário Controlado USP; Elsevier/Wikipédia 'Puris'; Silva Neto 2007 (UnB); Nikulin 2020 (UnB); Ramirez et al. 2015; IPHAN (projeto Teyxokawa, 2023)",
+      "link": "https://repositorio.unb.br/handle/10482/2328",
+      "corresponde_a": null,
+      "nota": "Classificação linguística NÃO consensual (Macro-Jê × isolada)."
+    },
+    {
+      "id": "top.agha",
+      "nome": "Monte Agah / Monte Aghá",
+      "tipo": "montanha/topo",
+      "territorio": "Itapemirim, sul do ES",
+      "lingua": null,
+      "historia": "Elevação no sul do ES. A etimologia popular atribui 'Aghá' ao puri como 'lugar de se ver Deus' — atribuição SEM embasamento etimológico confirmado; hipótese mais recente aponta a raiz tupi *agwá'pe* ('lugar redondo / monte redondo', via geografia histórica). Em registros da missão jesuítica de Orobó, 'Aghá' já figura como aldeia indígena no séc. XVI.",
+      "regiao": "espírito santo (itapemirim)",
+      "fonte": "Wikipédia 'Monte Aghá'; IHG de Piúma 'O Monte Aghá'; AL/ES (microrregião sul, aldeias de Celso Perota)",
+      "link": "https://pt.wikipedia.org/wiki/Monte_Agh%C3%A1",
+      "corresponde_a": null,
+      "nota": "Etimologia popular ('ver Deus') contestada; registrar as hipóteses sem escolher."
+    },
+    {
+      "id": "top.itaipava",
+      "nome": "Itaipava",
+      "tipo": "topônimo (tupi)",
+      "territorio": "litoral de Itapemirim (bairro/distrito); também outros pontos do Brasil",
+      "lingua": "tupi",
+      "historia": "Topônimo tupi com MÚLTIPLAS hipóteses, sem consenso: (a) Teodoro Sampaio, O Tupi na Geografia Nacional — 'pouso do pedregulho; banco de seixos que forma travessão no leito do rio'; (b) IHP Petrópolis — 'recife de pedra que atravessa o rio... pequena queda d'água' (ita 'pedra' + peva 'baixo' + ipaba); (c) outras: i'táim'pab (elevação de pedra); itu pewa (cachoeira chata); itáupaba (lago da pedra); itá'ypaba (pedra que pára o rio). A versão popular 'água de pedra / pedra d'água' NÃO foi confirmada em fonte toponímica clássica — a verificar. Registrado como aldeia indígena na missão jesuítica de Orobó.",
+      "regiao": "espírito santo (itapemirim)",
+      "fonte": "Teodoro Sampaio (1901); IHP Petrópolis (Alves Netto); Dicio; Wikipédia 'Itaipava' e 'Itaipava (Itapemirim)'",
+      "link": "https://www.dicio.com.br/itaipava/",
+      "corresponde_a": null,
+      "nota": "Prevalência de leitura toponímica: travessão/recife de pedras no leito de rio."
+    },
+    {
+      "id": "top.itaoca",
+      "nome": "Itaoca",
+      "tipo": "topônimo (tupi)",
+      "territorio": "Dois pontos no ES: (1) praia/distrito litorâneo de Itapemirim; (2) distrito de Cachoeiro de Itapemirim (interior, mármore/granito; renomeado 'Presidente Vargas' e depois revertido)",
+      "lingua": "tupi",
+      "historia": "Etimologia mais estável: 'casa de pedra', do tupi itá (pedra) + oka (casa); também 'furna, lapa, caverna'. Michaelis registra 'cavidade em terreno rochoso usada como caverna', etimologia tupi itaóka. Registrado como aldeia indígena na missão jesuítica de Orobó.",
+      "regiao": "espírito santo (itapemirim; cachoeiro de itapemirim)",
+      "fonte": "Michaelis; Dicio; Morro do Moreno (origem dos nomes do ES); Wikipédia 'Itaoca' e 'Itaoca (Cachoeiro de Itapemirim)'",
+      "link": "https://michaelis.uol.com.br/moderno-portugues/busca/portugues-brasileiro/itaoca",
+      "corresponde_a": null,
+      "nota": "Diferenciar os DOIS 'Itaoca' capixabas."
+    },
+    {
+      "id": "top.orobo",
+      "nome": "Missão Jesuítica de Orobó (aldeias de base do vale)",
+      "tipo": "missão/aldeamentos",
+      "territorio": "sul do ES (Orobó ou região próxima)",
+      "lingua": null,
+      "historia": "Na missão jesuítica do Orobó (sul do ES), as aldeias já existentes no séc. XVI chamavam-se: Orobó (sede), Piúma, Iconha, Itapuama, Itinga, Imbitiba, Aghá, Itaipava (Taipaba), Itaoca (Taoca) e Piabanha — registradas por Celso Perota. Evidência de que Aghá, Itaipava e Itaoca são topônimos de origem indígena na mesma micro-região.",
+      "regiao": "espírito santo (sul)",
+      "fonte": "Celso Perota (via AL/ES microrregião sul; Morro do Moreno)",
+      "link": "https://www.morrodomoreno.com.br/materias/as-aldeias-e-os-jesuitas-no-es-por-celso-perota.html",
+      "corresponde_a": null,
+      "nota": null
+    },
+    {
+      "id": "top.puri.sul_es",
+      "nome": "Os Puri no sul do ES (territorialização e trabalho compulsório)",
+      "tipo": "etno-história",
+      "territorio": "sul do ES; rio Castelo (afluente do Itapemirim); Aldeamento Imperial Afonsino (1845-1860)",
+      "lingua": null,
+      "historia": "Trabalho de Tatiana G. Oliveira & Henrique Costa (Revista Habitus, PUC-Goiás, 2019) sobre a ocupação, territorialização e trabalho compulsório dos Puri no sul do ES, no Aldeamento Imperial Afonsino (1845-1860), sob a Diretoria Geral dos Índios e o Barão de Itapemirim. Outro artigo (Bentivoglio, História Revista/UFG 2019) aborda Puri e Botocudo no sul da província; registra que, pressionados pela guerra justa de D. João VI, Botocudo migraram para o vale do Itapemirim — 'território tradicionalmente ocupado por seus inimigos, os Puri'.",
+      "regiao": "espírito santo (rio castelo / rio itapemirim)",
+      "fonte": "Oliveira & Costa, Revista Habitus, DOI 10.18224/hab.v17i2.7325; Bentivoglio, DOI 10.5216/hr.v24i1.46582",
+      "link": "https://seer.pucgoias.edu.br/index.php/habitus/article/view/7325",
+      "corresponde_a": null,
+      "nota": "Registrar a história de conflitos e trabalho compulsório com respeito e rigor."
+    }
+  ]
+}
