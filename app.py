@@ -407,6 +407,9 @@ try:
 except Exception as e:
     st.error(f"Não consegui carregar o motor: {e}")
     st.info("Verifique se os arquivos de efemérides (swisseph-ephe) estão disponíveis.")
+    # Debug: mostra paths resolvidos
+    import caminhos
+    st.code(caminhos.describe())
     st.stop()
 
 ufs = _ufs(lb)
