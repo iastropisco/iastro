@@ -2,5 +2,4 @@ mapas/*.jpg filter=lfs diff=lfs merge=lfs -text
 mapas/fonts/*.ttf filter=lfs diff=lfs merge=lfs -text
 arquetipos/*.db filter=lfs diff=lfs merge=lfs -text
 arquetipos/*.db.* filter=lfs diff=lfs merge=lfs -text
-motor/swisseph-ephe/* filter=lfs diff=lfs merge=lfs -text
 mapas/*.png filter=lfs diff=lfs merge=lfs -text
